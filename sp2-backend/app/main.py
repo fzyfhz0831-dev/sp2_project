@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import shutil
@@ -36,7 +36,7 @@ def _analyze_and_save_run(filename: str, uploaded_data: dict[str, Any]) -> dict[
     except RunParserError as error:
         raise HTTPException(status_code=400, detail=str(error)) from error
 
-    # Rule-based analysis — runs before AI to get structured findings.
+    # Rule-based analysis 鈥?runs before AI to get structured findings.
     findings = analyze_run_rules(parsed_run)
 
     try:
@@ -122,3 +122,4 @@ async def analyze(file: UploadFile = File(...)) -> dict[str, Any]:
         raise HTTPException(status_code=500, detail="Could not read uploaded file.") from error
 
     return _analyze_and_save_run(safe_name, uploaded_data)
+
