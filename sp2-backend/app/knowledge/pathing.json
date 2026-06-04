@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Act 1 Pathing",
+    "act": 1,
+    "type": "pathing",
+    "strengths": [
+      "Early elites give relics",
+      "Campfires allow upgrades",
+      "Hallway fights give card rewards"
+    ],
+    "weaknesses": [
+      "Too many elites without HP buffer = death",
+      "Skipping campfires delays upgrades"
+    ],
+    "synergy_tags": [
+      "elite_hunting",
+      "upgrade_priority",
+      "early_powers"
+    ],
+    "scaling_notes": "Act 1 sets up your deck for the rest of the run — prioritize card rewards and relics",
+    "risk_notes": "Take 1-2 elites max unless you have strong early damage. Gremlin Nob kills skill-heavy decks.",
+    "recommended_situations": [
+      "Path toward 1-2 elites",
+      "Campfire before first elite if possible",
+      "Attack cards early"
+    ]
+  },
+  {
+    "name": "Act 2 Pathing",
+    "act": 2,
+    "type": "pathing",
+    "strengths": [
+      "More relics from elites",
+      "Shops for key cards/relics"
+    ],
+    "weaknesses": [
+      "Act 2 elites are the most dangerous",
+      "Hallway fights hit hard"
+    ],
+    "synergy_tags": [
+      "aoe_priority",
+      "block_engine",
+      "elite_caution"
+    ],
+    "scaling_notes": "Act 2 is the run filter — if your deck survives Act 2, it can probably win",
+    "risk_notes": "Avoid elites unless you have AoE and a block plan. Act 2 elites punish incomplete decks.",
+    "recommended_situations": [
+      "Prioritize campfires for upgrades",
+      "Shops for missing synergies",
+      "Cautious elite pathing"
+    ]
+  },
+  {
+    "name": "Act 3 Pathing",
+    "act": 3,
+    "type": "pathing",
+    "strengths": [
+      "Scaling should be online",
+      "Deck is mostly complete"
+    ],
+    "weaknesses": [
+      "Elites test endgame readiness",
+      "Boss gauntlet requires full preparation"
+    ],
+    "synergy_tags": [
+      "final_scaling",
+      "boss_prep",
+      "elite_farming"
+    ],
+    "scaling_notes": "Your deck should be nearly complete — path for upgrades, removes, and final relics",
+    "risk_notes": "Take elites if your deck is strong — they give rare relics for the boss gauntlet.",
+    "recommended_situations": [
+      "Final upgrades at campfires",
+      "Card removes at shops",
+      "Elite farming if deck is strong"
+    ]
+  },
+  {
+    "name": "Campfire Decision",
+    "act": 0,
+    "type": "decision",
+    "strengths": [
+      "Upgrade: permanent power increase",
+      "Rest: immediate HP for next fight"
+    ],
+    "weaknesses": [
+      "Healing too often = missed upgrades = slower death"
+    ],
+    "synergy_tags": [
+      "upgrade_priority",
+      "hp_management"
+    ],
+    "scaling_notes": "Upgrade is permanent — rest is temporary. Default to upgrade unless HP requires rest.",
+    "risk_notes": "Rest only if the next fight would kill you at current HP. Otherwise, always upgrade.",
+    "recommended_situations": [
+      "Default: upgrade",
+      "Rest: below 30% HP before elite/boss",
+      "Upgrade key cards first"
+    ]
+  },
+  {
+    "name": "Shop Decision",
+    "act": 0,
+    "type": "decision",
+    "strengths": [
+      "Card removes thin deck",
+      "Key relics can define a run",
+      "Potions for emergencies"
+    ],
+    "weaknesses": [
+      "Gold is limited — don't buy mediocre cards",
+      "Skipping a shop wastes a floor"
+    ],
+    "synergy_tags": [
+      "card_remove",
+      "relic_hunt",
+      "potion"
+    ],
+    "scaling_notes": "Card remove is the best long-term investment. Remove Strikes > Defends.",
+    "risk_notes": "Prioritize: remove > key relic > key card > potion > sale items. Don't buy mediocre cards.",
+    "recommended_situations": [
+      "Always remove a Strike if possible",
+      "Shop relics are premium",
+      "Buy potions for elites/bosses"
+    ]
+  }
+]

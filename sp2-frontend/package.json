@@ -1,0 +1,17 @@
+{
+  "name": "sp2-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.0.16",
+    "vue": "^3.5.35",
+    "vue-router": "^4.6.4"
+  }
+}

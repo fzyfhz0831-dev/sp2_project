@@ -1,0 +1,1162 @@
+[
+  {
+    "name": "Bash",
+    "type": "Attack",
+    "cost": 2,
+    "rarity": "Basic",
+    "strengths": [
+      "Applies Vulnerable for 2(3) turns",
+      "High single-target damage early"
+    ],
+    "weaknesses": [
+      "2-cost slows turns without energy support",
+      "Falls off in Act 3 without synergy"
+    ],
+    "synergy_tags": [
+      "vulnerable",
+      "strength",
+      "starter"
+    ],
+    "scaling_notes": "Scales with Strength; doubledipping damage + Vulnerable amp",
+    "risk_notes": "Upgrade first if keeping past Act 1. 3-turn Vulnerable is significantly better.",
+    "recommended_situations": [
+      "Act 1 hallway fights",
+      "Strength-building decks",
+      "Early upgrade priority"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Inflame",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Permanent +2(3) Strength",
+      "Cheap 1-cost power",
+      "Stackable across copies"
+    ],
+    "weaknesses": [
+      "Small per-fight value alone",
+      "Dead draw late in short fights"
+    ],
+    "synergy_tags": [
+      "strength",
+      "multi_attack",
+      "heavy_blade",
+      "sword_boomerang",
+      "limit_break"
+    ],
+    "scaling_notes": "+2(3) Strength per fight enables multi-attack cards to double-dip",
+    "risk_notes": "Inflame alone won't carry Act 3 — pair with Limit Break or multi-hit attacks",
+    "recommended_situations": [
+      "Early Act 1 pickup",
+      "Strength-scaling decks",
+      "Multi-attack synergy"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Demon Form",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "Infinite scaling — wins any fight given time",
+      "Single-card win condition",
+      "Boss killer"
+    ],
+    "weaknesses": [
+      "3-cost needs energy relic or setup turn",
+      "Dead draw in fast hallway fights",
+      "Slow starter"
+    ],
+    "synergy_tags": [
+      "strength",
+      "energy_relic",
+      "defensive_stall",
+      "limit_break"
+    ],
+    "scaling_notes": "+2(3) Strength per turn — the ultimate scaling card for long fights",
+    "risk_notes": "Don't pick before Act 2 without 4 energy. You need block to stall while it scales.",
+    "recommended_situations": [
+      "Boss fights",
+      "Act 2+ when you have energy relic",
+      "Turtle/block-heavy decks"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Spot Weakness",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Massive Strength spike if enemy intends to attack",
+      "Upgrades to 4 Strength for 1 energy"
+    ],
+    "weaknesses": [
+      "Misses if enemy isn't attacking",
+      "Requires enemy intent knowledge",
+      "Unreliable"
+    ],
+    "synergy_tags": [
+      "strength",
+      "limit_break",
+      "heavy_blade"
+    ],
+    "scaling_notes": "Burst Strength that Limit Break can double — best paired with multi-hit",
+    "risk_notes": "Don't pair with Runic Dome — you won't know enemy intent",
+    "recommended_situations": [
+      "Act 1-2 when you can see intents",
+      "Limit Break decks",
+      "Boss preparation"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Barricade",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "Block carries between turns",
+      "Enables passive turtle strategies",
+      "Infinite block ceiling"
+    ],
+    "weaknesses": [
+      "3-cost needs setup turn",
+      "Requires strong block engine to function",
+      "Dead without block cards"
+    ],
+    "synergy_tags": [
+      "block_engine",
+      "entrench",
+      "body_slam",
+      "impervious",
+      "feel_no_pain"
+    ],
+    "scaling_notes": "Transforms block into a permanent resource — scales with block density",
+    "risk_notes": "Don't pick before you have Impervious/Entrench/Feel No Pain. Barricade without block is dead.",
+    "recommended_situations": [
+      "Block-heavy decks",
+      "Entrench combos",
+      "Act 2+ when block engine is online"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Corruption",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "Skills cost 0 — enables massive combo turns",
+      "Core of exhaust archetype"
+    ],
+    "weaknesses": [
+      "Skills are exhausted — you run out of block",
+      "Bad against long boss fights without Dead Branch"
+    ],
+    "synergy_tags": [
+      "exhaust",
+      "dead_branch",
+      "feel_no_pain",
+      "dark_embrace",
+      "fiend_fire"
+    ],
+    "scaling_notes": "Converts every skill to 0-cost — scales with deck density of skills and exhaust synergies",
+    "risk_notes": "Without Dead Branch or Dark Embrace, you'll run out of cards. Time Corruption carefully.",
+    "recommended_situations": [
+      "Dead Branch synergy",
+      "Exhaust engine decks",
+      "Act 3 when deck is thick with skills"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Shrug It Off",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Common",
+    "strengths": [
+      "Reliable 8(11) block + draw 1",
+      "Fits any Ironclad deck",
+      "Deck cycling"
+    ],
+    "weaknesses": [
+      "Low block ceiling per card",
+      "Outclassed by rare block cards late-game"
+    ],
+    "synergy_tags": [
+      "block",
+      "draw",
+      "exhaust",
+      "deck_cycle"
+    ],
+    "scaling_notes": "Draw smooths out inconsistency; pairs well with Corruption (0-cost draw)",
+    "risk_notes": "Safe pick in almost any situation — rarely a wrong choice",
+    "recommended_situations": [
+      "Any deck",
+      "Early game defense",
+      "Draw consistency"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Feel No Pain",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Passive block on exhaust",
+      "1-cost — easy to play",
+      "Enables exhaust engine"
+    ],
+    "weaknesses": [
+      "Needs exhaust sources to trigger",
+      "Low value without synergies"
+    ],
+    "synergy_tags": [
+      "exhaust",
+      "corruption",
+      "second_wind",
+      "fiend_fire",
+      "dark_embrace"
+    ],
+    "scaling_notes": "3(4) Block per exhaust — scales with number of exhaust triggers per fight",
+    "risk_notes": "Don't pick before you have exhaust cards. A blank 1-cost power without them.",
+    "recommended_situations": [
+      "Corruption decks",
+      "Fiend Fire/Second Wind synergy",
+      "Any exhaust-heavy build"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Whirlwind",
+    "type": "Attack",
+    "cost": 0,
+    "rarity": "Uncommon",
+    "strengths": [
+      "X-cost dumps all energy for AoE",
+      "Strength double-dips per energy",
+      "Flexible energy usage"
+    ],
+    "weaknesses": [
+      "Inefficient at low energy",
+      "No block — pure damage",
+      "Weak single-target for cost"
+    ],
+    "synergy_tags": [
+      "strength",
+      "energy_relic",
+      "akabeko",
+      "aoe",
+      "multi_hit"
+    ],
+    "scaling_notes": "Each Strength adds X damage — strongest Strength multiplier in the game",
+    "risk_notes": "Picking Whirlwind without Strength scaling limits value. Needs both energy and Strength.",
+    "recommended_situations": [
+      "Strength decks",
+      "Act 2 AoE fights",
+      "High-energy builds"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Impervious",
+    "type": "Skill",
+    "cost": 2,
+    "rarity": "Rare",
+    "strengths": [
+      "Massive 30(40) block for 2 energy",
+      "Best single block card for Ironclad",
+      "Exhaust synergy"
+    ],
+    "weaknesses": [
+      "Exhausts — one use per fight",
+      "2-cost can be awkward in tight turns"
+    ],
+    "synergy_tags": [
+      "block_engine",
+      "barricade",
+      "body_slam",
+      "exhaust"
+    ],
+    "scaling_notes": "Fixed block value — doesn't scale but enables Barricade setup turns",
+    "risk_notes": "Always a strong take unless you have no way to win after blocking",
+    "recommended_situations": [
+      "Barricade decks",
+      "Boss fights",
+      "Any deck needing burst defense"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Limit Break",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Rare",
+    "strengths": [
+      "Doubles current Strength",
+      "Exponential scaling with multiple plays",
+      "Upgraded version doesn't exhaust"
+    ],
+    "weaknesses": [
+      "Does nothing if you have 0 Strength",
+      "Exhausts (unupgraded) — one-shot",
+      "Dead without Strength sources"
+    ],
+    "synergy_tags": [
+      "strength",
+      "inflame",
+      "spot_weakness",
+      "demon_form",
+      "heavy_blade"
+    ],
+    "scaling_notes": "Exponential Strength doubling — 4 -> 8 -> 16 -> 32 -> 64 in one fight",
+    "risk_notes": "Upgrade first. Unupgraded Limit Break is dramatically worse.",
+    "recommended_situations": [
+      "Strength decks with multiple sources",
+      "Boss fights",
+      "Demon Form synergy"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Battle Trance",
+    "type": "Skill",
+    "cost": 0,
+    "rarity": "Uncommon",
+    "strengths": [
+      "0-cost draw 3(4)",
+      "Instant hand refill",
+      "No downside if played last"
+    ],
+    "weaknesses": [
+      "Can't draw additional cards this turn",
+      "Anti-synergy with other draw",
+      "Timing matters"
+    ],
+    "synergy_tags": [
+      "draw",
+      "0_cost",
+      "combo_enabler"
+    ],
+    "scaling_notes": "Draw consistency at 0-cost — always play as last action in a turn",
+    "risk_notes": "Play AFTER all other draw cards. Battle Trance locks draw for the turn.",
+    "recommended_situations": [
+      "Exhaust decks (thins deck)",
+      "Combo setup",
+      "Any deck needing draw"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Offering",
+    "type": "Skill",
+    "cost": 0,
+    "rarity": "Rare",
+    "strengths": [
+      "0-cost draw 3(5) + 2 energy",
+      "Lose 6 HP — minimal cost for the payoff",
+      "Burst energy + draw"
+    ],
+    "weaknesses": [
+      "HP loss adds up over a run",
+      "Exhausts — one use per fight"
+    ],
+    "synergy_tags": [
+      "draw",
+      "energy",
+      "self_damage",
+      "rupture"
+    ],
+    "scaling_notes": "Draw + energy in one card — enables turn-1 setup for scaling powers",
+    "risk_notes": "The HP loss is worth it 95% of the time. One of Ironclad's best cards.",
+    "recommended_situations": [
+      "Any Ironclad deck",
+      "Turn-1 Demon Form setup",
+      "Rupture synergy"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Reaper",
+    "type": "Attack",
+    "cost": 2,
+    "rarity": "Rare",
+    "strengths": [
+      "Heals for unblocked damage dealt",
+      "AoE healing",
+      "Enables Coffee Dripper"
+    ],
+    "weaknesses": [
+      "Low base damage (4/5)",
+      "Needs Strength to heal meaningfully",
+      "2-cost"
+    ],
+    "synergy_tags": [
+      "strength",
+      "healing",
+      "aoe",
+      "coffee_dripper"
+    ],
+    "scaling_notes": "Healing scales with Strength — 20 Strength Reaper = full heal",
+    "risk_notes": "Without Strength, Reaper is a poor attack. With Strength, it's sustain engine.",
+    "recommended_situations": [
+      "Strength decks",
+      "Coffee Dripper synergy",
+      "Aggressive pathing"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Disarm",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Reduces enemy Strength by 2(3)",
+      "Neuters multi-hit enemies",
+      "Cheap 1-cost"
+    ],
+    "weaknesses": [
+      "Does nothing against enemies that don't attack",
+      "Single target"
+    ],
+    "synergy_tags": [
+      "debuff",
+      "defensive",
+      "boss_counter"
+    ],
+    "scaling_notes": "Fixed debuff — value depends entirely on enemy attack patterns",
+    "risk_notes": "Excellent against Book of Stabbing, Hexaghost, Awakened One. Keep one copy.",
+    "recommended_situations": [
+      "Act 2 elites",
+      "Multi-hit bosses",
+      "Defensive tech slot"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Fiend Fire",
+    "type": "Attack",
+    "cost": 2,
+    "rarity": "Rare",
+    "strengths": [
+      "Exhausts hand for massive burst damage",
+      "Clears status cards",
+      "Finisher"
+    ],
+    "weaknesses": [
+      "Loses your entire hand",
+      "Terrible if played early in a turn",
+      "Needs full hand"
+    ],
+    "synergy_tags": [
+      "exhaust",
+      "feel_no_pain",
+      "dark_embrace",
+      "dead_branch"
+    ],
+    "scaling_notes": "7(10) damage per card exhausted — 7 cards = 49(70) damage for 2 energy",
+    "risk_notes": "Play as the LAST card in your turn. Exhausts everything — including good cards.",
+    "recommended_situations": [
+      "Exhaust engine",
+      "Status-heavy fights (Hexaghost)",
+      "Finisher turns"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Power Through",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "15(20) block for 1 energy",
+      "Adds 2 Wounds — exhaust them later",
+      "Extremely efficient"
+    ],
+    "weaknesses": [
+      "Adds 2 Wounds to draw pile",
+      "Clutters deck without exhaust",
+      "Bad without exhaust plan"
+    ],
+    "synergy_tags": [
+      "block",
+      "exhaust",
+      "fire_breathing",
+      "evolve",
+      "second_wind"
+    ],
+    "scaling_notes": "Massive block efficiency — wounds are a resource with exhaust synergies",
+    "risk_notes": "Pair with Evolve, Fire Breathing, or Second Wind. Wounds are fuel, not trash.",
+    "recommended_situations": [
+      "Exhaust engine decks",
+      "Evolve/Fire Breathing synergy",
+      "Act 2 block needs"
+    ],
+    "character": "ironclad"
+  },
+  {
+    "name": "Neutralize",
+    "type": "Attack",
+    "cost": 0,
+    "rarity": "Basic",
+    "strengths": [
+      "0-cost Weak application",
+      "Starter card that stays relevant",
+      "Debuff"
+    ],
+    "weaknesses": [
+      "Low damage (3/4)",
+      "Single-target only"
+    ],
+    "synergy_tags": [
+      "weak",
+      "starter",
+      "0_cost",
+      "debuff"
+    ],
+    "scaling_notes": "Damage doesn't scale but Weak utility is timeless throughout the run",
+    "risk_notes": "Keep it — weak is always useful. Upgrade early for 2-turn Weak.",
+    "recommended_situations": [
+      "Any Silent deck",
+      "Early upgrade priority",
+      "Defensive support"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Footwork",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Permanent +2(3) Dexterity",
+      "Scales ALL block cards",
+      "Stackable across copies"
+    ],
+    "weaknesses": [
+      "Slow — takes turns to offset HP loss from playing it",
+      "Does nothing without block cards"
+    ],
+    "synergy_tags": [
+      "dexterity",
+      "block_engine",
+      "dodge_and_roll",
+      "blur",
+      "defensive"
+    ],
+    "scaling_notes": "Each Dexterity = +1 block per block card — 3 Footworks = 15-block Defends",
+    "risk_notes": "Silent's best defensive card. Take 2+ copies if offered. Best common defensive scaling.",
+    "recommended_situations": [
+      "Any Silent deck",
+      "Block-heavy builds",
+      "Long boss fights"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Noxious Fumes",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Passive AoE poison",
+      "Strips artifact charges automatically",
+      "Single-card win condition"
+    ],
+    "weaknesses": [
+      "Slow — takes many turns to kill",
+      "Weak against fast fights"
+    ],
+    "synergy_tags": [
+      "poison",
+      "catalyst",
+      "stall",
+      "defensive",
+      "aoe"
+    ],
+    "scaling_notes": "2(3) poison to ALL enemies per turn — infinite scaling ceiling",
+    "risk_notes": "Pair with block-heavy deck. Noxious Fumes + block = you win eventually.",
+    "recommended_situations": [
+      "Poison decks",
+      "Defensive/stall builds",
+      "Artifact-stripping for other debuffs"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Catalyst",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Rare",
+    "strengths": [
+      "Doubles(Triples) enemy poison",
+      "Exponential scaling",
+      "Boss annihilator"
+    ],
+    "weaknesses": [
+      "Useless without poison applied",
+      "Dead draw in non-poison deck",
+      "Needs setup"
+    ],
+    "synergy_tags": [
+      "poison",
+      "noxious_fumes",
+      "bouncing_flask",
+      "burst",
+      "nightmare"
+    ],
+    "scaling_notes": "Exponential: 4 -> 12 -> 36 poison. Burst+ doubles the doubling.",
+    "risk_notes": "Don't take before consistent poison. Hold with Well-Laid Plans for perfect timing.",
+    "recommended_situations": [
+      "Poison engine online",
+      "Burst combo",
+      "Boss fights"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Wraith Form",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "Near-invincibility for 2(3) turns",
+      "Bypasses every defensive check",
+      "Best panic button"
+    ],
+    "weaknesses": [
+      "Dexterity loss after — must win fast",
+      "3-cost requires energy setup",
+      "Intangible wears off"
+    ],
+    "synergy_tags": [
+      "intangible",
+      "burst_damage",
+      "nightmare",
+      "well_laid_plans"
+    ],
+    "scaling_notes": "Timer, not scaling — win before it expires. Upgrade for +1 turn of invincibility.",
+    "risk_notes": "Hold with Well-Laid Plans. Play on the turn you need immortality. Never play early.",
+    "recommended_situations": [
+      "Boss fights",
+      "Bad draw turns",
+      "Poison decks (damage ticks during intangible)"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Backflip",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Common",
+    "strengths": [
+      "Block + draw in one card",
+      "Fits any Silent deck",
+      "Deck cycling"
+    ],
+    "weaknesses": [
+      "Low block value (5/8)",
+      "Better block options exist in rare slots"
+    ],
+    "synergy_tags": [
+      "draw",
+      "block",
+      "deck_cycle",
+      "dexterity"
+    ],
+    "scaling_notes": "Draw consistency scales with Dexterity — self-synergy with Footwork",
+    "risk_notes": "Always a reasonable pick. Draw smooths out bad hands.",
+    "recommended_situations": [
+      "Any Silent deck",
+      "Dexterity scaling",
+      "Deck cycling needs"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Well-Laid Plans",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Retain 1(2) card(s) per turn",
+      "Enables perfect combo timing",
+      "Dramatically increases consistency"
+    ],
+    "weaknesses": [
+      "1-cost do-nothing on the play turn",
+      "Low impact if you draw all good cards anyway"
+    ],
+    "synergy_tags": [
+      "retain",
+      "combo_setup",
+      "burst",
+      "catalyst",
+      "wraith_form"
+    ],
+    "scaling_notes": "Indirect scaling — consistency IS power. Hold Wraith Form/Catalyst for perfect turn.",
+    "risk_notes": "One of Silent's best cards. Always take at least one.",
+    "recommended_situations": [
+      "Any Silent deck",
+      "Combo decks",
+      "Setup-heavy strategies"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "After Image",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Rare",
+    "strengths": [
+      "Passive block on every card played",
+      "Synergizes with shiv and 0-cost spam",
+      "Beat of Death counter"
+    ],
+    "weaknesses": [
+      "Low per-trigger value (1 block)",
+      "Needs high card play rate to matter"
+    ],
+    "synergy_tags": [
+      "shiv",
+      "0_cost",
+      "cloak_and_dagger",
+      "blade_dance"
+    ],
+    "scaling_notes": "1 block per card — 10 cards/turn = 10 block. Upgrades with more card plays.",
+    "risk_notes": "Shines in shiv decks. Mediocre in slow poison decks.",
+    "recommended_situations": [
+      "Shiv spam decks",
+      "Beat of Death counter (Heart)",
+      "0-cost heavy builds"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Adrenaline",
+    "type": "Skill",
+    "cost": 0,
+    "rarity": "Rare",
+    "strengths": [
+      "0-cost: gain 1(2) energy + draw 2",
+      "Pure tempo",
+      "No downside"
+    ],
+    "weaknesses": [
+      "Exhausts — one use per fight",
+      "Low impact if drawn at wrong time"
+    ],
+    "synergy_tags": [
+      "energy",
+      "draw",
+      "0_cost",
+      "combo_enabler"
+    ],
+    "scaling_notes": "Net energy + draw at 0 cost — always a positive card. No scaling ceiling.",
+    "risk_notes": "Always take. Never skip. One of the best cards in the game.",
+    "recommended_situations": [
+      "Every Silent deck",
+      "Combo turns",
+      "Any situation"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Blade Dance",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Common",
+    "strengths": [
+      "Creates 3(4) Shivs",
+      "Efficient damage per energy",
+      "Multi-trigger enabler"
+    ],
+    "weaknesses": [
+      "Shivs are 0-cost 4 damage — low per card",
+      "Time Eater counter-synergy"
+    ],
+    "synergy_tags": [
+      "shiv",
+      "accuracy",
+      "kunai",
+      "shuriken",
+      "after_image"
+    ],
+    "scaling_notes": "3(4) triggers for Kunai/Shuriken/After Image per play. Accuracy adds +4(6) per shiv.",
+    "risk_notes": "Don't take too many copies if Time Eater is the Act 3 boss.",
+    "recommended_situations": [
+      "Shiv decks",
+      "Kunai/Shuriken synergy",
+      "After Image defense"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Bouncing Flask",
+    "type": "Skill",
+    "cost": 2,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Applies 3 poison to 3(4) random enemies",
+      "Strips multiple artifact charges",
+      "Total 9(12) poison"
+    ],
+    "weaknesses": [
+      "Random targeting — can hit dead enemy",
+      "2-cost is heavy early",
+      "Slow vs single target"
+    ],
+    "synergy_tags": [
+      "poison",
+      "catalyst",
+      "aoe",
+      "noxious_fumes"
+    ],
+    "scaling_notes": "Total poison value is high but spread across targets — best into 2-3 enemies",
+    "risk_notes": "Wait for artifact to be stripped before playing. Pairs well with Noxious Fumes.",
+    "recommended_situations": [
+      "Multi-enemy fights",
+      "Poison decks",
+      "Artifact-stripping"
+    ],
+    "character": "the silent"
+  },
+  {
+    "name": "Defragment",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Permanent +1(2) Focus",
+      "Best common scaling for Defect",
+      "Stackable"
+    ],
+    "weaknesses": [
+      "Slow — needs orb slots and turns to accumulate value"
+    ],
+    "synergy_tags": [
+      "focus",
+      "frost",
+      "capacitor",
+      "biased_cognition",
+      "orb"
+    ],
+    "scaling_notes": "Each Focus = +1 damage/block per orb per turn — multiplicative with orb slots",
+    "risk_notes": "Always pick at least one. Defect's best scaling card. Take every copy offered.",
+    "recommended_situations": [
+      "Any Defect deck",
+      "Frost builds",
+      "Lightning builds",
+      "Always pick"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Glacier",
+    "type": "Skill",
+    "cost": 2,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Channel 2 Frost + 7(10) Block",
+      "Instant defense + scaling potential",
+      "Orb generation"
+    ],
+    "weaknesses": [
+      "2-cost can be heavy early",
+      "Needs Focus to make Frost orbs impactful"
+    ],
+    "synergy_tags": [
+      "frost",
+      "focus",
+      "block_engine",
+      "capacitor",
+      "orb"
+    ],
+    "scaling_notes": "Frost orbs scale with Focus — Glacier is defense now AND passive block later",
+    "risk_notes": "Defect's best block card. Take 2+ in almost any deck.",
+    "recommended_situations": [
+      "Any Defect deck",
+      "Focus scaling",
+      "Block needs",
+      "Always pick"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Echo Form",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "First card each turn played twice",
+      "Doubles damage, block, AND powers",
+      "Best Defect rare"
+    ],
+    "weaknesses": [
+      "3-cost — needs 4 energy or setup turn",
+      "Ethereal — must play immediately",
+      "Slow to deploy"
+    ],
+    "synergy_tags": [
+      "energy_relic",
+      "power_spam",
+      "creative_ai",
+      "self_repair",
+      "focus"
+    ],
+    "scaling_notes": "Doubles your best card EVERY turn — multiplicative scaling with your entire deck",
+    "risk_notes": "Without 4 energy, Echo Form can cost you the turn. Upgrade to remove Ethereal.",
+    "recommended_situations": [
+      "Any Defect deck with 4+ energy",
+      "Power-heavy builds",
+      "Boss fights"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Biased Cognition",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Rare",
+    "strengths": [
+      "+4(5) Focus immediately",
+      "Ends fights fast",
+      "1-cost massive power spike"
+    ],
+    "weaknesses": [
+      "Lose 1 Focus per turn — decays over time",
+      "Can strand you with negative Focus"
+    ],
+    "synergy_tags": [
+      "focus",
+      "artifact",
+      "core_surge",
+      "fast_kill",
+      "orange_pellets"
+    ],
+    "scaling_notes": "Temporary but massive scaling — play when you can win in 4-5 turns",
+    "risk_notes": "Pair with Core Surge or artifact source to negate the Focus loss permanently.",
+    "recommended_situations": [
+      "Artifact synergy",
+      "Fast kill decks",
+      "Boss fights"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Capacitor",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "+2(3) orb slots",
+      "Multiplicative with Focus",
+      "Cheap 1-cost"
+    ],
+    "weaknesses": [
+      "Does nothing without orbs to fill slots",
+      "Slow — takes turns to channel into new slots"
+    ],
+    "synergy_tags": [
+      "focus",
+      "frost",
+      "lightning",
+      "orb_slots",
+      "glacier"
+    ],
+    "scaling_notes": "Each new orb slot = +Focus value per turn. 10 orbs × 5 Focus = enormous passive value.",
+    "risk_notes": "Take after you have orb generation. Empty slots do nothing.",
+    "recommended_situations": [
+      "Frost focus decks",
+      "Orb-heavy builds",
+      "After you have Glacier/Defragment"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Coolheaded",
+    "type": "Skill",
+    "cost": 1,
+    "rarity": "Common",
+    "strengths": [
+      "Channel Frost + draw 1(2)",
+      "Draw engine for frost decks",
+      "Orb generation + cycle"
+    ],
+    "weaknesses": [
+      "Low immediate impact",
+      "Weak without Focus backing"
+    ],
+    "synergy_tags": [
+      "frost",
+      "draw",
+      "focus",
+      "deck_cycle",
+      "orb"
+    ],
+    "scaling_notes": "Draw consistency + passive Frost orb — double value in Focus decks",
+    "risk_notes": "Safe pick. Upgraded Coolheaded is one of Defect's best draw cards.",
+    "recommended_situations": [
+      "Focus decks",
+      "Frost builds",
+      "Draw consistency needs"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Creative AI",
+    "type": "Power",
+    "cost": 3,
+    "rarity": "Rare",
+    "strengths": [
+      "Generates a random Power each turn",
+      "Infinite value in long fights",
+      "Scales itself"
+    ],
+    "weaknesses": [
+      "3-cost — slow to deploy",
+      "Random powers can be useless",
+      "Awakened One punishes power spam"
+    ],
+    "synergy_tags": [
+      "power_spam",
+      "mummified_hand",
+      "echo_form",
+      "storm",
+      "heatsinks"
+    ],
+    "scaling_notes": "1 random power per turn — the longer the fight, the more value you accumulate",
+    "risk_notes": "Only good in long fights. Bad against Awakened One (feeds Strength).",
+    "recommended_situations": [
+      "Boss fights",
+      "Defensive/stall decks",
+      "Mummified Hand synergy"
+    ],
+    "character": "defect"
+  },
+  {
+    "name": "Eruption",
+    "type": "Attack",
+    "cost": 2,
+    "rarity": "Basic",
+    "strengths": [
+      "Enter Wrath — deal double damage",
+      "Upgrade reduces cost to 1 — core engine"
+    ],
+    "weaknesses": [
+      "Staying in Wrath is dangerous",
+      "2-cost limits turn flexibility before upgrade"
+    ],
+    "synergy_tags": [
+      "wrath",
+      "stance_dance",
+      "calm",
+      "rushdown",
+      "starter"
+    ],
+    "scaling_notes": "Wrath doubles all attack damage — multiplicative with Strength and Divinity",
+    "risk_notes": "ALWAYS upgrade Eruption first. 1-cost Wrath entry is Watcher's entire engine.",
+    "recommended_situations": [
+      "Every Watcher deck",
+      "First upgrade priority",
+      "Stance switching engine"
+    ],
+    "character": "watcher"
+  },
+  {
+    "name": "Mental Fortress",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Block on stance switch",
+      "Passive defense engine",
+      "Stackable across copies"
+    ],
+    "weaknesses": [
+      "Low block per switch (4/6)",
+      "Needs frequent stance switching to matter"
+    ],
+    "synergy_tags": [
+      "stance_dance",
+      "rushdown",
+      "inner_peace",
+      "fear_no_evil",
+      "block"
+    ],
+    "scaling_notes": "Scales with stance switches per turn — infinite combos generate infinite block",
+    "risk_notes": "Take 2+ copies. Mental Fortress + stance switching is Watcher's best block plan.",
+    "recommended_situations": [
+      "Stance dance decks",
+      "Infinite loop engine",
+      "Any Watcher deck"
+    ],
+    "character": "watcher"
+  },
+  {
+    "name": "Rushdown",
+    "type": "Power",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Draw 2 on Wrath entry",
+      "Core of infinite combo engine",
+      "1-cost"
+    ],
+    "weaknesses": [
+      "Does nothing until you enter Wrath",
+      "Useless without stance-switching package"
+    ],
+    "synergy_tags": [
+      "wrath",
+      "stance_dance",
+      "inner_peace",
+      "fear_no_evil",
+      "draw"
+    ],
+    "scaling_notes": "Draw 2 per Wrath entry = infinite draw engine with 1-cost Calm -> 1-cost Wrath",
+    "risk_notes": "With Rushdown + 1-cost Calm + 1-cost Wrath, you have an infinite. Build around this.",
+    "recommended_situations": [
+      "Infinite combo decks",
+      "Stance switching",
+      "Slim deck builds"
+    ],
+    "character": "watcher"
+  },
+  {
+    "name": "Talk to the Hand",
+    "type": "Attack",
+    "cost": 1,
+    "rarity": "Uncommon",
+    "strengths": [
+      "Apply block-per-hit debuff",
+      "Scales with multi-hit attacks",
+      "Stackable"
+    ],
+    "weaknesses": [
+      "Single enemy only",
+      "Block value delayed until you attack"
+    ],
+    "synergy_tags": [
+      "block",
+      "tantrum",
+      "multi_hit",
+      "defensive"
+    ],
+    "scaling_notes": "2(3) Block per attack hit — Tantrum (3 hits) = 6(9) Block per play",
+    "risk_notes": "Pair with Tantrum or multi-hit cards. Block triggers per attack HIT, not per card.",
+    "recommended_situations": [
+      "Multi-hit decks",
+      "Tantrum synergy",
+      "Boss fights (single target)"
+    ],
+    "character": "watcher"
+  }
+]

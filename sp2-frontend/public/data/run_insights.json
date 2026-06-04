@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "entries": [
+    {
+      "id": "ironclad-act1-damage",
+      "character": "ironclad",
+      "location": "act1",
+      "problem": "damage",
+      "title": "Your Act 1 deck lacked decisive damage.",
+      "likelyCause": "The deck took too many slow or defensive cards before solving elite and boss damage checks.",
+      "whatWentWrong": "Act 1 rewards decks that can end fights quickly. Without enough frontload, even solid block turns can become health loss over time.",
+      "fixNextRun": "Prioritize efficient attacks, early upgrades, and pathing that lets you test damage before committing to elite-heavy routes.",
+      "priorityUpgrade": "Upgrade a premium attack before adding more defensive tools.",
+      "confidence": 88,
+      "metrics": [
+        { "label": "Damage", "value": 46, "target": 70 },
+        { "label": "Block", "value": 62, "target": 70 },
+        { "label": "Scaling", "value": 42, "target": 70 },
+        { "label": "Draw", "value": 54, "target": 70 }
+      ]
+    },
+    {
+      "id": "silent-act2-block",
+      "character": "silent",
+      "location": "act2",
+      "problem": "block",
+      "title": "Act 2 punished unstable defensive turns.",
+      "likelyCause": "The deck could produce damage, but it did not block reliably against multi-enemy pressure.",
+      "whatWentWrong": "Act 2 asks for repeatable block, not only one strong defensive turn. Bad draw order can expose that gap fast.",
+      "fixNextRun": "Value block density, weak application, and card draw before taking another narrow damage payoff.",
+      "priorityUpgrade": "Add a consistent block engine or a draw card that finds defense on demand.",
+      "confidence": 84,
+      "metrics": [
+        { "label": "Damage", "value": 67, "target": 70 },
+        { "label": "Block", "value": 43, "target": 70 },
+        { "label": "Scaling", "value": 58, "target": 70 },
+        { "label": "Draw", "value": 61, "target": 70 }
+      ]
+    },
+    {
+      "id": "defect-act3-scaling",
+      "character": "defect",
+      "location": "act3",
+      "problem": "scaling",
+      "title": "The deck reached Act 3 without a long-fight plan.",
+      "likelyCause": "Your deck solved hallway fights but could not grow fast enough for boss-length combat.",
+      "whatWentWrong": "Act 3 bosses punish decks that only have static numbers. You need repeatable scaling or a way to end the fight quickly.",
+      "fixNextRun": "Identify your scaling lane earlier and stop adding cards that do not support it.",
+      "priorityUpgrade": "Upgrade the card that improves your scaling engine or makes it easier to draw.",
+      "confidence": 86,
+      "metrics": [
+        { "label": "Damage", "value": 63, "target": 70 },
+        { "label": "Block", "value": 60, "target": 70 },
+        { "label": "Scaling", "value": 39, "target": 70 },
+        { "label": "Draw", "value": 57, "target": 70 }
+      ]
+    },
+    {
+      "id": "watcher-heart-draw",
+      "character": "watcher",
+      "location": "heart",
+      "problem": "draw",
+      "title": "The Heart exposed draw inconsistency.",
+      "likelyCause": "The deck had strong turns, but it could not find the right cards under Heart pressure.",
+      "whatWentWrong": "High-impact cards are not enough if the deck cannot access them on the turns that matter.",
+      "fixNextRun": "Trim weak cards, add draw, and build around reliable stance or energy sequencing.",
+      "priorityUpgrade": "Take a draw or consistency upgrade over another payoff card.",
+      "confidence": 81,
+      "metrics": [
+        { "label": "Damage", "value": 70, "target": 70 },
+        { "label": "Block", "value": 58, "target": 70 },
+        { "label": "Scaling", "value": 66, "target": 70 },
+        { "label": "Draw", "value": 41, "target": 70 }
+      ]
+    },
+    {
+      "id": "default",
+      "character": "any",
+      "location": "any",
+      "problem": "any",
+      "title": "Your deck missed a core checkpoint.",
+      "likelyCause": "The run was short on one key axis for the fight you reached.",
+      "whatWentWrong": "Your deck likely solved some hallway fights, but it did not convert that strength into a reliable plan for the next pressure spike.",
+      "fixNextRun": "Take cards and relics that solve the upcoming Act instead of only improving the current floor.",
+      "priorityUpgrade": "Add one consistent source of damage, block, scaling, or draw before the next elite path.",
+      "confidence": 72,
+      "metrics": [
+        { "label": "Damage", "value": 58, "target": 70 },
+        { "label": "Block", "value": 54, "target": 70 },
+        { "label": "Scaling", "value": 48, "target": 70 },
+        { "label": "Draw", "value": 52, "target": 70 }
+      ]
+    }
+  ]
+}

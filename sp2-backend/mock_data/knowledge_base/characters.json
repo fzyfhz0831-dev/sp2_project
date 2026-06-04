@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ironclad",
+    "base_hp": 0
+  },
+  {
+    "name": "Silent",
+    "base_hp": 0
+  },
+  {
+    "name": "Regent",
+    "base_hp": 0
+  },
+  {
+    "name": "Necrobinder",
+    "base_hp": 0
+  },
+  {
+    "name": "Defect",
+    "base_hp": 0
+  }
+]

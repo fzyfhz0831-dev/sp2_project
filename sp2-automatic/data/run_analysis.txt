@@ -1,0 +1,73 @@
+================================================================
+  SLAY THE SPIRE 2 — RUN DOCTOR LOSS REVIEW
+================================================================
+  Character:    The Silent
+  Floor:        33
+  Boss:         The Collector
+  Generated:    2026-06-04T03:25:29.295983+00:00
+
+----------------------------------------------------------------
+  SUMMARY
+----------------------------------------------------------------
+  The Silent died on floor 33 to The Collector. The primary cause was deck problem. Overall deck/build score: 81/100. The weakest area was deck quality (score 63/100). 0 critical issue(s) and 1 warning(s) were found.
+
+----------------------------------------------------------------
+  AREA SCORES
+----------------------------------------------------------------
+  Deck Quality         [█████████░░░░░░] 63/100  (warning)
+  Defense              [█████████████░░] 88/100  (good)
+  Scaling              [███████████░░░░] 75/100  (good)
+  Boss Readiness       [██████████████░] 92/100  (good)
+  Pathing              [██████████████░] 90/100  (good)
+  Relic Synergy        [████████████░░░] 80/100  (good)
+
+----------------------------------------------------------------
+  TOP MISTAKES
+----------------------------------------------------------------
+  • Deck Quality: Deck is acceptable but has room to improve — consider removing more basic cards and prioritising upgrades at rest sites.
+
+----------------------------------------------------------------
+  BOSS-SPECIFIC ADVICE
+----------------------------------------------------------------
+  • Kill torch-head minions immediately — their Mega Debuff stacks and makes all incoming damage unblockable.
+  • AoE cards (Crippling Cloud, Dagger Spray, Die Die Die) shine against The Collector.
+  • Piercing Wail resets minion strength — use it after they've been buffed.
+  • Entering at <60% HP is dangerous because the fight tests your frontloaded block.
+  • The Collector summons torch-head minions that apply Mega Debuff. If you can't clear them quickly the debuff stacking leads to unblockable burst damage. AoE or fast single-target damage helps.
+
+----------------------------------------------------------------
+  NEXT-RUN RECOMMENDATIONS
+----------------------------------------------------------------
+  • Your deck has more basic cards than ideal. Look for card-removal opportunities at the next shop or ?-event.
+  • Campsites should lean toward upgrades, not rests, once your HP is above 50%.
+  • Aim for at least 25-30 cards by mid-Act 2. A thin deck with basics is worse than a thick deck with good cards.
+
+----------------------------------------------------------------
+  PRIORITY FIXES (try these first)
+----------------------------------------------------------------
+  1. Your deck has more basic cards than ideal. Look for card-removal opportunities at the next shop or ?-event.
+
+----------------------------------------------------------------
+  SUPPORTING EVIDENCE
+----------------------------------------------------------------
+  - 10/20 cards are basic starters (50%) — these dilute every draw
+  - Only 5/20 cards upgraded (25%) by floor 33 — missed upgrade opportunities
+  - Block card count is adequate: 7/20 (35%)
+  - Only 0/7 block cards upgraded (0%) — upgraded block is much more efficient
+  - Only 2 scaling card(s) in Act 3 — end-game fights require strong scaling
+  - Entered The Collector with only 37/72 HP (51%) — wanted ≥ 60%
+  - Boss insight: The Collector summons torch-head minions that apply Mega Debuff. If you can't clear them quickly the debuff stacking leads to unblockable burst damage. AoE or fast single-target damage helps.
+  - Elite pathing was reasonable across acts
+  - 6 rest sites left HP below 75% — pathing may be too greedy
+  - Relic count is on par: 9 relics by floor 33
+  - No energy relic or energy-generating relic by Act 3 — 4 energy/turn may be insufficient
+  - Scaling cards are backed by scaling relics — good synergy
+  - Deck still contains 7 basic Strike/Defend cards by floor 33 — these dilute draws
+  - Sharp HP losses after elites on floors 7, 10, 20, 28 — pathing may be too aggressive
+  - 14/20 cards are unupgraded (70%) by floor 33 — missed upgrade opportunities
+  - No energy relic or energy-generating relic found
+  - Meta-context: ? current players, 0 Reddit posts, 0 Steam news items
+
+================================================================
+  End of report. Good luck on your next run!
+================================================================

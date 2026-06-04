@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-04T03:25:29.308526+00:00",
+  "summary": "The Silent died on floor 33 to The Collector. The primary cause was deck problem. Overall deck/build score: 81/100. The weakest area was deck quality (score 63/100). 0 critical issue(s) and 1 warning(s) were found.",
+  "top_mistakes": [
+    "Deck Quality: Deck is acceptable but has room to improve — consider removing more basic cards and prioritising upgrades at rest sites."
+  ],
+  "boss_advice": [
+    "Kill torch-head minions immediately — their Mega Debuff stacks and makes all incoming damage unblockable.",
+    "AoE cards (Crippling Cloud, Dagger Spray, Die Die Die) shine against The Collector.",
+    "Piercing Wail resets minion strength — use it after they've been buffed.",
+    "Entering at <60% HP is dangerous because the fight tests your frontloaded block.",
+    "The Collector summons torch-head minions that apply Mega Debuff. If you can't clear them quickly the debuff stacking leads to unblockable burst damage. AoE or fast single-target damage helps."
+  ],
+  "next_run_recommendations": [
+    "Your deck has more basic cards than ideal. Look for card-removal opportunities at the next shop or ?-event.",
+    "Campsites should lean toward upgrades, not rests, once your HP is above 50%.",
+    "Aim for at least 25-30 cards by mid-Act 2. A thin deck with basics is worse than a thick deck with good cards."
+  ],
+  "priority_fixes": [
+    "Your deck has more basic cards than ideal. Look for card-removal opportunities at the next shop or ?-event."
+  ]
+}

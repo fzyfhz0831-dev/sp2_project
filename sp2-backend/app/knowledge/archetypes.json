@@ -1,0 +1,349 @@
+{
+  "ironclad": [
+    {
+      "name": "Strength Scaling",
+      "type": "scaling_damage",
+      "core_cards": [
+        "Inflame",
+        "Spot Weakness",
+        "Limit Break",
+        "Demon Form",
+        "Heavy Blade",
+        "Sword Boomerang"
+      ],
+      "strengths": [
+        "Massive single-hit damage",
+        "Scales with multi-attack cards",
+        "Relic-independent"
+      ],
+      "weaknesses": [
+        "Slow setup without energy relic",
+        "Vulnerable during setup turns"
+      ],
+      "synergy_tags": [
+        "strength",
+        "multi_attack",
+        "heavy_blade",
+        "limit_break",
+        "vajra"
+      ],
+      "scaling_notes": "Each Strength = +1 per hit. Sword Boomerang (4 hits) doubles value vs Heavy Blade.",
+      "risk_notes": "Mix Strength sources with multi-hit attacks. Don't stack Strength with only single-hit cards.",
+      "recommended_situations": [
+        "Any Ironclad deck",
+        "Act 2+ scaling needs",
+        "Boss fights"
+      ]
+    },
+    {
+      "name": "Exhaust Engine",
+      "type": "combo_control",
+      "core_cards": [
+        "Corruption",
+        "Dark Embrace",
+        "Feel No Pain",
+        "Second Wind",
+        "Fiend Fire"
+      ],
+      "strengths": [
+        "Near-infinite card play",
+        "Passive block generation",
+        "Trims deck mid-combat"
+      ],
+      "weaknesses": [
+        "Without Dead Branch or Dark Embrace for refill, runs out of cards"
+      ],
+      "synergy_tags": [
+        "exhaust",
+        "dead_branch",
+        "dark_embrace",
+        "feel_no_pain",
+        "fiend_fire"
+      ],
+      "scaling_notes": "Scales with deck size — more skills = more 0-cost plays = more block/draw triggers",
+      "risk_notes": "Corruption + Dead Branch = instant win. Without Branch, need Dark Embrace for draw refill.",
+      "recommended_situations": [
+        "Corruption decks",
+        "Dead Branch synergy",
+        "Thick skill-heavy decks"
+      ]
+    },
+    {
+      "name": "Block / Body Slam",
+      "type": "defensive_scaling",
+      "core_cards": [
+        "Barricade",
+        "Entrench",
+        "Body Slam",
+        "Impervious",
+        "Shrug It Off"
+      ],
+      "strengths": [
+        "Infinite block ceiling",
+        "Body Slam converts block to 0-cost damage"
+      ],
+      "weaknesses": [
+        "Slow setup — Barricade is 3-cost",
+        "Vulnerable to debuff removal"
+      ],
+      "synergy_tags": [
+        "block_engine",
+        "barricade",
+        "body_slam",
+        "entrench",
+        "calipers"
+      ],
+      "scaling_notes": "Block IS damage — Entrench doubles block, Body Slam converts it all to damage",
+      "risk_notes": "Barricade + Entrench is the core. Without Barricade, Body Slam is mediocre.",
+      "recommended_situations": [
+        "Defensive Ironclad",
+        "Turtle strategy",
+        "Boss fights"
+      ]
+    }
+  ],
+  "the silent": [
+    {
+      "name": "Poison Stacking",
+      "type": "damage_over_time",
+      "core_cards": [
+        "Noxious Fumes",
+        "Bouncing Flask",
+        "Catalyst",
+        "Deadly Poison",
+        "Crippling Cloud"
+      ],
+      "strengths": [
+        "Bypasses block entirely",
+        "Infinite scaling via Catalyst",
+        "Passive damage while defending"
+      ],
+      "weaknesses": [
+        "Slow — takes many turns to ramp",
+        "Weak to artifact charges"
+      ],
+      "synergy_tags": [
+        "poison",
+        "catalyst",
+        "noxious_fumes",
+        "stall",
+        "block_engine"
+      ],
+      "scaling_notes": "Catalyst provides exponential scaling. 3->9->27 poison. Burst+ doubles the doubling.",
+      "risk_notes": "Build heavy defense. Poison kills eventually — your job is to not die first.",
+      "recommended_situations": [
+        "Defensive Silent",
+        "Boss fights",
+        "Long fight preference"
+      ]
+    },
+    {
+      "name": "Shiv Spam",
+      "type": "aggressive_tempo",
+      "core_cards": [
+        "Blade Dance",
+        "Cloak and Dagger",
+        "Infinite Blades",
+        "Accuracy",
+        "After Image"
+      ],
+      "strengths": [
+        "High card play rate",
+        "Scales with Kunai/Shuriken",
+        "Fast damage output"
+      ],
+      "weaknesses": [
+        "Beat of Death counters hard",
+        "Time Eater punishes card spam"
+      ],
+      "synergy_tags": [
+        "shiv",
+        "kunai",
+        "shuriken",
+        "after_image",
+        "accuracy"
+      ],
+      "scaling_notes": "Scales with artifacts (Kunai/Shuriken) and Accuracy — each shiv is a trigger",
+      "risk_notes": "Time Eater is your nightmare matchup. Pivot to high-impact cards in Act 3.",
+      "recommended_situations": [
+        "Kunai/Shuriken available",
+        "Act 1-2 aggression",
+        "Avoid if Time Eater confirmed"
+      ]
+    },
+    {
+      "name": "Discard Engine",
+      "type": "combo_control",
+      "core_cards": [
+        "Tactician",
+        "Reflex",
+        "Calculated Gamble",
+        "Acrobatics",
+        "Eviscerate"
+      ],
+      "strengths": [
+        "Infinite energy generation",
+        "Deep deck cycling"
+      ],
+      "weaknesses": [
+        "Complex to pilot",
+        "Setup-dependent",
+        "Status cards break the cycle"
+      ],
+      "synergy_tags": [
+        "discard",
+        "draw",
+        "energy",
+        "combo",
+        "calculated_gamble"
+      ],
+      "scaling_notes": "Consistency IS scaling — draw your whole deck every turn",
+      "risk_notes": "Tactician+ and Reflex+ are mandatory upgrades. Without Calculated Gamble the engine stalls.",
+      "recommended_situations": [
+        "Experienced players",
+        "Thin decks",
+        "Upgrade-heavy pathing"
+      ]
+    }
+  ],
+  "defect": [
+    {
+      "name": "Frost Focus",
+      "type": "defensive_scaling",
+      "core_cards": [
+        "Defragment",
+        "Glacier",
+        "Capacitor",
+        "Coolheaded",
+        "Biased Cognition",
+        "Echo Form"
+      ],
+      "strengths": [
+        "Passive block every turn",
+        "Immune to chip damage",
+        "Beats long fights effortlessly"
+      ],
+      "weaknesses": [
+        "Slow setup — dies to turn 1-2 burst",
+        "Awakened One punishes power spam"
+      ],
+      "synergy_tags": [
+        "frost",
+        "focus",
+        "capacitor",
+        "biased_cognition",
+        "echo_form"
+      ],
+      "scaling_notes": "6 orbs × 5 Focus = 42 passive block/turn. The goal. Get there and win.",
+      "risk_notes": "Frost orbs + Focus = passive 40+ block per turn. Invest early in Focus.",
+      "recommended_situations": [
+        "Any Defect deck",
+        "Scaling fights",
+        "Boss preparation"
+      ]
+    },
+    {
+      "name": "Lightning / Storm",
+      "type": "damage_over_time",
+      "core_cards": [
+        "Storm",
+        "Electrodynamics",
+        "Static Discharge",
+        "Tempest",
+        "Thunder Strike"
+      ],
+      "strengths": [
+        "Passive AoE damage",
+        "Electrodynamics solves multi-enemy",
+        "Scales with orb slots"
+      ],
+      "weaknesses": [
+        "Random targeting",
+        "Low single-target burst",
+        "Inefficient without Focus"
+      ],
+      "synergy_tags": [
+        "lightning",
+        "storm",
+        "electrodynamics",
+        "power_spam",
+        "tempest"
+      ],
+      "scaling_notes": "Each lightning orb = 3 + Focus damage/turn random. Multiplicative with slots + Focus.",
+      "risk_notes": "Storm + power spam generates lightning orbs passively. Add Focus to make them hit hard.",
+      "recommended_situations": [
+        "Multi-enemy fights",
+        "Power-heavy decks",
+        "AoE damage needs"
+      ]
+    }
+  ],
+  "watcher": [
+    {
+      "name": "Stance Dance / Infinite",
+      "type": "combo_infinite",
+      "core_cards": [
+        "Rushdown",
+        "Inner Peace",
+        "Fear No Evil",
+        "Eruption+",
+        "Mental Fortress"
+      ],
+      "strengths": [
+        "True infinite — kill anything turn 1",
+        "Minimal deck required"
+      ],
+      "weaknesses": [
+        "Time Eater caps 12 cards/turn",
+        "Status cards break cycle"
+      ],
+      "synergy_tags": [
+        "stance_dance",
+        "rushdown",
+        "inner_peace",
+        "fear_no_evil",
+        "mental_fortress"
+      ],
+      "scaling_notes": "Infinite = you win. Only check: survive until the engine assembles.",
+      "risk_notes": "Remove Defends first. Keep Strikes for Eruption triggers. Deck under 15 cards.",
+      "recommended_situations": [
+        "Thin deck strategy",
+        "Experienced players",
+        "Card remove priority"
+      ]
+    },
+    {
+      "name": "Divinity Burst",
+      "type": "burst_damage",
+      "core_cards": [
+        "Blasphemy",
+        "Worship",
+        "Devotion",
+        "Ragnarok",
+        "Wreath of Flame"
+      ],
+      "strengths": [
+        "Triple damage in Divinity",
+        "One-turn boss kills possible"
+      ],
+      "weaknesses": [
+        "Blasphemy kills you next turn if you don't win",
+        "Slow Divinity buildup without Devotion"
+      ],
+      "synergy_tags": [
+        "divinity",
+        "burst",
+        "blasphemy",
+        "worship",
+        "ragnarok"
+      ],
+      "scaling_notes": "Divinity = 3x damage. Stack Wreath of Flame + Strength for multiplicative burst.",
+      "risk_notes": "Only enter Divinity when you can guarantee a kill. Blasphemy = win-or-die button.",
+      "recommended_situations": [
+        "Boss fights",
+        "Guaranteed kill turns",
+        "Burst damage decks"
+      ]
+    }
+  ]
+}

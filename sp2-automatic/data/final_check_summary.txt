@@ -1,0 +1,21 @@
+Final Full Check Summary
+
+Generated at: 2026-06-02T10:56:04.645194+00:00
+Pipeline run status: passed
+latest_insights.json exists: True
+Health check passed: True
+Archive backup exists: True
+Log summary generated: True
+CSV report generated: True
+HTML report generated: True
+Archive compression present: True
+test_pipeline.py status: passed
+Skipped modules: backend.reddit_collector, backend.reddit_comments_collector
+Missing Reddit credentials: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+Steam API configured: True
+Missing Steam credentials: None
+
+Warnings:
+- Missing Reddit credentials: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+
+Critical failure: False

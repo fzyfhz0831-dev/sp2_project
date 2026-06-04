@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-06-04T03:59:19.331090+00:00",
+  "api_base_url": "http://127.0.0.1:8000",
+  "inputs": [
+    "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data",
+    "C:\\Users\\24364\\sp2_project\\sp2-backend\\mock_data\\runs",
+    "C:\\Users\\24364\\sp2_project\\sp2-backend\\sample_run.json"
+  ],
+  "files_discovered": [
+    "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\normalized_run.json",
+    "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\player_run.example.json",
+    "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\player_run.json"
+  ],
+  "successes": [
+    {
+      "file": "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\normalized_run.json",
+      "run_id": 14,
+      "filename": "normalized_run.json"
+    },
+    {
+      "file": "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\player_run.example.json",
+      "run_id": 15,
+      "filename": "player_run.example.json"
+    },
+    {
+      "file": "C:\\Users\\24364\\sp2_project\\sp2-automatic\\data\\player_run.json",
+      "run_id": 16,
+      "filename": "player_run.json"
+    }
+  ],
+  "failures": [],
+  "finished_at": "2026-06-04T03:59:19.442948+00:00",
+  "success_count": 3,
+  "failure_count": 0
+}

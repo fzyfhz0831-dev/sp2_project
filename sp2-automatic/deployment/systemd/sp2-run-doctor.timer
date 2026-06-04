@@ -1,0 +1,15 @@
+# Example systemd timer for running the Docker pipeline daily.
+# Copy this file to /etc/systemd/system/sp2-run-doctor.timer.
+
+[Unit]
+Description=Run Slay the Spire 2 Run Doctor pipeline daily
+
+[Timer]
+# Runs once per day at 02:00 local VM time.
+OnCalendar=*-*-* 02:00:00
+
+# If the VM was off at 02:00, run the missed job after boot.
+Persistent=true
+
+[Install]
+WantedBy=timers.target

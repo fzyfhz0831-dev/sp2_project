@@ -1,0 +1,12 @@
+{
+    "act2_boss1": {
+        "common_issues": [
+            "damage scaling",
+            "energy shortage"
+        ],
+        "recommendations": [
+            "add block cards",
+            "increase relic synergy"
+        ]
+    }
+}

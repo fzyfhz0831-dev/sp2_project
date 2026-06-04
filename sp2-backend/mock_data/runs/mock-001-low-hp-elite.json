@@ -1,0 +1,215 @@
+{
+  "run_id": "mock-001-low-hp-elite",
+  "character": "Ironclad",
+  "ascension": 5,
+  "floor_reached": 16,
+  "killed_by": "Gremlin Nob",
+  "max_hp": 80,
+  "final_hp": 0,
+  "gold": 187,
+  "cards": [
+    "Bash",
+    "Anger",
+    "Cleave",
+    "Shrug It Off",
+    "Uppercut",
+    "Twin Strike",
+    "Armaments",
+    "True Grit",
+    "Headbutt",
+    "Carnage",
+    "Bloodletting",
+    "Spot Weakness"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Anchor",
+    "Bag of Preparation",
+    "Pen Nib",
+    "Happy Flower"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 80,
+      "hp_after": 76,
+      "picked_card": "Anger",
+      "skipped_cards": [
+        "Iron Wave",
+        "Flex"
+      ],
+      "relic_gained": "",
+      "notes": "Average starting fight."
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 82,
+      "hp_after": 78,
+      "picked_card": "Cleave",
+      "skipped_cards": [
+        "Clash"
+      ],
+      "relic_gained": "",
+      "notes": "Took Cleave for AoE."
+    },
+    {
+      "floor": 3,
+      "type": "event",
+      "hp_before": 84,
+      "hp_after": 84,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Big Fish – traded Banana for a relic."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 84,
+      "hp_after": 77,
+      "picked_card": "Shrug It Off",
+      "skipped_cards": [
+        "Wild Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 5,
+      "type": "shop",
+      "hp_before": 77,
+      "hp_after": 77,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Anchor relic, skipped cards."
+    },
+    {
+      "floor": 6,
+      "type": "combat",
+      "hp_before": 77,
+      "hp_after": 71,
+      "picked_card": "Uppercut",
+      "skipped_cards": [
+        "Heavy Blade",
+        "Thunderclap"
+      ],
+      "relic_gained": "",
+      "notes": "Uppercut is a solid pickup."
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 71,
+      "hp_after": 80,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Healed to full before elite."
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 80,
+      "hp_after": 42,
+      "picked_card": "Headbutt",
+      "skipped_cards": [
+        "Body Slam",
+        "Clothesline"
+      ],
+      "relic_gained": "Pen Nib",
+      "notes": "Gremlin Nob punished skill-heavy hand. Barely survived."
+    },
+    {
+      "floor": 9,
+      "type": "combat",
+      "hp_before": 48,
+      "hp_after": 41,
+      "picked_card": "Carnage",
+      "skipped_cards": [
+        "Searing Blow"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 47,
+      "hp_after": 39,
+      "picked_card": "Bloodletting",
+      "skipped_cards": [
+        "Rupture",
+        "Sentinel"
+      ],
+      "relic_gained": "",
+      "notes": "Took Bloodletting for energy but had no sustain to offset HP loss."
+    },
+    {
+      "floor": 11,
+      "type": "event",
+      "hp_before": 39,
+      "hp_after": 39,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Wheel of Change – got a Curse, skipped."
+    },
+    {
+      "floor": 12,
+      "type": "combat",
+      "hp_before": 39,
+      "hp_after": 31,
+      "picked_card": "Spot Weakness",
+      "skipped_cards": [
+        "Warcry"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 37,
+      "hp_after": 30,
+      "picked_card": "True Grit",
+      "skipped_cards": [
+        "Perfected Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 14,
+      "type": "shop",
+      "hp_before": 30,
+      "hp_after": 30,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought potion but not a block potion – Fire Potion."
+    },
+    {
+      "floor": 15,
+      "type": "rest",
+      "hp_before": 30,
+      "hp_after": 55,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Healed but not enough for elite. Should have skipped elite path."
+    },
+    {
+      "floor": 16,
+      "type": "elite",
+      "hp_before": 55,
+      "hp_after": 24,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "Happy Flower",
+      "notes": "Gremlin Nob again. Entered with Aggression potion active, but draw was all skills. Took 31 in one turn."
+    }
+  ]
+}

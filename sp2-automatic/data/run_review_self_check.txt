@@ -1,0 +1,23 @@
+Player Run Review Self-Check Summary
+================================================
+Generated: 2026-06-02T13:03:41.029886+00:00
+
+  [PASS] input_check
+  [PASS] run_parser
+  [PASS] loss_classifier
+  [PASS] run_analyzer
+  [PASS] recommendation_generator
+
+  [PASS] normalized_run
+  [PASS] loss_classification
+  [PASS] run_analysis
+  [PASS] run_analysis_txt
+  [PASS] run_recommendations
+  [PASS] normalized_run_valid_json
+  [PASS] loss_classification_valid_json
+  [PASS] run_analysis_valid_json
+  [PASS] run_recommendations_valid_json
+
+All checks passed.
+
+RESULT: ALL CHECKS PASSED

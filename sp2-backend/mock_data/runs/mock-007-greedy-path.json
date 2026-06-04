@@ -1,0 +1,180 @@
+{
+  "run_id": "mock-007-greedy-path",
+  "character": "Silent",
+  "ascension": 8,
+  "floor_reached": 14,
+  "killed_by": "Lagavulin",
+  "max_hp": 70,
+  "final_hp": 0,
+  "gold": 256,
+  "cards": [
+    "Survivor",
+    "Neutralize",
+    "Dagger Throw",
+    "Quick Slash",
+    "Backstab",
+    "Dagger Spray",
+    "Footwork",
+    "Leg Sweep"
+  ],
+  "relics": [
+    "Ring of the Snake",
+    "Kunai",
+    "Wrist Blade",
+    "Bag of Preparation"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 64,
+      "picked_card": "Dagger Throw",
+      "skipped_cards": [
+        "Slice"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 64,
+      "hp_after": 58,
+      "picked_card": "Quick Slash",
+      "skipped_cards": [
+        "Deflect"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "event",
+      "hp_before": 64,
+      "hp_after": 64,
+      "picked_card": "Backstab",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Event gave Backstab – strong card but need upgrades."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 64,
+      "hp_after": 57,
+      "picked_card": "Dagger Spray",
+      "skipped_cards": [
+        "Deadly Poison",
+        "Prepared"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 63,
+      "hp_after": 55,
+      "picked_card": "Footwork",
+      "skipped_cards": [
+        "Bane"
+      ],
+      "relic_gained": "",
+      "notes": "Got Footwork – finally a block solution, but unupgraded."
+    },
+    {
+      "floor": 6,
+      "type": "elite",
+      "hp_before": 55,
+      "hp_after": 24,
+      "picked_card": "Leg Sweep",
+      "skipped_cards": [
+        "All-Out Attack",
+        "Flechettes"
+      ],
+      "relic_gained": "Kunai",
+      "notes": "Gremlin Nob at 55 HP. Footwork was a curse. Survived with 24 HP. GREEDY – should rest next."
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 24,
+      "hp_after": 48,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Could have healed to 70 but chose to upgrade Footwork instead. Healed only partially."
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 48,
+      "hp_after": 19,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "Wrist Blade",
+      "notes": "Lagavulin. Footwork+1 helped but entering at 48 HP was greedy. Barely survived."
+    },
+    {
+      "floor": 9,
+      "type": "shop",
+      "hp_before": 19,
+      "hp_after": 19,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought a potion but no heal available. Desperate."
+    },
+    {
+      "floor": 10,
+      "type": "rest",
+      "hp_before": 19,
+      "hp_after": 46,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Healed but still not full. Path forces another elite."
+    },
+    {
+      "floor": 11,
+      "type": "combat",
+      "hp_before": 52,
+      "hp_after": 42,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 12,
+      "type": "combat",
+      "hp_before": 48,
+      "hp_after": 38,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 13,
+      "type": "event",
+      "hp_before": 44,
+      "hp_after": 44,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "No rest site available before third elite."
+    },
+    {
+      "floor": 14,
+      "type": "elite",
+      "hp_before": 44,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Lagavulin again. Turn 1 Siphon Soul drops STR/DEX. Turn 3 double-attack for 40. Dies. Took 3 elites in Act 1 with only 1 full rest – greed killed the run."
+    }
+  ]
+}

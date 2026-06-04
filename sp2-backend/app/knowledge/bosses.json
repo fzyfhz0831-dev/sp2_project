@@ -1,0 +1,399 @@
+[
+  {
+    "name": "Slime Boss",
+    "act": 1,
+    "type": "boss",
+    "strengths": [
+      "Splits into smaller slimes on big hit",
+      "AoE pressure after split"
+    ],
+    "weaknesses": [
+      "Front-loaded burst damage during split turn",
+      "AoE attacks clean up slimes efficiently"
+    ],
+    "synergy_tags": [
+      "aoe",
+      "frontload_damage",
+      "burst"
+    ],
+    "scaling_notes": "Scaling is less critical — front-loaded damage is the priority",
+    "risk_notes": "Save burst damage for the split turn. Small slimes must be cleared before they attack. Don't use small attacks on the big slime.",
+    "recommended_situations": [
+      "AoE pickup in Act 1",
+      "Burst damage preparation",
+      "Save potions for split turn"
+    ]
+  },
+  {
+    "name": "The Guardian",
+    "act": 1,
+    "type": "boss",
+    "strengths": [
+      "Alternates defensive (thorns) and offensive modes",
+      "Thorns punishes multi-hit attacks"
+    ],
+    "weaknesses": [
+      "Scale during defensive phases without attacking",
+      "Block during attack phases"
+    ],
+    "synergy_tags": [
+      "scaling",
+      "block",
+      "single_hit",
+      "patience"
+    ],
+    "scaling_notes": "Rewards patient scaling — play powers during defensive mode, attack during offensive mode",
+    "risk_notes": "Do NOT attack into thorns with multi-hit cards. One big hit is better than 5 small hits.",
+    "recommended_situations": [
+      "Strength scaling",
+      "Poison (bypasses thorns)",
+      "Power setup turns"
+    ]
+  },
+  {
+    "name": "Hexaghost",
+    "act": 1,
+    "type": "boss",
+    "strengths": [
+      "Turn-2 Inferno scales with current HP",
+      "Burns status cards into draw pile"
+    ],
+    "weaknesses": [
+      "Lower HP = weaker Inferno (counter-intuitive)",
+      "Status removal/cycling helps"
+    ],
+    "synergy_tags": [
+      "hp_management",
+      "status_clear",
+      "frontload"
+    ],
+    "scaling_notes": "Scaling helps after Inferno — you have ~5 turns to kill after the big hit",
+    "risk_notes": "Counter-intuitive: DON'T heal before this fight. Lower HP makes Inferno do less damage.",
+    "recommended_situations": [
+      "Status removal cards",
+      "Don't overheal before fight",
+      "Front-loaded damage"
+    ]
+  },
+  {
+    "name": "Bronze Automaton",
+    "act": 2,
+    "type": "boss",
+    "strengths": [
+      "Steals one card per turn",
+      "Devastating Hyper Beam on turn 6"
+    ],
+    "weaknesses": [
+      "Decks that can afford losing a random card",
+      "Strong block for Hyper Beam turn"
+    ],
+    "synergy_tags": [
+      "block_engine",
+      "deck_density",
+      "redundancy",
+      "scaling"
+    ],
+    "scaling_notes": "Scaling needs to survive card theft — have redundant win conditions",
+    "risk_notes": "Draft extra cards if you know this boss is coming. Losing your best card hurts badly.",
+    "recommended_situations": [
+      "Thick decks with redundancy",
+      "Block engine ready by floor 33",
+      "Multiple damage sources"
+    ]
+  },
+  {
+    "name": "The Collector",
+    "act": 2,
+    "type": "boss",
+    "strengths": [
+      "Summons torch-head minions that apply Mega Debuff",
+      "Debuff stacking = unblockable burst"
+    ],
+    "weaknesses": [
+      "AoE clears minions fast",
+      "Fast single-target picks off minions before debuffs stack"
+    ],
+    "synergy_tags": [
+      "aoe",
+      "frontload",
+      "minion_clear",
+      "fast_damage"
+    ],
+    "scaling_notes": "AoE scaling is especially valuable — don't let ANY minion survive more than 1 turn",
+    "risk_notes": "Kill torch-heads FAST. Mega Debuff stacking is a death sentence. Priority: minions > boss.",
+    "recommended_situations": [
+      "AoE damage",
+      "Fast single-target",
+      "Electrodynamics (Defect)"
+    ]
+  },
+  {
+    "name": "The Champ",
+    "act": 2,
+    "type": "boss",
+    "strengths": [
+      "Cleanses all debuffs at half HP",
+      "Massive Execute attack at 50% threshold"
+    ],
+    "weaknesses": [
+      "Scale silently to burst from 50% to 0 in one cycle",
+      "Strong block for Execute turn"
+    ],
+    "synergy_tags": [
+      "scaling_check",
+      "burst",
+      "block_engine",
+      "silent_build"
+    ],
+    "scaling_notes": "Scaling check — if you can't burst 220 HP in 3 turns after Execute, you die",
+    "risk_notes": "Don't use debuffs before half HP — they get cleansed. Scale silently, then burst in one cycle.",
+    "recommended_situations": [
+      "Hold debuffs for phase 2",
+      "Scale + burst strategy",
+      "Strong block for Execute"
+    ]
+  },
+  {
+    "name": "Time Eater",
+    "act": 3,
+    "type": "boss",
+    "strengths": [
+      "Ends your turn after 12 cards played",
+      "Heals and cleanses at half HP",
+      "Forces deliberate play"
+    ],
+    "weaknesses": [
+      "High-impact cards over many cheap ones",
+      "Scaling that doesn't require card spam"
+    ],
+    "synergy_tags": [
+      "high_impact",
+      "scaling",
+      "efficient_cards",
+      "card_counting"
+    ],
+    "scaling_notes": "Prioritize card QUALITY over quantity — 1 Demon Form > 12 Shivs here",
+    "risk_notes": "COUNT YOUR CARDS. Don't start a combo at card 9. Shiv/spam decks suffer badly.",
+    "recommended_situations": [
+      "High-impact cards",
+      "Avoid card spam",
+      "Strength/poison scaling over shiv"
+    ]
+  },
+  {
+    "name": "Awakened One",
+    "act": 3,
+    "type": "boss",
+    "strengths": [
+      "Two phases — revives after first death",
+      "Powers played in phase 1 give it Strength in phase 2"
+    ],
+    "weaknesses": [
+      "Hold powers for phase 2",
+      "Or bring enough scaling to outpace boss Strength gain",
+      "Kill cultists first"
+    ],
+    "synergy_tags": [
+      "phase_management",
+      "scaling",
+      "power_timing",
+      "cultists"
+    ],
+    "scaling_notes": "Either delay powers to phase 2, or bring enough scaling to outpace +1 Strength per power",
+    "risk_notes": "DON'T spam powers in phase 1. Each power = +1 Strength for the boss in phase 2. Kill cultists first.",
+    "recommended_situations": [
+      "Hold powers for phase 2",
+      "Defect beware (power-heavy)",
+      "Cultist priority targeting"
+    ]
+  },
+  {
+    "name": "Donu and Deca",
+    "act": 3,
+    "type": "boss",
+    "strengths": [
+      "Two enemies — Donu buffs Strength, Deca adds Block",
+      "Split damage required"
+    ],
+    "weaknesses": [
+      "Kill Donu first (Strength scaling kills you)",
+      "Scaling AoE hits both",
+      "Corpse Explosion = instant win"
+    ],
+    "synergy_tags": [
+      "aoe",
+      "multi_target",
+      "scaling",
+      "corpse_explosion",
+      "focus_fire"
+    ],
+    "scaling_notes": "AoE scaling is premium — hitting both targets doubles every point of damage",
+    "risk_notes": "Focus Donu first. Deca alone with block is manageable. Corpse Explosion deletes both at once.",
+    "recommended_situations": [
+      "AoE damage",
+      "Focus-fire Donu",
+      "Corpse Explosion (Silent) = instant win"
+    ]
+  },
+  {
+    "name": "Corrupt Heart",
+    "act": 4,
+    "type": "final_boss",
+    "strengths": [
+      "Beat of Death (1(2) damage per card played)",
+      "Invincible status (caps damage/turn)",
+      "Massive multi-hit attack on turn 2-3"
+    ],
+    "weaknesses": [
+      "Block engine for Beat of Death",
+      "Scaling that bypasses Invincible cap",
+      "Intangible for big attacks"
+    ],
+    "synergy_tags": [
+      "block_engine",
+      "scaling",
+      "intangible",
+      "max_hp",
+      "endgame_check"
+    ],
+    "scaling_notes": "Need 800+ damage output while surviving Beat of Death — ultimate scaling and defense check",
+    "risk_notes": "Beat of Death punishes card spam. Each card played = 1(2) self-damage. Plan turn size carefully.",
+    "recommended_situations": [
+      "Block engine (After Image, Mental Fortress, Frost orbs)",
+      "High-impact > card spam",
+      "Max HP buffer"
+    ]
+  },
+  {
+    "name": "Gremlin Nob",
+    "act": 1,
+    "type": "elite",
+    "strengths": [
+      "Gains Strength on every Skill played",
+      "High burst damage",
+      "Enrages quickly"
+    ],
+    "weaknesses": [
+      "Pure Attack cards — don't play Skills",
+      "Front-loaded damage race"
+    ],
+    "scaling_notes": "Gains +2 Strength per Skill played — each Defend makes the fight harder",
+    "risk_notes": "AVOID playing Skills entirely. Bring attacks and potions. This is a damage race.",
+    "recommended_situations": [
+      "Attack-heavy deck",
+      "Attack potion (Flex, Fire)",
+      "Don't play Defends"
+    ],
+    "synergy_tags": []
+  },
+  {
+    "name": "Lagavulin",
+    "act": 1,
+    "type": "elite",
+    "strengths": [
+      "Debuffs Strength and Dexterity",
+      "High HP pool",
+      "Wakes up on turn 3"
+    ],
+    "weaknesses": [
+      "Three setup turns before attacking",
+      "Scaling cards during sleep period"
+    ],
+    "scaling_notes": "Free 3-turn setup window — play all your powers before it wakes up",
+    "risk_notes": "Use the 3 sleep turns to play ALL your scaling. Don't wake it early unless you're ready.",
+    "recommended_situations": [
+      "Power-heavy deck",
+      "Scaling setup",
+      "Don't wake early"
+    ],
+    "synergy_tags": []
+  },
+  {
+    "name": "Sentry Trio",
+    "act": 1,
+    "type": "elite",
+    "strengths": [
+      "Three enemies — AoE pressure",
+      "Dazed status cards into draw pile",
+      "Attrition fight"
+    ],
+    "weaknesses": [
+      "AoE damage kills all three faster",
+      "Status removal/cycling"
+    ],
+    "scaling_notes": "AoE scales triple value — hit all 3 at once. Status cycling handles Dazed.",
+    "risk_notes": "Kill the outer sentries first (they add Dazed). Center sentry alone is manageable.",
+    "recommended_situations": [
+      "AoE attacks",
+      "Status cycling",
+      "Focus outer sentries first"
+    ],
+    "synergy_tags": []
+  },
+  {
+    "name": "Book of Stabbing",
+    "act": 2,
+    "type": "elite",
+    "strengths": [
+      "Multi-hit attack adds +1 hit every cycle",
+      "Infinite scaling damage",
+      "Single-target burst"
+    ],
+    "weaknesses": [
+      "Disarm/Strength reduction neuters it",
+      "Weak/Piercing Wail helps"
+    ],
+    "scaling_notes": "Gains +1 attack per cycle — damage scales infinitely if fight goes long",
+    "risk_notes": "Disarm cuts its damage dramatically. Weak reduces multi-hit effectiveness. Kill FAST.",
+    "recommended_situations": [
+      "Disarm/Piercing Wail",
+      "Burst damage",
+      "Don't let fight go long"
+    ],
+    "synergy_tags": []
+  },
+  {
+    "name": "Gremlin Leader",
+    "act": 2,
+    "type": "elite",
+    "strengths": [
+      "Summons gremlin minions",
+      "Buffs Strength if no minions are alive",
+      "Minion pressure"
+    ],
+    "weaknesses": [
+      "Leave one minion alive to prevent buffing",
+      "AoE clears minions efficiently"
+    ],
+    "scaling_notes": "Leave 1 weak minion alive — Leader won't buff while a minion exists",
+    "risk_notes": "Don't kill all minions. Leave one alive to prevent Leader from gaining Strength.",
+    "recommended_situations": [
+      "AoE for minion management",
+      "Leave 1 minion alive",
+      "Focus Leader after minion control"
+    ],
+    "synergy_tags": []
+  },
+  {
+    "name": "Nemesis",
+    "act": 3,
+    "type": "elite",
+    "strengths": [
+      "Intangible every other turn",
+      "Burns status cards into draw pile",
+      "Unpredictable damage windows"
+    ],
+    "weaknesses": [
+      "Burst damage on non-Intangible turns",
+      "Status cycling"
+    ],
+    "scaling_notes": "Damage only matters on non-Intangible turns — time your attacks carefully",
+    "risk_notes": "Only attack on non-Intangible turns. Wasting damage on Intangible turns = lost fight.",
+    "recommended_situations": [
+      "Turn-timing skills",
+      "Burst on vulnerable turns",
+      "Status removal"
+    ],
+    "synergy_tags": []
+  }
+]

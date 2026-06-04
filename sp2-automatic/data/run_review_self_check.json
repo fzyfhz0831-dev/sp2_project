@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-06-02T13:03:41.029886+00:00",
+  "steps": {
+    "input_check": true,
+    "run_parser": true,
+    "loss_classifier": true,
+    "run_analyzer": true,
+    "recommendation_generator": true
+  },
+  "files_checked": {
+    "normalized_run": true,
+    "loss_classification": true,
+    "run_analysis": true,
+    "run_analysis_txt": true,
+    "run_recommendations": true,
+    "normalized_run_valid_json": true,
+    "loss_classification_valid_json": true,
+    "run_analysis_valid_json": true,
+    "run_recommendations_valid_json": true
+  },
+  "errors": [],
+  "critical_failure": false
+}

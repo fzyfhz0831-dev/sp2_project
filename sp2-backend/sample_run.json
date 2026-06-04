@@ -1,0 +1,18 @@
+{
+  "character": "Ironclad",
+  "floor_reached": 12,
+  "victory": false,
+  "cards": ["Strike", "Defend", "Bash"],
+  "relics": ["Burning Blood"],
+  "bosses": ["Guardian"],
+  "damage_taken": [
+    {"floor": 1, "damage": 5},
+    {"floor": 6, "damage": 12}
+  ],
+  "path": [
+    {"floor": 1, "type": "combat"},
+    {"floor": 6, "type": "elite"},
+    {"floor": 12, "type": "boss", "name": "Guardian"}
+  ],
+  "score": 123
+}

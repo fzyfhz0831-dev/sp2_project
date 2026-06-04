@@ -1,0 +1,224 @@
+{
+  "run_id": "mock-004-low-scaling",
+  "character": "Regent",
+  "ascension": 4,
+  "floor_reached": 17,
+  "killed_by": "The Guardian",
+  "max_hp": 75,
+  "final_hp": 0,
+  "gold": 145,
+  "cards": [
+    "Celestial Arrow",
+    "Star Chant",
+    "Cosmic Shield",
+    "Divine Strike",
+    "Luminous Burst",
+    "Solar Flare",
+    "Star Barrage",
+    "Starlight Beacon",
+    "Void Step",
+    "Nova",
+    "Guiding Light"
+  ],
+  "relics": [
+    "Holy Water",
+    "Golden Idol",
+    "Smiling Mask"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 75,
+      "hp_after": 70,
+      "picked_card": "Celestial Arrow",
+      "skipped_cards": [
+        "Radiant Shield"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 64,
+      "picked_card": "Star Chant",
+      "skipped_cards": [
+        "Pillar of Creation"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "event",
+      "hp_before": 70,
+      "hp_after": 57,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Golden Idol event – lost HP for Idol."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 57,
+      "hp_after": 49,
+      "picked_card": "Cosmic Shield",
+      "skipped_cards": [
+        "Twilight Shield"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 55,
+      "hp_after": 47,
+      "picked_card": "Divine Strike",
+      "skipped_cards": [
+        "Stellar Core",
+        "Oracle"
+      ],
+      "relic_gained": "",
+      "notes": "Skipped scaling cards Stellar Core and Oracle."
+    },
+    {
+      "floor": 6,
+      "type": "rest",
+      "hp_before": 47,
+      "hp_after": 72,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 7,
+      "type": "elite",
+      "hp_before": 72,
+      "hp_after": 38,
+      "picked_card": "Luminous Burst",
+      "skipped_cards": [
+        "Beacon of Hope",
+        "Constellation"
+      ],
+      "relic_gained": "Smiling Mask",
+      "notes": "Took Luminous Burst for immediate damage over scaling."
+    },
+    {
+      "floor": 8,
+      "type": "combat",
+      "hp_before": 44,
+      "hp_after": 37,
+      "picked_card": "Solar Flare",
+      "skipped_cards": [
+        "Falling Star"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 9,
+      "type": "combat",
+      "hp_before": 43,
+      "hp_after": 36,
+      "picked_card": "Star Barrage",
+      "skipped_cards": [
+        "Heavenly Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 10,
+      "type": "shop",
+      "hp_before": 36,
+      "hp_after": 36,
+      "picked_card": "Void Step",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Void Step – utility but no damage scaling."
+    },
+    {
+      "floor": 11,
+      "type": "rest",
+      "hp_before": 36,
+      "hp_after": 66,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 12,
+      "type": "combat",
+      "hp_before": 66,
+      "hp_after": 57,
+      "picked_card": "Nova",
+      "skipped_cards": [
+        "Star Align",
+        "Shooting Star"
+      ],
+      "relic_gained": "",
+      "notes": "Nova is slow. Skipped Star Align scaling."
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 63,
+      "hp_after": 54,
+      "picked_card": "Guiding Light",
+      "skipped_cards": [
+        "Eclipse"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 14,
+      "type": "event",
+      "hp_before": 54,
+      "hp_after": 54,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgrade shrine – upgraded Divine Strike."
+    },
+    {
+      "floor": 15,
+      "type": "combat",
+      "hp_before": 54,
+      "hp_after": 45,
+      "picked_card": "Starlight Beacon",
+      "skipped_cards": [
+        "Zenith",
+        "Empyrean"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 16,
+      "type": "rest",
+      "hp_before": 45,
+      "hp_after": 68,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Had to rest instead of upgrading – falling behind the curve."
+    },
+    {
+      "floor": 17,
+      "type": "boss",
+      "hp_before": 68,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "The Guardian. No scaling powers in play. Guardian's thorn mode + 36-damage charge out-scaled the deck. Dies on turn 8."
+    }
+  ]
+}

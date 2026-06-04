@@ -1,0 +1,224 @@
+{
+  "run_id": "mock-006-boss-strategy",
+  "character": "Necrobinder",
+  "ascension": 5,
+  "floor_reached": 17,
+  "killed_by": "Hexaghost",
+  "max_hp": 70,
+  "final_hp": 0,
+  "gold": 178,
+  "cards": [
+    "Bone Armor",
+    "Haunting Strike",
+    "Shadow Bolt",
+    "Doom Clock",
+    "Grave Rot",
+    "Death Mark",
+    "Soul Burn",
+    "Dark Ritual",
+    "Carrion Feast",
+    "Life Drain",
+    "Phantom Strike"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Darkstone Periapt",
+    "Ssserpent Head"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 65,
+      "picked_card": "Bone Armor",
+      "skipped_cards": [
+        "Wraith Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 71,
+      "hp_after": 63,
+      "picked_card": "Shadow Bolt",
+      "skipped_cards": [
+        "Death Grip"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "combat",
+      "hp_before": 69,
+      "hp_after": 61,
+      "picked_card": "Haunting Strike",
+      "skipped_cards": [
+        "Nether Shield"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 4,
+      "type": "event",
+      "hp_before": 67,
+      "hp_after": 67,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Ssserpent Head – gained gold, got Doubt curse."
+    },
+    {
+      "floor": 5,
+      "type": "shop",
+      "hp_before": 67,
+      "hp_after": 67,
+      "picked_card": "Doom Clock",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Doom Clock – committing to Doom strategy."
+    },
+    {
+      "floor": 6,
+      "type": "combat",
+      "hp_before": 67,
+      "hp_after": 58,
+      "picked_card": "Grave Rot",
+      "skipped_cards": [
+        "Chill of the Grave"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 58,
+      "hp_after": 70,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 70,
+      "hp_after": 35,
+      "picked_card": "Dark Ritual",
+      "skipped_cards": [
+        "Tombstone",
+        "Grim Harvest"
+      ],
+      "relic_gained": "Darkstone Periapt",
+      "notes": "Sentries. Doom Clock too slow – took tons of damage before Doom triggered."
+    },
+    {
+      "floor": 9,
+      "type": "combat",
+      "hp_before": 41,
+      "hp_after": 33,
+      "picked_card": "Soul Burn",
+      "skipped_cards": [
+        "Unholy Vigor"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 39,
+      "hp_after": 30,
+      "picked_card": "Death Mark",
+      "skipped_cards": [
+        "Bone Storm",
+        "Necrosis"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 11,
+      "type": "event",
+      "hp_before": 36,
+      "hp_after": 36,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Dead Adventurer – fought for a relic, no reward."
+    },
+    {
+      "floor": 12,
+      "type": "rest",
+      "hp_before": 36,
+      "hp_after": 64,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 64,
+      "hp_after": 55,
+      "picked_card": "Life Drain",
+      "skipped_cards": [
+        "Spectral Blade",
+        "Reanimate"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 14,
+      "type": "combat",
+      "hp_before": 61,
+      "hp_after": 52,
+      "picked_card": "Carrion Feast",
+      "skipped_cards": [
+        "Wither"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "combat",
+      "hp_before": 58,
+      "hp_after": 49,
+      "picked_card": "Phantom Strike",
+      "skipped_cards": [
+        "Dread Presence",
+        "Gravedigger"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 16,
+      "type": "rest",
+      "hp_before": 49,
+      "hp_after": 70,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Healed to full. But Doom Deck is too slow for Hexaghost's Inferno pattern."
+    },
+    {
+      "floor": 17,
+      "type": "boss",
+      "hp_before": 70,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Hexaghost. Round 2 Inferno deals 6×6 = 36. Doom Clock at 3 stacks. No burst damage. Dies on round 6 with Hexaghost at 97 HP. Strategy mismatch: Doom is too slow for this boss."
+    }
+  ]
+}

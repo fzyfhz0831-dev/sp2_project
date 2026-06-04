@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "Akabeko",
+    "effect": "At the start of each combat, gain 8 Vigor."
+  },
+  {
+    "name": "Alchemical Coffer",
+    "effect": "Upon pickup, gain 4 potion slots filled with random potions."
+  },
+  {
+    "name": "Amethyst Aubergine",
+    "effect": "Enemies drop 10 additional Gold."
+  },
+  {
+    "name": "Anchor",
+    "effect": "Start each combat with 10 Block."
+  },
+  {
+    "name": "Arcane Scroll",
+    "effect": "Upon pickup, obtain a random Rare Card to add to your Deck."
+  },
+  {
+    "name": "Archaic Tooth",
+    "effect": "Upon pickup, Transform a starter card with an ancient version."
+  },
+  {
+    "name": "Art of War",
+    "effect": "If you do not play any Attacks during your turn, gain an additional Colorless Energy next turn."
+  },
+  {
+    "name": "Astrolabe",
+    "effect": "Upon pickup, Transform 3 cards, then Upgrade them."
+  },
+  {
+    "name": "Bag of Marbles",
+    "effect": "At the start of each combat, apply 1 Vulnerable to ALL enemies."
+  },
+  {
+    "name": "Bag of Preparation",
+    "effect": "At the start of each combat, draw 2 additional cards."
+  },
+  {
+    "name": "Beating Remnant",
+    "effect": "You cannot lose more than 20 HP in a single turn."
+  },
+  {
+    "name": "Beautiful Bracelet",
+    "effect": "Upon pickup, choose 3 cards in your Deck. Enchant them with Swift 3."
+  },
+  {
+    "name": "Bellows",
+    "effect": "The first hand you draw each combat is Upgraded."
+  },
+  {
+    "name": "Belt Buckle",
+    "effect": "While you have no potions, you have 2 additional Dexterity."
+  },
+  {
+    "name": "Big Hat",
+    "effect": "At the start of each combat, add 2 random Ethereal cards into your Hand."
+  },
+  {
+    "name": "Big Mushroom",
+    "effect": "Upon pickup, raise your Max HP by 20. At the start of each combat, draw 2 fewer cards."
+  },
+  {
+    "name": "Biiig Hug",
+    "effect": "Upon pickup, remove 4 cards from your Deck. Whenever you shuffle your Draw Pile, add a Soot into your Draw Pile."
+  },
+  {
+    "name": "Bing Bong",
+    "effect": "Whenever you add a card to your Deck, add one additional copy."
+  },
+  {
+    "name": "Black Blood",
+    "effect": "At the end of combat, heal 12 HP."
+  },
+  {
+    "name": "Black Star",
+    "effect": "Elites drop an additional Relic when defeated."
+  },
+  {
+    "name": "Blessed Antler",
+    "effect": "Gain Colorless Energy at the start of each turn. At the start of each combat, shuffle 3 Dazed into your Draw Pile."
+  },
+  {
+    "name": "Blood Vial",
+    "effect": "At the start of each combat, heal 2 HP."
+  },
+  {
+    "name": "Blood-Soaked Rose",
+    "effect": "Upon pickup, add 1 Enthralled to your Deck. Gain Colorless Energy at the start of each turn."
+  },
+  {
+    "name": "Bone Flute",
+    "effect": "Whenever Osty attacks, gain 2 Block."
+  },
+  {
+    "name": "Bone Tea",
+    "effect": "At the start of the next combat, Upgrade your starting hand."
+  },
+  {
+    "name": "Book of Five Rings",
+    "effect": "Every 5 cards you add to your Deck, heal 15 HP."
+  },
+  {
+    "name": "Book Repair Knife",
+    "effect": "Whenever a non-Minion enemy dies to Doom, heal 3 HP."
+  },
+  {
+    "name": "Bookmark",
+    "effect": "At the end of each turn, lower the cost of a random Retained card by 1 until played."
+  },
+  {
+    "name": "Booming Conch",
+    "effect": "At the start of Elite combats, draw 2 additional cards."
+  },
+  {
+    "name": "Bound Phylactery",
+    "effect": "At the start of your turn, Summon 1."
+  },
+  {
+    "name": "Bowler Hat",
+    "effect": "Gain 20% additional Gold."
+  },
+  {
+    "name": "Bread",
+    "effect": "At the start of your first turn, lose 2 Energy. At the start of all other turns, gain Colorless Energy."
+  },
+  {
+    "name": "Brilliant Scarf",
+    "effect": "The 5th card you play each turn is free."
+  },
+  {
+    "name": "Brimstone",
+    "effect": "At the start of your turn, gain 2 Strength and ALL enemies gain 1 Strength."
+  },
+  {
+    "name": "Bronze Scales",
+    "effect": "Start each combat with 3 Thorns."
+  },
+  {
+    "name": "Burning Blood",
+    "effect": "At the end of combat, heal 6 HP."
+  },
+  {
+    "name": "Burning Sticks",
+    "effect": "The first time each combat you Exhaust a Skill, add a copy of it into your Hand."
+  },
+  {
+    "name": "Byrdpip",
+    "effect": "Upon pickup, gain the card Byrd Swoop. A Byrdpip will accompany you in battles."
+  },
+  {
+    "name": "Calling Bell",
+    "effect": "Upon pickup, obtain a unique Curse and 3 Relics."
+  },
+  {
+    "name": "Candelabra",
+    "effect": "At the start of your 2nd turn, gain 2 Energy."
+  },
+  {
+    "name": "Captain's Wheel",
+    "effect": "At the start of your 3rd turn, gain 18 Block."
+  },
+  {
+    "name": "Cauldron",
+    "effect": "Upon pickup, brews 5 random potions."
+  },
+  {
+    "name": "Centennial Puzzle",
+    "effect": "The first time you lose HP each combat, draw 3 cards."
+  },
+  {
+    "name": "Chandelier",
+    "effect": "At the start of your 3rd turn, gain 3 Energy."
+  },
+  {
+    "name": "Charon's Ashes",
+    "effect": "Whenever you Exhaust a card, deal 3 damage to ALL enemies."
+  },
+  {
+    "name": "Chemical X",
+    "effect": "The effects of your cost X cards are increased by 2."
+  },
+  {
+    "name": "Choices Paradox",
+    "effect": "At the start of each combat, add 1 of 5 random cards into your Hand. Add Retain to the chosen card."
+  },
+  {
+    "name": "Circlet",
+    "effect": "It's a circlet."
+  },
+  {
+    "name": "Claws",
+    "effect": "Upon pickup, Transform up to 6 cards into Maul."
+  },
+  {
+    "name": "Cloak Clasp",
+    "effect": "At the end of your turn, gain 1 Block for each card in your Hand."
+  },
+  {
+    "name": "Cracked Core",
+    "effect": "At the start of each combat, Channel 1 Lightning."
+  },
+  {
+    "name": "Crossbow",
+    "effect": "At the start of your turn, add a random Attack into your Hand. It costs 0 Energy this turn."
+  },
+  {
+    "name": "Cursed Pearl",
+    "effect": "Upon pickup, receive Greed. Gain 333 Gold."
+  },
+  {
+    "name": "Darkstone Periapt",
+    "effect": "Whenever you obtain a Curse, raise your Max HP by 6."
+  },
+  {
+    "name": "Data Disk",
+    "effect": "Start each combat with 1 Focus."
+  },
+  {
+    "name": "Daughter of the Wind",
+    "effect": "Whenever you play an Attack, gain 1 Block."
+  },
+  {
+    "name": "Delicate Frond",
+    "effect": "At the start of each combat, fill all empty potion slots with random potions."
+  },
+  {
+    "name": "Demon Tongue",
+    "effect": "The first time you lose HP on your turn, heal HP equal to the amount lost."
+  },
+  {
+    "name": "Diamond Diadem",
+    "effect": "Whenever you play 2 or fewer cards in a turn, take half damage from enemies."
+  },
+  {
+    "name": "Dingy Rug",
+    "effect": "Card rewards can now contain Colorless cards."
+  },
+  {
+    "name": "Distinguished Cape",
+    "effect": "Upon pickup, lose 9 Max HP. Add 3 Apparitions to your Deck."
+  },
+  {
+    "name": "Divine Destiny",
+    "effect": "At the start of each combat, gain 6 Regent Star Energy."
+  },
+  {
+    "name": "Divine Right",
+    "effect": "At the start of each combat, gain 3 Regent Star Energy."
+  },
+  {
+    "name": "Dolly's Mirror",
+    "effect": "Upon pickup, obtain an additional copy of a card in your Deck."
+  },
+  {
+    "name": "Dragon Fruit",
+    "effect": "Whenever you gain Gold, raise your Max HP by 1."
+  },
+  {
+    "name": "Dream Catcher",
+    "effect": "Whenever you Rest, you may add a card to your Deck."
+  },
+  {
+    "name": "Driftwood",
+    "effect": "You may reroll each card reward once."
+  },
+  {
+    "name": "Dusty Tome",
+    "effect": "Upon pickup, obtain an Ancient Card."
+  },
+  {
+    "name": "Ectoplasm",
+    "effect": "You can no longer gain Gold. Gain Colorless Energy at the start of each turn."
+  },
+  {
+    "name": "Electric Shrymp",
+    "effect": "Upon pickup, Enchant a Skill with Imbued."
+  },
+  {
+    "name": "Ember Tea",
+    "effect": "At the start of the next 5 combats, gain 2 Strength."
+  },
+  {
+    "name": "Emotion Chip",
+    "effect": "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn."
+  },
+  {
+    "name": "Empty Cage",
+    "effect": "Upon pickup, remove 2 cards from your Deck."
+  },
+  {
+    "name": "Eternal Feather",
+    "effect": "For every 5 cards in your Deck, heal 3 HP whenever you enter a Rest Site."
+  },
+  {
+    "name": "Fencing Manual",
+    "effect": "At the start of each combat, Forge 10."
+  },
+  {
+    "name": "Festive Popper",
+    "effect": "At the start of each combat, deal 9 damage to ALL enemies."
+  },
+  {
+    "name": "Fiddle",
+    "effect": "At the start of each turn, draw 2 additional cards. You may not draw cards during your turn."
+  },
+  {
+    "name": "Forgotten Soul",
+    "effect": "Whenever you Exhaust a card, deal 1 damage to a random enemy."
+  },
+  {
+    "name": "Fragrant Mushroom",
+    "effect": "Upon pickup, lose 15 HP and Upgrade 3 random cards."
+  },
+  {
+    "name": "Fresnel Lens",
+    "effect": "Whenever you add a card that gains Block to your Deck, Enchant it with Nimble 2."
+  },
+  {
+    "name": "Frozen Egg",
+    "effect": "Whenever you add a Power into your Deck, Upgrade it."
+  },
+  {
+    "name": "Funerary Mask",
+    "effect": "At the start of each combat, add 3 Souls into your Draw Pile."
+  },
+  {
+    "name": "Fur Coat",
+    "effect": "Upon pickup, mark 7 random combats. Enemies in those rooms have 1 HP."
+  },
+  {
+    "name": "Galactic Dust",
+    "effect": "For every 10 Regent Star Energy spent, gain 10 Block."
+  },
+  {
+    "name": "Gambling Chip",
+    "effect": "At the start of each combat, discard any number of cards then draw that many."
+  },
+  {
+    "name": "Game Piece",
+    "effect": "Whenever you play a Power, draw 1 card."
+  },
+  {
+    "name": "Ghost Seed",
+    "effect": "Strikes and Defends gain Ethereal."
+  },
+  {
+    "name": "Girya",
+    "effect": "You can now gain Strength at Rest Sites."
+  },
+  {
+    "name": "Glass Eye",
+    "effect": "Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare card."
+  },
+  {
+    "name": "Glitter",
+    "effect": "Enchant all card rewards with Glam."
+  },
+  {
+    "name": "Gnarled Hammer",
+    "effect": "Upon pickup, Enchant up to 3 Attacks with Sharp 3."
+  },
+  {
+    "name": "Gold-Plated Cables",
+    "effect": "Your rightmost Orb triggers its passive an additional time."
+  },
+  {
+    "name": "Golden Compass",
+    "effect": "Upon pickup, replace the Act 2 Map with a single special path."
+  },
+  {
+    "name": "Golden Pearl",
+    "effect": "Upon pickup, gain 150 Gold."
+  },
+  {
+    "name": "Gorget",
+    "effect": "At the start of each combat, gain 4 Plating."
+  },
+  {
+    "name": "Gremlin Horn",
+    "effect": "Whenever an enemy dies, gain Colorless Energy and draw 1 card."
+  },
+  {
+    "name": "Hand Drill",
+    "effect": "Whenever you break an enemy's Block, apply 2 Vulnerable."
+  },
+  {
+    "name": "Happy Flower",
+    "effect": "Every 3 turns, gain Colorless Energy."
+  },
+  {
+    "name": "Helical Dart",
+    "effect": "Whenever you play a Shiv, gain 1 Dexterity this turn."
+  },
+  {
+    "name": "History Course",
+    "effect": "At the start of your turn, play a copy of your last played Attack or Skill."
+  },
+  {
+    "name": "Horn Cleat",
+    "effect": "At the start of your 2nd turn, gain 14 Block."
+  },
+  {
+    "name": "Ice Cream",
+    "effect": "Energy is now conserved between turns."
+  },
+  {
+    "name": "Infused Core",
+    "effect": "At the start of each combat, Channel 3 Lightning."
+  },
+  {
+    "name": "Ink Bottle",
+    "effect": "Every time you play a certain number of cards, draw cards."
+  },
+  {
+    "name": "Intimidating Helmet",
+    "effect": "Whenever you play a card that costs 2 Energy or more, gain 4 Block."
+  },
+  {
+    "name": "Iron Club",
+    "effect": "Every 4 cards you play, draw 1 card."
+  },
+  {
+    "name": "Ivory Tile",
+    "effect": "Whenever you play a card that costs 3 Necrobinder Energy or more, gain Necrobinder Energy."
+  },
+  {
+    "name": "Jeweled Mask",
+    "effect": "At the start of combat put a random Power from your Draw Pile into your Hand, it's free to play."
+  },
+  {
+    "name": "Jewelry Box",
+    "effect": "Upon pickup, add 1 Apotheosis to your Deck."
+  },
+  {
+    "name": "Joss Paper",
+    "effect": "Every 5 times you Exhaust a card, draw 1 card."
+  },
+  {
+    "name": "Juzu Bracelet",
+    "effect": "Regular enemy combats are no longer encountered in ? rooms."
+  },
+  {
+    "name": "Kifuda",
+    "effect": "Upon pickup, Enchant up to 3 cards with Adroit."
+  },
+  {
+    "name": "Kunai",
+    "effect": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity."
+  },
+  {
+    "name": "Kusarigama",
+    "effect": "Every time you play 3 Attacks in a single turn, deal 6 damage to a random enemy."
+  },
+  {
+    "name": "Lantern",
+    "effect": "Start each combat with an additional Colorless Energy."
+  },
+  {
+    "name": "Large Capsule",
+    "effect": "Upon pickup, obtain 2 random Relics. Add an additional Strike and Defend to your Deck."
+  },
+  {
+    "name": "Lasting Candy",
+    "effect": "Every other combat, your card rewards gain an additional Power."
+  },
+  {
+    "name": "Lava Lamp",
+    "effect": "At the end of combat, Upgrade all card rewards if you took no damage."
+  },
+  {
+    "name": "Lava Rock",
+    "effect": "The Act 1 Boss drops 2 Relics."
+  },
+  {
+    "name": "Lead Paperweight",
+    "effect": "Upon pickup, choose 1 of 2 Colorless cards to add to your Deck."
+  },
+  {
+    "name": "Leafy Poultice",
+    "effect": "Upon pickup, Transform 1 of your Strikes and 1 of your Defends and lose 10 Max HP."
+  },
+  {
+    "name": "Lee's Waffle",
+    "effect": "Upon pickup, raise your Max HP by 7 and heal all of your HP."
+  },
+  {
+    "name": "Letter Opener",
+    "effect": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies."
+  },
+  {
+    "name": "Lizard Tail",
+    "effect": "When you would die, heal to 50% of your Max HP instead."
+  },
+  {
+    "name": "Looming Fruit",
+    "effect": "Upon pickup, raise your Max HP by 31."
+  },
+  {
+    "name": "Lord's Parasol",
+    "effect": "When you encounter the Merchant, immediately obtain EVERYTHING he sells."
+  },
+  {
+    "name": "Lost Coffer",
+    "effect": "Upon pickup, gain 1 card reward and procure 1 random potion."
+  },
+  {
+    "name": "Lost Wisp",
+    "effect": "Whenever you play a Power, deal 8 damage to ALL enemies."
+  },
+  {
+    "name": "Lucky Fysh",
+    "effect": "Whenever you add a card to your Deck, gain 15 Gold."
+  },
+  {
+    "name": "Lunar Pastry",
+    "effect": "At the end of your turn, gain Regent Star Energy."
+  },
+  {
+    "name": "Mango",
+    "effect": "Upon pickup, raise your Max HP by 14."
+  },
+  {
+    "name": "Massive Scroll",
+    "effect": "Upon pickup, choose 1 of 3 Multiplayer Colorless Cards to add to your Deck."
+  },
+  {
+    "name": "Maw Bank",
+    "effect": "Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at the shop."
+  },
+  {
+    "name": "Meal Ticket",
+    "effect": "Whenever you enter a shop room, heal 15 HP."
+  },
+  {
+    "name": "Meat Cleaver",
+    "effect": "You may Cook at Rest Sites."
+  },
+  {
+    "name": "Meat on the Bone",
+    "effect": "If your HP is at or below 50% at the end of combat, heal 12 HP."
+  },
+  {
+    "name": "Medical Kit",
+    "effect": "Status cards can now be played. Playing a Status will Exhaust the card."
+  },
+  {
+    "name": "Membership Card",
+    "effect": "50% discount on all products!"
+  },
+  {
+    "name": "Mercury Hourglass",
+    "effect": "At the start of your turn, deal 3 damage to ALL enemies."
+  },
+  {
+    "name": "Metronome",
+    "effect": "The first time you Channel 7 Orbs each combat, deal 30 damage to ALL enemies."
+  },
+  {
+    "name": "Mini Regent",
+    "effect": "The first time you spend Regent Star Energy each turn, gain 1 Strength."
+  },
+  {
+    "name": "Miniature Cannon",
+    "effect": "Upgraded Attacks deal 3 additional damage."
+  },
+  {
+    "name": "Miniature Tent",
+    "effect": "You may choose any number of options at Rest Sites."
+  },
+  {
+    "name": "Molten Egg",
+    "effect": "Whenever you add an Attack card to your Deck, Upgrade it."
+  },
+  {
+    "name": "Mr. Struggles",
+    "effect": "At the start of your turn, deal damage equal to the turn number to ALL enemies."
+  },
+  {
+    "name": "Mummified Hand",
+    "effect": "Whenever you play a Power, a random card in your Hand is free to play that turn."
+  },
+  {
+    "name": "Music Box",
+    "effect": "Create an Ethereal copy of the first Attack you play each turn."
+  },
+  {
+    "name": "Mysterious Cocoon",
+    "effect": "Upon gaining experience, transform Training Strike into Impale."
+  },
+  {
+    "name": "Mystic Lighter",
+    "effect": "Enchanted Attacks deal 9 additional damage."
+  },
+  {
+    "name": "Neow's Torment",
+    "effect": "Upon pickup, add 1 Neow's Fury to your Deck."
+  },
+  {
+    "name": "New Leaf",
+    "effect": "Upon pickup, Transform 1 card."
+  },
+  {
+    "name": "Ninja Scroll",
+    "effect": "At the start of each combat, add 3 Shivs into your Hand."
+  },
+  {
+    "name": "Nunchaku",
+    "effect": "Every time you play 10 Attacks, gain Colorless Energy."
+  },
+  {
+    "name": "Nutritious Oyster",
+    "effect": "Upon pickup, raise your Max HP by 11."
+  },
+  {
+    "name": "Nutritious Soup",
+    "effect": "Upon pickup, Enchant all Strikes in your Deck with Tezcatara's Ember."
+  },
+  {
+    "name": "Oddly Smooth Stone",
+    "effect": "Start each combat with 1 Dexterity."
+  },
+  {
+    "name": "Old Coin",
+    "effect": "Upon pickup, gain 300 Gold."
+  },
+  {
+    "name": "Orange Dough",
+    "effect": "At the start of each combat, add 2 random Colorless cards into your Hand."
+  },
+  {
+    "name": "Orichalcum",
+    "effect": "If you end your turn without Block, gain 6 Block."
+  },
+  {
+    "name": "Ornamental Fan",
+    "effect": "Every time you play 3 Attacks in a single turn, gain 4 Block."
+  },
+  {
+    "name": "Orrery",
+    "effect": "Upon pickup, gain 5 card rewards."
+  },
+  {
+    "name": "Pael's Blood",
+    "effect": "At the start of your turn, draw 1 additional card."
+  },
+  {
+    "name": "Pael's Claw",
+    "effect": "Upon pickup, Enchant all Defends with Goopy."
+  },
+  {
+    "name": "Pael's Eye",
+    "effect": "The first time each combat you end your turn without playing cards, Exhaust your Hand, and take an extra turn."
+  },
+  {
+    "name": "Pael's Flesh",
+    "effect": "Gain an additional Colorless Energy at the start of your 3rd turn, and every turn after that."
+  },
+  {
+    "name": "Pael's Growth",
+    "effect": "Upon pickup, Enchant a card with Clone."
+  },
+  {
+    "name": "Pael's Horn",
+    "effect": "Upon pickup, add 2 Relax to your Deck."
+  },
+  {
+    "name": "Pael's Legion",
+    "effect": "Doubles Block gained from a card, then goes to sleep for 2 turns."
+  },
+  {
+    "name": "Pael's Tears",
+    "effect": "If you end your turn with unspent Colorless Energy, gain an additional 2 Energy next turn."
+  },
+  {
+    "name": "Pael's Tooth",
+    "effect": "Upon pickup, remove 5 cards from your Deck. After each combat, randomly add 1 back Upgraded."
+  },
+  {
+    "name": "Pael's Wing",
+    "effect": "You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain a Relic."
+  },
+  {
+    "name": "Pandora's Box",
+    "effect": "Transform ALL Strikes and Defends."
+  },
+  {
+    "name": "Pantograph",
+    "effect": "At the start of each Boss combat, heal 25 HP."
+  },
+  {
+    "name": "Paper Krane",
+    "effect": "Enemies with Weak deal 40% less damage to you rather than 25%."
+  },
+  {
+    "name": "Paper Phrog",
+    "effect": "Enemies with Vulnerable take 75% more damage rather than 50%."
+  },
+  {
+    "name": "Parrying Shield",
+    "effect": "If you end a turn with at least 10 Block, deal 6 damage to a random enemy."
+  },
+  {
+    "name": "Pear",
+    "effect": "Upon pickup, raise your Max HP by 10."
+  },
+  {
+    "name": "Pen Nib",
+    "effect": "Every 10th Attack you play deals double damage."
+  },
+  {
+    "name": "Pendulum",
+    "effect": "Whenever you shuffle your Draw Pile, draw a card."
+  },
+  {
+    "name": "Permafrost",
+    "effect": "The first time you play a Power each combat, gain 6 Block."
+  },
+  {
+    "name": "Petrified Toad",
+    "effect": "At the start of each combat, procure a Potion-Shaped Rock."
+  },
+  {
+    "name": "Philosopher's Stone",
+    "effect": "Gain Colorless Energy at the start of each turn. ALL enemies start combat with 1 Strength."
+  },
+  {
+    "name": "Phylactery Unbound",
+    "effect": "At the start of each combat, Summon 5. At the start of your turn, Summon 2."
+  },
+  {
+    "name": "Planisphere",
+    "effect": "Whenever you enter a ? room, heal 4 HP."
+  },
+  {
+    "name": "Pocketwatch",
+    "effect": "Whenever you play 3 or fewer cards during your turn, draw 3 additional cards at the start of your next turn."
+  },
+  {
+    "name": "Pollinous Core",
+    "effect": "Every 4 turns, draw 2 additional cards."
+  },
+  {
+    "name": "Pomander",
+    "effect": "Upon pickup, Upgrade a card."
+  },
+  {
+    "name": "Potion Belt",
+    "effect": "Upon pickup, gain 2 potion slots."
+  },
+  {
+    "name": "Power Cell",
+    "effect": "At the start of each combat, add 2 zero-cost cards from your Draw Pile into your Hand."
+  },
+  {
+    "name": "Prayer Wheel",
+    "effect": "Normal enemies drop an additional card reward."
+  },
+  {
+    "name": "Precarious Shears",
+    "effect": "Upon pickup, remove 2 cards from your Deck and take 13 damage."
+  },
+  {
+    "name": "Precise Scissors",
+    "effect": "Upon pickup, remove 1 card from your Deck."
+  },
+  {
+    "name": "Preserved Fog",
+    "effect": "Upon pickup, remove 5 cards from your Deck. Add Folly to your Deck."
+  },
+  {
+    "name": "Prismatic Gem",
+    "effect": "Gain Colorless Energy at the start of each turn. Card rewards now contain cards from other colors."
+  },
+  {
+    "name": "Pumpkin Candle",
+    "effect": "Gain Colorless Energy at the start of each turn. Extinguishes at the start of Act 3."
+  },
+  {
+    "name": "Punch Dagger",
+    "effect": "Upon pickup, Enchant an Attack with Momentum 5."
+  },
+  {
+    "name": "Radiant Pearl",
+    "effect": "At the start of each combat, add 1 Luminesce into your Hand."
+  },
+  {
+    "name": "Rainbow Ring",
+    "effect": "The first time you play an Attack, Skill, and Power each turn, gain 1 Strength and 1 Dexterity."
+  },
+  {
+    "name": "Razor Tooth",
+    "effect": "Every time you play an Attack or Skill, Upgrade it for the remainder of combat."
+  },
+  {
+    "name": "Red Mask",
+    "effect": "At the start of each combat, apply 1 Weak to ALL enemies."
+  },
+  {
+    "name": "Red Skull",
+    "effect": "While your HP is at or below 50%, you have 3 additional Strength."
+  },
+  {
+    "name": "Regal Pillow",
+    "effect": "Whenever you Rest, heal an additional 15 HP."
+  },
+  {
+    "name": "Regalite",
+    "effect": "Whenever you create a Colorless card, gain 2 Block."
+  },
+  {
+    "name": "Reptile Trinket",
+    "effect": "Whenever you use a potion, gain 3 Strength this turn."
+  },
+  {
+    "name": "Ring of the Drake",
+    "effect": "At the start of your first 3 turns, draw 2 additional cards."
+  },
+  {
+    "name": "Ring of the Snake",
+    "effect": "At the start of each combat, draw 2 additional cards."
+  },
+  {
+    "name": "Ringing Triangle",
+    "effect": "Retain your Hand on the first turn of combat."
+  },
+  {
+    "name": "Ripple Basin",
+    "effect": "If you did not play any Attacks during your turn, gain 4 Block."
+  },
+  {
+    "name": "Royal Poison",
+    "effect": "At the start of each combat, lose 4 HP."
+  },
+  {
+    "name": "Royal Stamp",
+    "effect": "Upon pickup, choose an Attack or Skill in your Deck to Enchant with Royally Approved."
+  },
+  {
+    "name": "Ruined Helmet",
+    "effect": "The first time you gain Strength each combat, double the amount gained."
+  },
+  {
+    "name": "Runic Capacitor",
+    "effect": "Start each combat with 3 additional Orb Slots."
+  },
+  {
+    "name": "Runic Pyramid",
+    "effect": "At the end of your turn, you no longer discard your Hand."
+  },
+  {
+    "name": "Sai",
+    "effect": "At the start of your turn, gain 7 Block."
+  },
+  {
+    "name": "Sand Castle",
+    "effect": "Upon pickup, Upgrade 6 random cards."
+  },
+  {
+    "name": "Screaming Flagon",
+    "effect": "If you end your turn with no cards in your Hand, deal 20 damage to ALL enemies."
+  },
+  {
+    "name": "Scroll Boxes",
+    "effect": "Upon pickup, lose all Gold and choose 1 of 2 packs of cards to add to your Deck."
+  },
+  {
+    "name": "Sea Glass",
+    "effect": "See 15 cards from another character. Choose any number of them to add to your Deck."
+  },
+  {
+    "name": "Seal of Gold",
+    "effect": "At the start of your turn, spend 5 Gold to gain Colorless Energy."
+  },
+  {
+    "name": "Self-Forming Clay",
+    "effect": "Whenever you lose HP in combat, gain 3 Block next turn."
+  },
+  {
+    "name": "Sere Talon",
+    "effect": "Upon pickup, add 2 random Curses and 3 Wishes to your Deck."
+  },
+  {
+    "name": "Shovel",
+    "effect": "You can now dig at Rest Sites to obtain a random Relic."
+  },
+  {
+    "name": "Shuriken",
+    "effect": "Every time you play 3 Attacks in a single turn, gain 1 Strength."
+  },
+  {
+    "name": "Signet Ring",
+    "effect": "Upon pickup, gain 999 Gold."
+  },
+  {
+    "name": "Silver Crucible",
+    "effect": "The first 3 card rewards you see are Upgraded. The first Treasure Chest you open is empty."
+  },
+  {
+    "name": "Sling of Courage",
+    "effect": "Start each Elite combat with 2 Strength."
+  },
+  {
+    "name": "Small Capsule",
+    "effect": "Upon pickup, obtain a random Relic."
+  },
+  {
+    "name": "Snecko Eye",
+    "effect": "At the start of your turn, draw 2 additional cards. Start each combat Confused."
+  },
+  {
+    "name": "Snecko Skull",
+    "effect": "Whenever you apply Poison, apply an additional 1 Poison."
+  },
+  {
+    "name": "Sozu",
+    "effect": "Gain Colorless Energy at the start of each turn. You can no longer obtain potions."
+  },
+  {
+    "name": "Sparkling Rouge",
+    "effect": "At the start of your 3rd turn, gain 1 Strength and 1 Dexterity."
+  },
+  {
+    "name": "Spiked Gauntlets",
+    "effect": "Gain Colorless Energy at the start of each turn. Powers cost 1 more Colorless Energy."
+  },
+  {
+    "name": "Stone Calendar",
+    "effect": "At the end of turn 7, deal 52 damage to ALL enemies."
+  },
+  {
+    "name": "Stone Cracker",
+    "effect": "At the start of Boss combats, Upgrade 3 random cards in your Draw Pile for the rest of combat."
+  },
+  {
+    "name": "Stone Humidifier",
+    "effect": "Whenever you Rest at a Rest Site, raise your Max HP by 5."
+  },
+  {
+    "name": "Storybook",
+    "effect": "Upon pickup, add 1 Brightest Flame to your Deck."
+  },
+  {
+    "name": "Strawberry",
+    "effect": "Upon pickup, raise your Max HP by 7."
+  },
+  {
+    "name": "Strike Dummy",
+    "effect": "Cards containing \"Strike\" deal 3 additional damage."
+  },
+  {
+    "name": "Sturdy Clamp",
+    "effect": "Up to 10 Block persists across turns."
+  },
+  {
+    "name": "Sword of Jade",
+    "effect": "Start each combat with 3 Strength."
+  },
+  {
+    "name": "Sword of Stone",
+    "effect": "Transforms into a powerful Relic after defeating 5 Elites."
+  },
+  {
+    "name": "Symbiotic Virus",
+    "effect": "At the start of each combat, Channel 1 Dark."
+  },
+  {
+    "name": "Tanx's Whistle",
+    "effect": "Upon pickup, add 1 Whistle to your Deck."
+  },
+  {
+    "name": "Tea of Discourtesy",
+    "effect": "At the start of the next combat, shuffle 2 Dazed into your Draw Pile."
+  },
+  {
+    "name": "The Abacus",
+    "effect": "Whenever you shuffle your Draw Pile, gain 6 Block."
+  },
+  {
+    "name": "The Boot",
+    "effect": "Whenever you would deal 4 or less unblocked attack damage, increase it to 5."
+  },
+  {
+    "name": "The Courier",
+    "effect": "The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%."
+  },
+  {
+    "name": "Throwing Axe",
+    "effect": "The first card you play each combat is played an extra time."
+  },
+  {
+    "name": "Tingsha",
+    "effect": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded."
+  },
+  {
+    "name": "Tiny Mailbox",
+    "effect": "Whenever you Rest, procure a random potion."
+  },
+  {
+    "name": "Toasty Mittens",
+    "effect": "At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength."
+  },
+  {
+    "name": "Toolbox",
+    "effect": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand."
+  },
+  {
+    "name": "Touch of Orobas",
+    "effect": "Upon pickup, replace your starter Relic with an Ancient version."
+  },
+  {
+    "name": "Tough Bandages",
+    "effect": "Whenever you discard a card during your turn, gain 3 Block."
+  },
+  {
+    "name": "Toxic Egg",
+    "effect": "Whenever you add a Skill into your Deck, Upgrade it."
+  },
+  {
+    "name": "Toy Box",
+    "effect": "Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away."
+  },
+  {
+    "name": "Tri-Boomerang",
+    "effect": "Choose 3 Attacks in your Deck. Enchant them with Instinct."
+  },
+  {
+    "name": "Tungsten Rod",
+    "effect": "Whenever you would lose HP, lose 1 less."
+  },
+  {
+    "name": "Tuning Fork",
+    "effect": "Every time you play 10 Skills, gain 7 Block."
+  },
+  {
+    "name": "Twisted Funnel",
+    "effect": "At the start of each combat, apply 4 Poison to ALL enemies."
+  },
+  {
+    "name": "Unceasing Top",
+    "effect": "Whenever you have no cards in Hand during your turn, draw a card."
+  },
+  {
+    "name": "Undying Sigil",
+    "effect": "Enemies with at least as much Doom as HP deal 50% less damage."
+  },
+  {
+    "name": "Unsettling Lamp",
+    "effect": "Each combat, the first time you play a card that Debuffs an enemy, double its effect."
+  },
+  {
+    "name": "Vajra",
+    "effect": "Start each combat with 1 Strength."
+  },
+  {
+    "name": "Vambrace",
+    "effect": "The first time you gain Block from a card each combat, double the amount gained."
+  },
+  {
+    "name": "Velvet Choker",
+    "effect": "Gain Colorless Energy at the start of each turn. You cannot play more than 6 cards per turn."
+  },
+  {
+    "name": "Venerable Tea Set",
+    "effect": "Whenever you enter a Rest Site, start the next combat with an additional 2 Energy."
+  },
+  {
+    "name": "Very Hot Cocoa",
+    "effect": "Start each combat with an additional 4 Energy."
+  },
+  {
+    "name": "Vexing Puzzlebox",
+    "effect": "At the start of each combat, add a random card into your Hand. It costs 0 Energy."
+  },
+  {
+    "name": "Vitruvian Minion",
+    "effect": "Cards containing \"Minion\" deal double damage and gain double Block."
+  },
+  {
+    "name": "War Hammer",
+    "effect": "Whenever you kill an Elite, Upgrade 4 random cards."
+  },
+  {
+    "name": "War Paint",
+    "effect": "Upon pickup, Upgrade 2 random Skills."
+  },
+  {
+    "name": "Whetstone",
+    "effect": "Upon pickup, Upgrade 2 random Attacks."
+  },
+  {
+    "name": "Whispering Earring",
+    "effect": "Gain Colorless Energy at the start of each turn. Vakuu plays your first turn for you."
+  },
+  {
+    "name": "White Beast Statue",
+    "effect": "Potions always appear in combat rewards."
+  },
+  {
+    "name": "White Star",
+    "effect": "Elites drop an additional Rare card reward."
+  },
+  {
+    "name": "Wing Charm",
+    "effect": "A random card in each card reward is Enchanted with Swift 1."
+  },
+  {
+    "name": "Yummy Cookie",
+    "effect": "Upon pickup, Upgrade 4 cards."
+  }
+]

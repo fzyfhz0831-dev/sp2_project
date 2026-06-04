@@ -1,0 +1,32 @@
+Slay the Spire 2 Run Doctor Log Summary
+
+Total log lines: 4352
+INFO messages: 3509
+WARNING messages: 175
+ERROR messages: 151
+Latest pipeline start time: 2026-06-04 11:25:28
+Latest pipeline finish time: 2026-06-04 11:25:29
+
+Latest errors:
+2026-06-02 18:15:37 [ERROR] Missing Reddit credentials in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Set all required Reddit environment variables before running.
+2026-06-02 18:15:37 [ERROR] Module failed: backend.reddit_collector.run(). Error: Missing Reddit credentials in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Set all required Reddit environment variables before running.
+2026-06-02 18:15:37 [ERROR] Reddit comments collector failed: Missing Reddit credentials for reddit_comments_collector
+2026-06-02 18:15:39 [ERROR] Source JSON file is missing: C:\Users\24364\sp2_project\reddit_data.json
+2026-06-02 18:15:39 [ERROR] Source JSON file is missing: C:\Users\24364\sp2_project\data\reddit_comments.json
+2026-06-02 18:21:10 [ERROR] Source JSON file is missing: C:\Users\24364\sp2_project\data\reddit_comments.json
+2026-06-02 18:55:34 [ERROR] Health check failed: missing required field reddit_posts
+2026-06-02 18:55:34 [ERROR] Health check failed: missing required field steam_data
+2026-06-02 18:55:34 [ERROR] Health check failed: invalid JSON in C:\Users\24364\AppData\Local\Temp\pytest-of-24364\pytest-12\test_health_check_returns_fals1\data\latest_insights.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-06-02 18:55:34 [ERROR] Health check failed: steam_news must be a list when present
+
+Latest warnings:
+2026-06-04 11:25:27 [WARNING] app.steam_reviews_collector: SKIPPED_CONFIG missing STEAM_API_KEY
+2026-06-04 11:25:28 [WARNING] Health check warning: reddit_posts is empty
+2026-06-04 11:25:28 [WARNING] Health check warning: steam_data is empty
+2026-06-04 11:25:28 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit post collection will be skipped.
+2026-06-04 11:25:28 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit comment collection will be skipped.
+2026-06-04 11:25:28 [WARNING] WARNING: STEAM_API_KEY is missing or incomplete in .env. Steam player-count collection will be skipped.
+2026-06-04 11:25:28 [WARNING] WARNING: STEAM_API_KEY is missing or incomplete in .env. Steam news collection will be skipped.
+2026-06-04 11:25:28 [WARNING] WARNING: STEAM_API_KEY is missing or incomplete in .env. Steam review collection will be skipped.
+2026-06-04 11:25:29 [WARNING] Health check warning: reddit_posts is empty
+2026-06-04 11:25:29 [WARNING] Health check warning: steam_data is empty

@@ -1,0 +1,25 @@
+{
+  "run_id": 17,
+  "player": "TestPlayer",
+  "deck": [
+    "Strike",
+    "Defend",
+    "Bash",
+    "Inflame",
+    "Headbutt"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Vajra",
+    "Anchor"
+  ],
+  "events": [
+    {"type": "EliteFight", "result": "Victory"},
+    {"type": "Shop", "itemsBought": ["Potion", "Strike"]},
+    {"type": "BossFight", "boss": "SlimeBoss", "result": "Death"}
+  ],
+  "result": "Death",
+  "death_cause": "SlimeBoss",
+  "timestamp": "2026-06-04T12:00:00",
+  "notes": "Test run for frontend-backend integration."
+}

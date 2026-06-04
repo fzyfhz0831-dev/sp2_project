@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-02T10:56:04.645194+00:00",
+  "pipeline_run_status": "passed",
+  "latest_insights_exists": true,
+  "health_check_passed": true,
+  "archive_backup_exists": true,
+  "log_summary_generated": true,
+  "csv_report_generated": true,
+  "html_report_generated": true,
+  "archive_compression_present": true,
+  "test_pipeline": {
+    "ran": true,
+    "returncode": 0,
+    "status": "passed",
+    "output": "backend.reddit_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\nbackend.reddit_comments_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\nRunning backend.steam_collector...\nRunning backend.steam_news_collector...\nRunning backend.steam_reviews_collector...\nRunning backend.official_news_collector...\nRunning backend.collect_data...\nRunning backend.data_cleaner...\nRunning backend.health_check...\nRunning backend.log_analyzer...\nRunning backend.report_generator...\nRunning pipeline_runner...\nWARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit post collection will be skipped.\nWARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit comment collection will be skipped.\n\n=== Pipeline Validation Summary ===\nModules run successfully: 10\n  OK  backend.steam_collector\n  OK  backend.steam_news_collector\n  OK  backend.steam_reviews_collector\n  OK  backend.official_news_collector\n  OK  backend.collect_data\n  OK  backend.data_cleaner\n  OK  backend.health_check\n  OK  backend.log_analyzer\n  OK  backend.report_generator\n  OK  pipeline_runner\n\nModule failures: 0\n\nSkipped modules: 2\n  SKIPPED_CONFIG  backend.reddit_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\n  SKIPPED_CONFIG  backend.reddit_comments_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\n\nJSON validation: JSON validation passed\nArchive backup exists: True\nReports generated: True\nWarnings found: 126\nErrors found: 151\n\nLatest warnings:\n  2026-06-02 18:55:37 [WARNING] Health check warning: reddit_posts is empty\n  2026-06-02 18:55:37 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit post collection will be skipped.\n  2026-06-02 18:55:37 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit comment collection will be skipped.\n  2026-06-02 18:55:41 [WARNING] Health check warning: reddit_posts is empty\n  2026-06-02 18:55:54 [WARNING] backend.reddit_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\n  2026-06-02 18:55:54 [WARNING] backend.reddit_comments_collector: SKIPPED_CONFIG missing REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT\n  2026-06-02 18:55:57 [WARNING] Health check warning: reddit_posts is empty\n  2026-06-02 18:55:57 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit post collection will be skipped.\n  2026-06-02 18:55:57 [WARNING] WARNING: Reddit credentials are missing or incomplete in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Reddit comment collection will be skipped.\n  2026-06-02 18:56:00 [WARNING] Health check warning: reddit_posts is empty\n\nLatest errors:\n  2026-06-02 18:15:37 [ERROR] Missing Reddit credentials in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Set all required Reddit environment variables before running.\n  2026-06-02 18:15:37 [ERROR] Module failed: backend.reddit_collector.run(). Error: Missing Reddit credentials in .env: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT. Set all required Reddit environment variables before running.\n  2026-06-02 18:15:37 [ERROR] Reddit comments collector failed: Missing Reddit credentials for reddit_comments_collector\n  2026-06-02 18:15:39 [ERROR] Source JSON file is missing: C:\\Users\\24364\\sp2_project\\reddit_data.json\n  2026-06-02 18:15:39 [ERROR] Source JSON file is missing: C:\\Users\\24364\\sp2_project\\data\\reddit_comments.json\n  2026-06-02 18:21:10 [ERROR] Source JSON file is missing: C:\\Users\\24364\\sp2_project\\data\\reddit_comments.json\n  2026-06-02 18:55:34 [ERROR] Health check failed: missing required field reddit_posts\n  2026-06-02 18:55:34 [ERROR] Health check failed: missing required field steam_data\n  2026-06-02 18:55:34 [ERROR] Health check failed: invalid JSON in C:\\Users\\24364\\AppData\\Local\\Temp\\pytest-of-24364\\pytest-12\\test_health_check_returns_fals1\\data\\latest_insights.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)\n  2026-06-02 18:55:34 [ERROR] Health check failed: steam_news must be a list when present"
+  },
+  "configuration_warnings": [
+    "Missing Reddit credentials: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT"
+  ],
+  "skipped_modules": [
+    "backend.reddit_collector",
+    "backend.reddit_comments_collector"
+  ],
+  "missing_credentials": {
+    "reddit": [
+      "REDDIT_CLIENT_ID",
+      "REDDIT_CLIENT_SECRET",
+      "REDDIT_USER_AGENT"
+    ],
+    "steam": []
+  },
+  "steam_api_configured": true,
+  "log_analyzer_run_status": true,
+  "report_generator_run_status": true,
+  "critical_failure": false
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "run-unknown-20260603-091216-5413e46f",
+  "character": "Unknown",
+  "ascension": 0,
+  "floor_reached": 0,
+  "killed_by": "unknown",
+  "max_hp": 80,
+  "final_hp": 0,
+  "gold": 0,
+  "cards": [],
+  "relics": [],
+  "path": [
+    {
+      "floor": 0,
+      "type": "combat",
+      "hp_before": 0,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Stub entry — original file did not contain path data.  Killed by: unknown."
+    }
+  ],
+  "source": "upload",
+  "original_filename": "test_ironclad.save"
+}

@@ -1,0 +1,725 @@
+[
+  {
+    "name": "Burning Blood",
+    "type": "Starter",
+    "character": "ironclad",
+    "strengths": [
+      "6 HP heal after each combat",
+      "Enables aggressive pathing",
+      "Reduces rest site dependency"
+    ],
+    "weaknesses": [
+      "Only 6 HP — doesn't save you from burst",
+      "Ironclad-only"
+    ],
+    "synergy_tags": [
+      "healing",
+      "aggressive_pathing",
+      "sustain"
+    ],
+    "scaling_notes": "Flat 6 HP per fight — value scales with number of combats fought per act",
+    "risk_notes": "Use the HP buffer to take extra elites. Each elite = relic reward for 6 HP.",
+    "recommended_situations": [
+      "Aggressive pathing",
+      "Elite hunting",
+      "New players"
+    ]
+  },
+  {
+    "name": "Ring of the Snake",
+    "type": "Starter",
+    "character": "the silent",
+    "strengths": [
+      "Draw 2 extra cards turn 1",
+      "Massive consistency boost",
+      "Fixes bad opening hands"
+    ],
+    "weaknesses": [
+      "Only turn 1",
+      "Silent-only"
+    ],
+    "synergy_tags": [
+      "draw",
+      "turn_1",
+      "consistency",
+      "setup"
+    ],
+    "scaling_notes": "Consistency boost — see more of your deck on turn 1 to find setup cards",
+    "risk_notes": "Always active. One of the best starter relics.",
+    "recommended_situations": [
+      "Finding key powers early",
+      "Combo setup",
+      "Any Silent deck"
+    ]
+  },
+  {
+    "name": "Cracked Core",
+    "type": "Starter",
+    "character": "defect",
+    "strengths": [
+      "Channel 1 Lightning at start of combat",
+      "Passive damage from turn 1",
+      "Free orb"
+    ],
+    "weaknesses": [
+      "1 Lightning is low damage without Focus",
+      "Defect-only"
+    ],
+    "synergy_tags": [
+      "lightning",
+      "orb",
+      "starter",
+      "passive_damage"
+    ],
+    "scaling_notes": "Free passive damage — scales with Focus and number of orb slots",
+    "risk_notes": "3 damage/turn passively. Modest but always relevant.",
+    "recommended_situations": [
+      "Any Defect deck",
+      "Focus scaling",
+      "Orb synergy"
+    ]
+  },
+  {
+    "name": "Pure Water",
+    "type": "Starter",
+    "character": "watcher",
+    "strengths": [
+      "Add a Miracle to hand at start of combat",
+      "Free energy for stance switching",
+      "Enables turn-1 combos"
+    ],
+    "weaknesses": [
+      "1 Miracle is modest",
+      "Watcher-only"
+    ],
+    "synergy_tags": [
+      "energy",
+      "miracle",
+      "stance_dance",
+      "combo_enabler"
+    ],
+    "scaling_notes": "+1 energy on the turn you need it — timing flexibility",
+    "risk_notes": "Use Miracle to enable Wrath -> damage -> Calm exit in one turn.",
+    "recommended_situations": [
+      "Stance dance",
+      "Combo turns",
+      "Any Watcher deck"
+    ]
+  },
+  {
+    "name": "Anchor",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "10 Block on turn 1",
+      "Free setup turn for powers",
+      "Prevents turn-1 chip damage"
+    ],
+    "weaknesses": [
+      "Only turn 1 — no ongoing value",
+      "Outscaled by block engines late-game"
+    ],
+    "synergy_tags": [
+      "turn_1",
+      "setup",
+      "defensive",
+      "block"
+    ],
+    "scaling_notes": "Fixed 10 Block — enables playing 3-cost powers on turn 1 safely",
+    "risk_notes": "Valuable in every deck. The free block lets you play powers on turn 1.",
+    "recommended_situations": [
+      "Any deck",
+      "Setup-heavy builds",
+      "Early game survival"
+    ]
+  },
+  {
+    "name": "Vajra",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "+1 Strength always",
+      "Works with multi-hit",
+      "No downside"
+    ],
+    "weaknesses": [
+      "Small bonus — 1 Strength is modest",
+      "Less impactful in skill-heavy decks"
+    ],
+    "synergy_tags": [
+      "strength",
+      "multi_hit",
+      "attack"
+    ],
+    "scaling_notes": "+1 Strength is permanent — each attack gets +1, multi-hits get +1 per hit",
+    "risk_notes": "Subtle but powerful. 1 Strength on 4 attacks = 4 extra damage per deck cycle.",
+    "recommended_situations": [
+      "Multi-attack decks",
+      "Any physical damage build"
+    ]
+  },
+  {
+    "name": "Lantern",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "+1 energy on turn 1",
+      "Free setup energy",
+      "No downside"
+    ],
+    "weaknesses": [
+      "Only turn 1 — no ongoing benefit",
+      "Less valuable in slow decks"
+    ],
+    "synergy_tags": [
+      "turn_1",
+      "energy",
+      "setup"
+    ],
+    "scaling_notes": "One-time energy boost — enables faster deployment of scaling cards",
+    "risk_notes": "Always helpful. Enables turn-1 powers, Whirlwind, or setup.",
+    "recommended_situations": [
+      "Any deck",
+      "Setup-heavy builds",
+      "Aggressive starts"
+    ]
+  },
+  {
+    "name": "Bag of Preparation",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "Draw 2 additional cards turn 1",
+      "Massive opening hand consistency",
+      "Finds key cards faster"
+    ],
+    "weaknesses": [
+      "Only turn 1",
+      "Less impactful in small decks"
+    ],
+    "synergy_tags": [
+      "draw",
+      "turn_1",
+      "consistency"
+    ],
+    "scaling_notes": "Consistency — see more cards turn 1 to find your setup pieces",
+    "risk_notes": "Premium common relic. Always happy to see this.",
+    "recommended_situations": [
+      "Any deck",
+      "Combo-reliant decks",
+      "Large decks"
+    ]
+  },
+  {
+    "name": "Horn Cleat",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "14 Block on turn 2",
+      "Survives early burst turns",
+      "Predictable timing"
+    ],
+    "weaknesses": [
+      "Only turn 2",
+      "Doesn't help on other critical turns"
+    ],
+    "synergy_tags": [
+      "defensive",
+      "turn_2",
+      "block"
+    ],
+    "scaling_notes": "Fixed value — buy time for your scaling engine to come online",
+    "risk_notes": "Good for surviving turn-2 burst from elites like Gremlin Nob.",
+    "recommended_situations": [
+      "Act 1 elites",
+      "Slow setup decks",
+      "Early defense needs"
+    ]
+  },
+  {
+    "name": "Kunai",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "+1 Dexterity per 3 attacks played",
+      "Passive block scaling",
+      "Infinite ceiling in long fights"
+    ],
+    "weaknesses": [
+      "Needs high attack frequency (3/turn)",
+      "Low impact in slow decks"
+    ],
+    "synergy_tags": [
+      "dexterity",
+      "shiv",
+      "multi_attack",
+      "0_cost"
+    ],
+    "scaling_notes": "+1 Dexterity per 3 attacks every turn — rewards high attack-density decks",
+    "risk_notes": "Shiv decks love Kunai. In slow poison decks it's much weaker.",
+    "recommended_situations": [
+      "Shiv Silent",
+      "Multi-attack Ironclad",
+      "High card-play-rate decks"
+    ]
+  },
+  {
+    "name": "Shuriken",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "+1 Strength per 3 attacks played",
+      "Passive damage scaling",
+      "Stacks with itself"
+    ],
+    "weaknesses": [
+      "Needs high attack frequency",
+      "Low impact in skill/power-heavy decks"
+    ],
+    "synergy_tags": [
+      "strength",
+      "shiv",
+      "multi_attack"
+    ],
+    "scaling_notes": "+1 Strength per 3 attacks per turn — passive damage scaling in attack-heavy decks",
+    "risk_notes": "Strong in Silent shiv and Ironclad multi-attack decks. Dead in Defect frost.",
+    "recommended_situations": [
+      "Attack-heavy decks",
+      "Shiv Silent",
+      "Strength Ironclad"
+    ]
+  },
+  {
+    "name": "Mummified Hand",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "Powers make a random card cost 0",
+      "Chain powers for massive turns",
+      "Energy cheat engine"
+    ],
+    "weaknesses": [
+      "Needs multiple powers in deck",
+      "Random target can hit already-0-cost card"
+    ],
+    "synergy_tags": [
+      "power_spam",
+      "creative_ai",
+      "defect",
+      "energy"
+    ],
+    "scaling_notes": "Scales with power count — the more powers you have, the more free cards you get",
+    "risk_notes": "Defect power-spam deck's best friend. Less valuable in low-power decks.",
+    "recommended_situations": [
+      "Defect power decks",
+      "Any power-heavy build",
+      "Creative AI synergy"
+    ]
+  },
+  {
+    "name": "Ornamental Fan",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "+4 Block per 3 attacks played",
+      "Passive defense",
+      "Pairs with Kunai/Shuriken"
+    ],
+    "weaknesses": [
+      "4 Block is modest per trigger",
+      "Needs high attack frequency"
+    ],
+    "synergy_tags": [
+      "block",
+      "shiv",
+      "multi_attack",
+      "defensive"
+    ],
+    "scaling_notes": "Passive 4 block per 3 attacks — pairs perfectly with Kunai/Shuriken triggers",
+    "risk_notes": "Best in shiv or multi-attack decks. Triggers on the same 3-attack counter as Kunai.",
+    "recommended_situations": [
+      "Shiv Silent",
+      "Multi-attack builds",
+      "Kunai/Shuriken synergy"
+    ]
+  },
+  {
+    "name": "Dead Branch",
+    "type": "Rare",
+    "character": null,
+    "strengths": [
+      "Adds random card on exhaust",
+      "Infinite value with Corruption",
+      "Game-winning synergy"
+    ],
+    "weaknesses": [
+      "Random cards can clutter hand",
+      "Unreliable — can't plan around random cards"
+    ],
+    "synergy_tags": [
+      "exhaust",
+      "corruption",
+      "fiend_fire",
+      "shiv"
+    ],
+    "scaling_notes": "Scales with exhaust triggers — each exhaust generates new options from thin air",
+    "risk_notes": "With Corruption: instant win. Without exhaust: mediocre. Pairs with Fiend Fire.",
+    "recommended_situations": [
+      "Corruption decks",
+      "Exhaust-heavy builds",
+      "Shiv decks (exhaust on use)"
+    ]
+  },
+  {
+    "name": "Incense Burner",
+    "type": "Rare",
+    "character": null,
+    "strengths": [
+      "Intangible every 6 turns",
+      "Predictable — can plan around it",
+      "Saves you on big attack turns"
+    ],
+    "weaknesses": [
+      "Requires turn counting",
+      "6-turn cooldown is long",
+      "Doesn't help if fight ends fast"
+    ],
+    "synergy_tags": [
+      "intangible",
+      "defensive",
+      "stall",
+      "boss_counter"
+    ],
+    "scaling_notes": "Timing-based defense — set up the counter to trigger on boss attack turns",
+    "risk_notes": "Count the turns. Enter elite/boss fights with the counter on 5 for turn-2 Intangible.",
+    "recommended_situations": [
+      "Boss fights",
+      "Setup-heavy decks",
+      "Turn-planning players"
+    ]
+  },
+  {
+    "name": "Fossilized Helix",
+    "type": "Rare",
+    "character": null,
+    "strengths": [
+      "Prevent first HP loss each combat",
+      "Blocks ANY attack once",
+      "Boss opener counter"
+    ],
+    "weaknesses": [
+      "Only once per combat",
+      "Wasted on chip damage",
+      "Can't control when it triggers"
+    ],
+    "synergy_tags": [
+      "defensive",
+      "boss_counter",
+      "setup"
+    ],
+    "scaling_notes": "Fixed effect — prevents one instance of HP loss. Most valuable vs boss hyper-beams.",
+    "risk_notes": "Try not to waste it on 3-damage hits. Play around preserving it for big attacks.",
+    "recommended_situations": [
+      "Boss fights",
+      "High-burst enemy fights",
+      "Aggressive pathing"
+    ]
+  },
+  {
+    "name": "Coffee Dripper",
+    "type": "Boss",
+    "character": null,
+    "strengths": [
+      "+1 energy per turn permanently",
+      "No combat downside",
+      "Best energy relic if you have sustain"
+    ],
+    "weaknesses": [
+      "Cannot rest at campfires",
+      "Risky without alternative healing sources"
+    ],
+    "synergy_tags": [
+      "energy",
+      "healing",
+      "self_repair",
+      "reaper",
+      "meat_on_the_bone"
+    ],
+    "scaling_notes": "Permanent +1 energy — enables 4-energy turns every single turn",
+    "risk_notes": "Only take if you have sustain (Reaper, Self Repair, Meat on the Bone, etc.).",
+    "recommended_situations": [
+      "Sustain decks",
+      "After Act 2 if healthy",
+      "Healing relic synergy"
+    ]
+  },
+  {
+    "name": "Fusion Hammer",
+    "type": "Boss",
+    "character": null,
+    "strengths": [
+      "+1 energy per turn",
+      "Can still upgrade via events and egg relics",
+      "Strong if deck is upgraded"
+    ],
+    "weaknesses": [
+      "Cannot smith at campfires",
+      "Punishes unupgraded decks",
+      "No more upgrades"
+    ],
+    "synergy_tags": [
+      "energy",
+      "apotheosis",
+      "egg_relics",
+      "upgraded_deck"
+    ],
+    "scaling_notes": "Time-locks your upgrades — plan around the point you take it",
+    "risk_notes": "Take if your key cards are already upgraded or you have Apotheosis/Egg relics.",
+    "recommended_situations": [
+      "Well-upgraded decks",
+      "Apotheosis available",
+      "Late Act 2+ if upgraded"
+    ]
+  },
+  {
+    "name": "Runic Dome",
+    "type": "Boss",
+    "character": null,
+    "strengths": [
+      "+1 energy per turn",
+      "No combat penalty if you know enemy patterns",
+      "Highest upside energy relic"
+    ],
+    "weaknesses": [
+      "Cannot see enemy intents — blind",
+      "Punishing if you don't know enemy attack patterns"
+    ],
+    "synergy_tags": [
+      "energy",
+      "enemy_knowledge",
+      "block_engine",
+      "experienced"
+    ],
+    "scaling_notes": "Pure energy — the 'downside' is information loss, not mechanical penalty",
+    "risk_notes": "Only for experienced players. Knowledge of all enemy patterns is mandatory.",
+    "recommended_situations": [
+      "Experienced players",
+      "Block-heavy decks (always block)",
+      "Pattern knowledge"
+    ]
+  },
+  {
+    "name": "Snecko Eye",
+    "type": "Boss",
+    "character": null,
+    "strengths": [
+      "Draw 2 extra cards every turn",
+      "Confusion randomizes costs — can be 0",
+      "High-variance powerhouse"
+    ],
+    "weaknesses": [
+      "Confusion can make key cards cost 3",
+      "High variance — can brick your hand",
+      "Unreliable"
+    ],
+    "synergy_tags": [
+      "draw",
+      "high_cost_deck",
+      "confusion",
+      "variance"
+    ],
+    "scaling_notes": "Confusion randomizes all costs — build around expensive cards for maximum upside",
+    "risk_notes": "Pick expensive cards (2-3 cost) after taking Snecko. Average cost becomes 1.5.",
+    "recommended_situations": [
+      "High-cost decks",
+      "Demon Form/Barricade/Echo Form builds",
+      "Draw value"
+    ]
+  },
+  {
+    "name": "Orange Pellets",
+    "type": "Shop",
+    "character": null,
+    "strengths": [
+      "Cleanse ALL debuffs when you play Attack+Skill+Power",
+      "Negates Biased Cognition downside",
+      "Best shop relic"
+    ],
+    "weaknesses": [
+      "Requires playing 3 card types in one turn",
+      "Can't always trigger it"
+    ],
+    "synergy_tags": [
+      "debuff_cleanse",
+      "biased_cognition",
+      "wraith_form",
+      "flex"
+    ],
+    "scaling_notes": "Infinite value — cleanses ANY debuff including 'lose Focus', 'lose Dexterity', etc.",
+    "risk_notes": "Must play Attack + Skill + Power in same turn. Plan your turns to trigger it.",
+    "recommended_situations": [
+      "Biased Cognition decks",
+      "Wraith Form synergy",
+      "Any debuff-heavy fights"
+    ]
+  },
+  {
+    "name": "Medical Kit",
+    "type": "Shop",
+    "character": null,
+    "strengths": [
+      "Status cards can be played and exhausted",
+      "Turns Wounds/Burns into resources",
+      "Status immunity"
+    ],
+    "weaknesses": [
+      "Niche — only good if you generate or face status cards",
+      "Shop-only — expensive"
+    ],
+    "synergy_tags": [
+      "exhaust",
+      "status_counter",
+      "feel_no_pain",
+      "dark_embrace"
+    ],
+    "scaling_notes": "Every status card becomes an exhaust trigger — fuel for Feel No Pain/Dark Embrace",
+    "risk_notes": "Makes Hexaghost, Slime Boss, and some elites significantly easier.",
+    "recommended_situations": [
+      "Ironclad exhaust engines",
+      "Status-heavy fights",
+      "Feel No Pain synergy"
+    ]
+  },
+  {
+    "name": "Apparition",
+    "type": "Event",
+    "character": null,
+    "strengths": [
+      "Intangible for 1 turn — take 1 damage from everything",
+      "Can win boss fights alone",
+      "Stackable"
+    ],
+    "weaknesses": [
+      "Halves max HP",
+      "Only 3(5) uses per combat",
+      "Exhausts — limited uses"
+    ],
+    "synergy_tags": [
+      "intangible",
+      "hp_loss",
+      "boss_counter",
+      "defensive"
+    ],
+    "scaling_notes": "1 damage from any hit — the ultimate damage cap. 5 Apparitions = 5 turns of near-invincibility.",
+    "risk_notes": "Only take if you have enough max HP to survive the reduction. Don't go below 30 HP.",
+    "recommended_situations": [
+      "High max HP",
+      "Boss fights",
+      "Wraith Form synergy"
+    ]
+  },
+  {
+    "name": "Mercury Hourglass",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "Deal 3 damage to ALL enemies every turn",
+      "Passive unconditional AoE",
+      "Stacks with itself"
+    ],
+    "weaknesses": [
+      "3 damage/turn is slow",
+      "Doesn't scale without multiple copies or Strength"
+    ],
+    "synergy_tags": [
+      "passive_damage",
+      "aoe",
+      "stall"
+    ],
+    "scaling_notes": "Fixed 3 damage per turn to all enemies — slow but inevitable",
+    "risk_notes": "Useful for stripping artifact and finishing low-HP enemies. Modest but reliable.",
+    "recommended_situations": [
+      "Stall decks",
+      "Multi-enemy fights",
+      "Artifact stripping"
+    ]
+  },
+  {
+    "name": "Blood Vial",
+    "type": "Common",
+    "character": null,
+    "strengths": [
+      "Heal 2 HP at start of each combat",
+      "Passive sustain",
+      "No downside"
+    ],
+    "weaknesses": [
+      "2 HP is very small",
+      "Won't save you from big HP losses"
+    ],
+    "synergy_tags": [
+      "healing",
+      "sustain",
+      "passive"
+    ],
+    "scaling_notes": "2 HP per combat × 15 combats = 30 HP per act — small but adds up",
+    "risk_notes": "Take every bit of sustain you can get. Don't pass this up.",
+    "recommended_situations": [
+      "Any deck",
+      "Low-sustain characters",
+      "Aggressive pathing"
+    ]
+  },
+  {
+    "name": "Self-Forming Clay",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "Gain 3 Block next turn when you lose HP",
+      "Anti-burst defense",
+      "Passive block"
+    ],
+    "weaknesses": [
+      "Reactive — can't plan around it precisely",
+      "3 Block is modest"
+    ],
+    "synergy_tags": [
+      "defensive",
+      "self_damage",
+      "block"
+    ],
+    "scaling_notes": "Each HP loss instance triggers 3 block next turn — multiple hits stack the effect",
+    "risk_notes": "Great against multi-hit enemies. Each hit = separate trigger for next-turn block.",
+    "recommended_situations": [
+      "Multi-hit enemy fights",
+      "Self-damage decks",
+      "Defensive builds"
+    ]
+  },
+  {
+    "name": "Meat on the Bone",
+    "type": "Uncommon",
+    "character": null,
+    "strengths": [
+      "Heal 12 HP if HP <= 50% at end of combat",
+      "Massive sustain",
+      "Saves runs"
+    ],
+    "weaknesses": [
+      "Only triggers below 50%",
+      "Doesn't help during combat"
+    ],
+    "synergy_tags": [
+      "healing",
+      "sustain",
+      "comeback"
+    ],
+    "scaling_notes": "12 HP heal × multiple triggers per act = enormous sustain if HP is managed well",
+    "risk_notes": "Intentionally end fights below 50% to trigger. Don't overheal — maximize triggers.",
+    "recommended_situations": [
+      "Any deck",
+      "Aggressive pathing",
+      "Low-sustain characters"
+    ]
+  }
+]

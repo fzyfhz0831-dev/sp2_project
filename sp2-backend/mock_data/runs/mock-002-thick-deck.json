@@ -1,0 +1,317 @@
+{
+  "run_id": "mock-002-thick-deck",
+  "character": "Silent",
+  "ascension": 3,
+  "floor_reached": 23,
+  "killed_by": "Snake Plant",
+  "max_hp": 70,
+  "final_hp": 0,
+  "gold": 94,
+  "cards": [
+    "Survivor",
+    "Neutralize",
+    "Blade Dance",
+    "Dagger Throw",
+    "Quick Slash",
+    "Backflip",
+    "Bouncing Flask",
+    "Slice",
+    "Deflect",
+    "Sucker Punch",
+    "Dodge and Roll",
+    "Prepared",
+    "Flying Knee",
+    "Cloak and Dagger",
+    "Poisoned Stab",
+    "Piercing Wail",
+    "Caltrops",
+    "Endless Agony",
+    "Reflex",
+    "Acrobatics",
+    "Leg Sweep",
+    "Outmaneuver",
+    "Setup",
+    "Dagger Spray",
+    "Heel Hook",
+    "Distraction",
+    "Escape Plan",
+    "Terror",
+    "Infinite Blades",
+    "Flechettes"
+  ],
+  "relics": [
+    "Ring of the Snake",
+    "Orichalcum",
+    "Maw Bank",
+    "Tiny Chest",
+    "Prayer Wheel"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 66,
+      "picked_card": "Blade Dance",
+      "skipped_cards": [
+        "Deflect"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 66,
+      "hp_after": 62,
+      "picked_card": "Dagger Throw",
+      "skipped_cards": [
+        "Slice"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "combat",
+      "hp_before": 62,
+      "hp_after": 57,
+      "picked_card": "Quick Slash",
+      "skipped_cards": [
+        "Prepared"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 4,
+      "type": "event",
+      "hp_before": 63,
+      "hp_after": 63,
+      "picked_card": "Backflip",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Took card reward from event – deck is growing."
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 63,
+      "hp_after": 58,
+      "picked_card": "Bouncing Flask",
+      "skipped_cards": [
+        "Backstab",
+        "Finisher"
+      ],
+      "relic_gained": "",
+      "notes": "Took rare poison card but deck is split between shiv and poison."
+    },
+    {
+      "floor": 6,
+      "type": "shop",
+      "hp_before": 58,
+      "hp_after": 58,
+      "picked_card": "Slice",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought a cheap card – deck bloat continues."
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 58,
+      "hp_after": 70,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Full heal."
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 70,
+      "hp_after": 44,
+      "picked_card": "Cloak and Dagger",
+      "skipped_cards": [
+        "Storm of Steel",
+        "Skewer"
+      ],
+      "relic_gained": "Orichalcum",
+      "notes": "Lagavulin. Long fight, took chip damage every turn."
+    },
+    {
+      "floor": 9,
+      "type": "combat",
+      "hp_before": 50,
+      "hp_after": 45,
+      "picked_card": "Poisoned Stab",
+      "skipped_cards": [
+        "Riddle with Holes"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 45,
+      "hp_after": 41,
+      "picked_card": "Piercing Wail",
+      "skipped_cards": [
+        "Dash"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 11,
+      "type": "combat",
+      "hp_before": 47,
+      "hp_after": 40,
+      "picked_card": "Caltrops",
+      "skipped_cards": [
+        "Masterful Stab"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 12,
+      "type": "event",
+      "hp_before": 40,
+      "hp_after": 40,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Living Wall – swapped a Strike for Endless Agony."
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 40,
+      "hp_after": 35,
+      "picked_card": "Reflex",
+      "skipped_cards": [
+        "Concentrate",
+        "Tactician"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 14,
+      "type": "rest",
+      "hp_before": 35,
+      "hp_after": 58,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "elite",
+      "hp_before": 58,
+      "hp_after": 29,
+      "picked_card": "Leg Sweep",
+      "skipped_cards": [
+        "Unload",
+        "Blur"
+      ],
+      "relic_gained": "Maw Bank",
+      "notes": "Book of Stabbing – had no consistent block engine."
+    },
+    {
+      "floor": 16,
+      "type": "combat",
+      "hp_before": 35,
+      "hp_after": 31,
+      "picked_card": "Outmaneuver",
+      "skipped_cards": [
+        "Setup",
+        "Sucker Punch"
+      ],
+      "relic_gained": "",
+      "notes": "Prayer Wheel doubles card picks – deck swells to 30 cards."
+    },
+    {
+      "floor": 17,
+      "type": "combat",
+      "hp_before": 31,
+      "hp_after": 26,
+      "picked_card": "Dagger Spray",
+      "skipped_cards": [
+        "Deadly Poison"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 18,
+      "type": "shop",
+      "hp_before": 26,
+      "hp_after": 26,
+      "picked_card": "Terror",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Terror but deck is too thick to draw it reliably."
+    },
+    {
+      "floor": 19,
+      "type": "rest",
+      "hp_before": 26,
+      "hp_after": 52,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 20,
+      "type": "combat",
+      "hp_before": 52,
+      "hp_after": 44,
+      "picked_card": "Heel Hook",
+      "skipped_cards": [
+        "Flechettes"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 21,
+      "type": "combat",
+      "hp_before": 50,
+      "hp_after": 39,
+      "picked_card": "Infinite Blades",
+      "skipped_cards": [
+        "Escape Plan",
+        "Distraction"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 22,
+      "type": "combat",
+      "hp_before": 45,
+      "hp_after": 35,
+      "picked_card": "Flechettes",
+      "skipped_cards": [
+        "Grand Finale"
+      ],
+      "relic_gained": "",
+      "notes": "Deck is now 30 cards. Can't find key powers when needed."
+    },
+    {
+      "floor": 23,
+      "type": "combat",
+      "hp_before": 35,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Snake Plant. Drew 0 block cards on turn 2 against 8×3 attack. Dies with Caltrops in draw pile."
+    }
+  ]
+}

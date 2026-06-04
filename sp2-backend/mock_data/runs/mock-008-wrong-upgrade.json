@@ -1,0 +1,240 @@
+{
+  "run_id": "mock-008-wrong-upgrade",
+  "character": "Defect",
+  "ascension": 4,
+  "floor_reached": 19,
+  "killed_by": "Snecko",
+  "max_hp": 75,
+  "final_hp": 0,
+  "gold": 167,
+  "cards": [
+    "Zap+1",
+    "Dualcast+1",
+    "Defragment",
+    "Coolheaded",
+    "Creative AI",
+    "Glacier",
+    "Ball Lightning",
+    "Compile Driver",
+    "Self Repair",
+    "Storm"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Frozen Core",
+    "Inserter"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 75,
+      "hp_after": 69,
+      "picked_card": "Ball Lightning",
+      "skipped_cards": [
+        "Stack"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 69,
+      "hp_after": 62,
+      "picked_card": "Coolheaded",
+      "skipped_cards": [
+        "Rebound"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "rest",
+      "hp_before": 68,
+      "hp_after": 68,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgraded Zap instead of Coolheaded. Wanted more damage from starting card."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 68,
+      "hp_after": 60,
+      "picked_card": "Defragment",
+      "skipped_cards": [
+        "Streamline",
+        "Go for the Eyes"
+      ],
+      "relic_gained": "",
+      "notes": "Got Defragment – the best power but stays unupgraded."
+    },
+    {
+      "floor": 5,
+      "type": "event",
+      "hp_before": 60,
+      "hp_after": 60,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 6,
+      "type": "combat",
+      "hp_before": 60,
+      "hp_after": 53,
+      "picked_card": "Glacier",
+      "skipped_cards": [
+        "Sweeping Beam"
+      ],
+      "relic_gained": "",
+      "notes": "Glacier is great. But left unupgraded."
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 53,
+      "hp_after": 53,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgraded Dualcast instead of Defragment. Wanted burst damage."
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 53,
+      "hp_after": 22,
+      "picked_card": "Creative AI",
+      "skipped_cards": [
+        "Multi-Cast",
+        "Chaos"
+      ],
+      "relic_gained": "Frozen Core",
+      "notes": "Creative AI is great but needs energy. Dualcast+1 was irrelevant this fight."
+    },
+    {
+      "floor": 9,
+      "type": "rest",
+      "hp_before": 22,
+      "hp_after": 55,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Had to rest. Three campfires so far, two wasted on wrong upgrades."
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 55,
+      "hp_after": 46,
+      "picked_card": "Compile Driver",
+      "skipped_cards": [
+        "Heatsinks",
+        "Scrape"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 11,
+      "type": "combat",
+      "hp_before": 52,
+      "hp_after": 42,
+      "picked_card": "Self Repair",
+      "skipped_cards": [
+        "Recycle",
+        "Lock On"
+      ],
+      "relic_gained": "",
+      "notes": "Self Repair unupgraded – heals 7 instead of 10."
+    },
+    {
+      "floor": 12,
+      "type": "shop",
+      "hp_before": 42,
+      "hp_after": 42,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Inserter relic. Good for orb slots but needs focus scaling."
+    },
+    {
+      "floor": 13,
+      "type": "rest",
+      "hp_before": 42,
+      "hp_after": 42,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "FINALLY upgraded Defragment. But it's act 2 and pacing is off."
+    },
+    {
+      "floor": 14,
+      "type": "combat",
+      "hp_before": 42,
+      "hp_after": 34,
+      "picked_card": "Storm",
+      "skipped_cards": [
+        "Force Field",
+        "Tempest"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "elite",
+      "hp_before": 34,
+      "hp_after": 15,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Book of Stabbing. No focus scaling + unupgraded block. Barely survived 15 HP."
+    },
+    {
+      "floor": 16,
+      "type": "rest",
+      "hp_before": 15,
+      "hp_after": 48,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Desperate heal. Can't upgrade anymore."
+    },
+    {
+      "floor": 17,
+      "type": "combat",
+      "hp_before": 48,
+      "hp_after": 38,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 18,
+      "type": "combat",
+      "hp_before": 44,
+      "hp_after": 33,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 19,
+      "type": "combat",
+      "hp_before": 33,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Snecko. Confusion randomized costs. Creative AI and Defragment both cost 3. Dies with a hand full of unplayable cards. Wrong upgrade priority throughout the run."
+    }
+  ]
+}

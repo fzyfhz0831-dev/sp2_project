@@ -1,0 +1,1030 @@
+[
+  {
+    "name": "Accelerant",
+    "effect": "Poison is triggered an additional time."
+  },
+  {
+    "name": "Accuracy",
+    "effect": "Shivs deal additional damage."
+  },
+  {
+    "name": "Adaptable",
+    "effect": "When this creature would be defeated, it instead revives even stronger."
+  },
+  {
+    "name": "Afterimage",
+    "effect": "Whenever you play a card, gain 1 Block."
+  },
+  {
+    "name": "Aggression",
+    "effect": "At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it for the rest of combat."
+  },
+  {
+    "name": "Anticipate",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Arsenal",
+    "effect": "Whenever you play a Colorless card, gain 1 Strength."
+  },
+  {
+    "name": "Artifact",
+    "effect": "Negates debuffs."
+  },
+  {
+    "name": "Asleep",
+    "effect": "TODO"
+  },
+  {
+    "name": "Automation",
+    "effect": "Every 10 cards you draw, gain Energy."
+  },
+  {
+    "name": "Back Attack",
+    "effect": "Deals 50% more damage when it is attacking you from behind."
+  },
+  {
+    "name": "Back Attack",
+    "effect": "Deals 50% more damage when it is attacking you from behind."
+  },
+  {
+    "name": "Barricade",
+    "effect": "Block is not removed at the start of your turn."
+  },
+  {
+    "name": "Beacon of Hope",
+    "effect": "Whenever you gain Block on your turn, other players gain half that much Block."
+  },
+  {
+    "name": "Biased Cognition",
+    "effect": "At the start of your turn, lose 1 Focus."
+  },
+  {
+    "name": "Black Hole",
+    "effect": "Whenever you spend or gain Star, deal 3 damage to ALL enemies."
+  },
+  {
+    "name": "Blade of Ink",
+    "effect": "Whenever you play an Attack this turn, gain 2 Strength this turn."
+  },
+  {
+    "name": "Block Next Turn",
+    "effect": "At the start of your next turn, gain 4 Block."
+  },
+  {
+    "name": "Blur",
+    "effect": "Block is not removed at the start of your next turn."
+  },
+  {
+    "name": "Buffer",
+    "effect": "Prevent the next time you would lose HP."
+  },
+  {
+    "name": "Burrowed",
+    "effect": "Block is not removed at the start of this creature's turn. Stunned if all Block is removed."
+  },
+  {
+    "name": "Burst",
+    "effect": "This turn, your next Skill is played an extra time."
+  },
+  {
+    "name": "Calamity",
+    "effect": "Whenever you play an Attack, add a random Attack into your Hand."
+  },
+  {
+    "name": "Calcify",
+    "effect": "Osty's attacks deal additional damage."
+  },
+  {
+    "name": "Call of the Void",
+    "effect": "At the start of your turn, add 1 random card into your Hand and apply Ethereal to it."
+  },
+  {
+    "name": "Chains of Binding",
+    "effect": "The first 3 cards drawn each turn are Afflicted with Bound."
+  },
+  {
+    "name": "Child of the Stars",
+    "effect": "Gain 1 Block for each Star spent."
+  },
+  {
+    "name": "Clarity",
+    "effect": "At the start of your next turn, draw 1 additional card."
+  },
+  {
+    "name": "Colossus",
+    "effect": "You receive 50% less damage from Vulnerable enemies this turn."
+  },
+  {
+    "name": "Confused",
+    "effect": "The costs of your cards are randomized on draw, from 0 to 3."
+  },
+  {
+    "name": "Conqueror",
+    "effect": "Sovereign Blade deals double damage to the enemy this turn."
+  },
+  {
+    "name": "Constrict",
+    "effect": "While the Slithering Strangler is alive, at the end of your turn, take 1 damage."
+  },
+  {
+    "name": "Consuming Shadow",
+    "effect": "At the end of your turn, Evoke your leftmost Orb."
+  },
+  {
+    "name": "Coolant",
+    "effect": "At the start of your turn, gain 3 Block for each unique Orb you have."
+  },
+  {
+    "name": "Coordinate",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Corrosive Wave",
+    "effect": "Whenever you draw a card this turn, apply 2 Poison to ALL enemies."
+  },
+  {
+    "name": "Corruption",
+    "effect": "Skills cost 0.\nWhenever you play a Skill, Exhaust it."
+  },
+  {
+    "name": "Countdown",
+    "effect": "At the start of your turn, apply 6 Doom to a random enemy."
+  },
+  {
+    "name": "Covered",
+    "effect": "An ally is covering you. All attacks that would be directed to you are redirected to them instead."
+  },
+  {
+    "name": "Crab Rage",
+    "effect": "When an ally dies, this creature gains 5 Strength and 99 Block."
+  },
+  {
+    "name": "Creative AI",
+    "effect": "At the start of your turn, add a random Power into your Hand."
+  },
+  {
+    "name": "Crimson Mantle",
+    "effect": "At the start of your turn, lose HP and gain Block."
+  },
+  {
+    "name": "Cruelty",
+    "effect": "Vulnerable enemies take additional damage."
+  },
+  {
+    "name": "Crush Under",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Curious",
+    "effect": "Powers cost 1 Energy less."
+  },
+  {
+    "name": "Curl Up",
+    "effect": "When damaged, rolls up and gains block. (Once per combat)"
+  },
+  {
+    "name": "Dampen",
+    "effect": "While Magi Knight is alive, ALL your cards are Downgraded."
+  },
+  {
+    "name": "Danse Macabre",
+    "effect": "Whenever you play a card that costs 2 Energy or more, gain 7 Block."
+  },
+  {
+    "name": "Dark Embrace",
+    "effect": "Whenever a card is Exhausted, draw 1 card."
+  },
+  {
+    "name": "Dark Shackles",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Debilitate",
+    "effect": "Vulnerable and Weak are twice as effective for the next 2 turns."
+  },
+  {
+    "name": "Demesne",
+    "effect": "At the start of your turn, gain 1 Energy and draw 1 additional card."
+  },
+  {
+    "name": "Demise",
+    "effect": "At the end of its turn, this creature X loses HP."
+  },
+  {
+    "name": "Demon Form",
+    "effect": "At the start of your turn, gain 2 Strength."
+  },
+  {
+    "name": "Devour Life",
+    "effect": "Whenever you play a Soul, Summon 1."
+  },
+  {
+    "name": "Dexterity",
+    "effect": "Dexterity improves Block gained from cards."
+  },
+  {
+    "name": "Diamond Diadem",
+    "effect": "Enemies deal 50% less damage this turn."
+  },
+  {
+    "name": "Die for You",
+    "effect": "Osty absorbs all unblocked attack damage."
+  },
+  {
+    "name": "Disintegration",
+    "effect": "At the end of your turn, take 5 damage."
+  },
+  {
+    "name": "Doom",
+    "effect": "At the end of the enemy turn, if it has at least as much Doom as HP, it dies."
+  },
+  {
+    "name": "Double Damage",
+    "effect": "This turn, Attacks deal double damage."
+  },
+  {
+    "name": "Draw Cards Next Turn",
+    "effect": "At the start of your next turn, draw 1 additional card."
+  },
+  {
+    "name": "Drum of Battle",
+    "effect": "At the start of your turn, Exhaust the top 2 cards of your Draw Pile."
+  },
+  {
+    "name": "Duplication",
+    "effect": "Your next card is played an extra time."
+  },
+  {
+    "name": "Dying Star",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Echo Form",
+    "effect": "The first card you play each turn is played an extra time."
+  },
+  {
+    "name": "Energy Next Turn",
+    "effect": "Gain additional Energy next turn."
+  },
+  {
+    "name": "Enfeebling Touch",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Enrage",
+    "effect": "Whenever you play a Skill, gains 2 Strength."
+  },
+  {
+    "name": "Entropy",
+    "effect": "At the start of your turn, Transform 1 card in your Hand."
+  },
+  {
+    "name": "Envenom",
+    "effect": "Whenever you deal unblocked attack damage, apply 1 Poison."
+  },
+  {
+    "name": "Escape Artist",
+    "effect": "Exits the combat after 4 turns."
+  },
+  {
+    "name": "Fan of Knives",
+    "effect": "Shivs hit ALL enemies."
+  },
+  {
+    "name": "Fasten",
+    "effect": "Gain an additional 4 Block from Defend cards."
+  },
+  {
+    "name": "Feeding Frenzy",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Feel No Pain",
+    "effect": "Whenever a card is Exhausted, gain 3 Block."
+  },
+  {
+    "name": "Feral",
+    "effect": "The first time you play a 0Energy Attack each turn, return it to your Hand."
+  },
+  {
+    "name": "Flame Barrier",
+    "effect": "Whenever you are attacked this turn, deal 4 damage back."
+  },
+  {
+    "name": "Flanking",
+    "effect": "Other allies deal 2x more damage to this enemy this turn."
+  },
+  {
+    "name": "Flex Potion",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Flutter",
+    "effect": "Receives 50% less damage from Attacks."
+  },
+  {
+    "name": "Focus",
+    "effect": "Increases the effectiveness of Orbs."
+  },
+  {
+    "name": "Focused Strike",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Forbidden Grimoire",
+    "effect": "At the end of combat, remove a card from your Deck."
+  },
+  {
+    "name": "Foregone Conclusion",
+    "effect": "Next turn, put 3 cards from your Draw Pile into your Hand."
+  },
+  {
+    "name": "Frail",
+    "effect": "While Frail, gain 25% less Block from cards."
+  },
+  {
+    "name": "Free Attack",
+    "effect": "Your next Attack costs 0 Energy."
+  },
+  {
+    "name": "Free Power",
+    "effect": "The next Power you play costs 0 Energy."
+  },
+  {
+    "name": "Free Skill",
+    "effect": "The next Skill you play costs 0 Energy."
+  },
+  {
+    "name": "Friendship",
+    "effect": "Gain 1 Energy at the start of each turn."
+  },
+  {
+    "name": "Furnace",
+    "effect": "At the start of your turn, Forge 5."
+  },
+  {
+    "name": "Galvanic",
+    "effect": "Powers are afflicted with [AfflictionTitle]."
+  },
+  {
+    "name": "Genesis",
+    "effect": "At the start of your turn, gain Star."
+  },
+  {
+    "name": "Gigantification",
+    "effect": "The next Attack you play deals triple damage."
+  },
+  {
+    "name": "Grapple",
+    "effect": "Whenever you gain Block this turn, deal 5 damage to the enemy."
+  },
+  {
+    "name": "Gravity",
+    "effect": "Whenever you play a card this turn, deal 2 damage to ALL enemies."
+  },
+  {
+    "name": "Guarded",
+    "effect": "Take half damage from enemies."
+  },
+  {
+    "name": "Hailstorm",
+    "effect": "At the end of your turn, if you have Frost, deal 6 damage to ALL enemies."
+  },
+  {
+    "name": "Hammer Time",
+    "effect": "Whenever you Forge, all allies Forge as well."
+  },
+  {
+    "name": "Hang",
+    "effect": "All Hangs deal 2 times more damage to this enemy."
+  },
+  {
+    "name": "Hard to Kill",
+    "effect": "Reduce all damage taken and HP lost by this creature to 9."
+  },
+  {
+    "name": "Hardened Shell",
+    "effect": "This creature cannot lose more than 20 HP each turn."
+  },
+  {
+    "name": "Hatch",
+    "effect": "Hatches after X turns."
+  },
+  {
+    "name": "Haunt",
+    "effect": "Whenever you play a Soul, a random enemy loses 3 HP."
+  },
+  {
+    "name": "Heist",
+    "effect": "When killed, returns all the stolen Gold."
+  },
+  {
+    "name": "Helical Dart",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Hello World",
+    "effect": "At the start of your turn, add 1 random Common card into your Hand."
+  },
+  {
+    "name": "Hellraiser",
+    "effect": "Whenever you draw a card containing \"Strike\", it is played against a random enemy."
+  },
+  {
+    "name": "Hex",
+    "effect": "While Spectral Knight is alive, ALL your cards are Ethereal."
+  },
+  {
+    "name": "High Voltage",
+    "effect": "At the start of this creature's turn, it gains 2 Strength."
+  },
+  {
+    "name": "Hotfix",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Illusion",
+    "effect": "When this dies, it revives next turn at full HP."
+  },
+  {
+    "name": "Imbalanced",
+    "effect": "If this creature's attacks are fully blocked, it becomes Stunned."
+  },
+  {
+    "name": "Improvement",
+    "effect": "At the end of combat, Upgrade a random card."
+  },
+  {
+    "name": "Inferno",
+    "effect": "At the start of your turn, lose 1 HP. Whenever you lose HP on your turn, deal 4 damage to ALL enemies."
+  },
+  {
+    "name": "Infested",
+    "effect": "Upon dying, summons... something."
+  },
+  {
+    "name": "Infinite Blades",
+    "effect": "At the start of your turn, add a Shiv into your Hand."
+  },
+  {
+    "name": "Intangible",
+    "effect": "Reduce all damage taken and HP loss to 1 this turn."
+  },
+  {
+    "name": "Intercept",
+    "effect": "You are covering [Covering]. All attacks that would be directed towards them are redirected towards you."
+  },
+  {
+    "name": "Iteration",
+    "effect": "The first time you draw a Status card each turn, draw more cards."
+  },
+  {
+    "name": "Juggernaut",
+    "effect": "Whenever you gain Block, deal 5 damage to a random enemy."
+  },
+  {
+    "name": "Juggling",
+    "effect": "Add a copy of the third Attack you play each turn into your Hand."
+  },
+  {
+    "name": "Knockdown",
+    "effect": "This creature takes [Amount] times the damage from other players this turn."
+  },
+  {
+    "name": "Leadership",
+    "effect": "All other allies deal 1 additional damage."
+  },
+  {
+    "name": "Lethality",
+    "effect": "The first Attack each turn deals 50% additional damage."
+  },
+  {
+    "name": "Lightning Rod",
+    "effect": "At the start of the next 2 turns, Channel 1 Lightning."
+  },
+  {
+    "name": "Loop",
+    "effect": "At the start of your turn, trigger the passive ability of your next Orb."
+  },
+  {
+    "name": "Machine Learning",
+    "effect": "At the start of your turn, draw 1 additional card."
+  },
+  {
+    "name": "Magic Bomb",
+    "effect": "Take 20 damage at the end of your turn. Is cleared if the Magi Knight dies."
+  },
+  {
+    "name": "Mangle",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Master Planner",
+    "effect": "When you play a Skill, it gains Sly."
+  },
+  {
+    "name": "Mayhem",
+    "effect": "At the start of your turn, play the top card of your Draw Pile."
+  },
+  {
+    "name": "Mind Rot",
+    "effect": "Draw 1 fewer card each turn."
+  },
+  {
+    "name": "Minion",
+    "effect": "Minions abandon combat without their leader."
+  },
+  {
+    "name": "Monarch's Gaze",
+    "effect": "Whenever you attack an enemy, it loses 1 Strength this turn."
+  },
+  {
+    "name": "Monarchs Gaze Strength Down",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Monologue",
+    "effect": "Whenever you play a card this turn, gain 1 Strength this turn.\nCurrently granting 0 Strength."
+  },
+  {
+    "name": "Necro Mastery",
+    "effect": "Whenever Osty loses HP, ALL enemies lose that much HP as well."
+  },
+  {
+    "name": "Nemesis",
+    "effect": "At the end of every other turn, gains Intangible 1."
+  },
+  {
+    "name": "Neurosurge",
+    "effect": "At the start of your turn, apply 3 Doom to yourself."
+  },
+  {
+    "name": "Nightmare",
+    "effect": "Add 3 of a chosen card into your Hand next turn."
+  },
+  {
+    "name": "No Block",
+    "effect": "You cannot gain Block from cards."
+  },
+  {
+    "name": "No Draw",
+    "effect": "You may not draw any more cards this turn."
+  },
+  {
+    "name": "Nostalgia",
+    "effect": "The first Attack or Skill you play each turn is placed on top of your Draw Pile."
+  },
+  {
+    "name": "Noxious Fumes",
+    "effect": "At the start of your turn, apply 2 Poison to ALL enemies."
+  },
+  {
+    "name": "Oblivion",
+    "effect": "Whenever you play a card, this enemy gains 1 Doom."
+  },
+  {
+    "name": "One-Two Punch",
+    "effect": "Your next Attack is played an extra time this turn."
+  },
+  {
+    "name": "Orbit",
+    "effect": "Every 4 Energy you spend, gain an Energy."
+  },
+  {
+    "name": "Outbreak",
+    "effect": "Every 10 times you apply Poison, deal damage to ALL enemies."
+  },
+  {
+    "name": "Pagestorm",
+    "effect": "Whenever you draw an Ethereal card, draw 1 card."
+  },
+  {
+    "name": "Painful Stabs",
+    "effect": "Shuffle 1 Wound into your Discard Pile each time you receive unblocked attack damage."
+  },
+  {
+    "name": "Pale Blue Dot",
+    "effect": "If you play enough cards in a turn, draw additional cards at the start of your next turn."
+  },
+  {
+    "name": "Panache",
+    "effect": "If you play 5 cards this turn, deal damage to ALL enemies."
+  },
+  {
+    "name": "Paper Cuts",
+    "effect": "Whenever this creature deals unblocked attack damage to you, you lose 1 Max HP."
+  },
+  {
+    "name": "Parry",
+    "effect": "Whenever you play Sovereign Blade, gain 8 Block."
+  },
+  {
+    "name": "Personal Hive",
+    "effect": "Whenever this enemy is hit by an Attack, add Dazed into your Draw Pile."
+  },
+  {
+    "name": "Phantom Blades",
+    "effect": "Shivs gain Retain.\nThe first Shiv you play each turn deals 9 additional damage."
+  },
+  {
+    "name": "Piercing Wail",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Pillar of Creation",
+    "effect": "Whenever you create a card, gain 5 Block."
+  },
+  {
+    "name": "Plating",
+    "effect": "At the end of your turn, gain Block. Plating is reduced by 1 at the start of your turn."
+  },
+  {
+    "name": "Plow",
+    "effect": "The first time this creature's HP reaches 150 or below, it becomes Stunned."
+  },
+  {
+    "name": "Poison",
+    "effect": "Poisoned creatures lose HP at the start of their turn. Each turn, Poison is reduced by 1."
+  },
+  {
+    "name": "Possess Speed",
+    "effect": "When killed, return all stolen Dexterity to the player."
+  },
+  {
+    "name": "Possess Strength",
+    "effect": "When killed, return all stolen Strength to the player."
+  },
+  {
+    "name": "Prep Time",
+    "effect": "At the start of your turn, gain 4 Vigor."
+  },
+  {
+    "name": "Pyre",
+    "effect": "Gain 1 Energy at the start of each turn."
+  },
+  {
+    "name": "Radiance",
+    "effect": "Gain an additional Energy next turn."
+  },
+  {
+    "name": "Rage",
+    "effect": "Whenever you play an Attack this turn, gain 3 Block."
+  },
+  {
+    "name": "Rampart",
+    "effect": "At the start of the player's turn, Turret Operator gains 25 Block."
+  },
+  {
+    "name": "Ravenous",
+    "effect": "When an enemy dies, Corpse Slug immediately eats it, becoming Stunned and gaining 1 Strength."
+  },
+  {
+    "name": "Reaper Form",
+    "effect": "Whenever Attacks deal damage, they also apply that much Doom."
+  },
+  {
+    "name": "Reattach",
+    "effect": "If other segments are still alive, revives in 2 turns with 25 HP."
+  },
+  {
+    "name": "Rebound",
+    "effect": "The next card you play this turn is placed on the top of your Draw Pile."
+  },
+  {
+    "name": "Reflect",
+    "effect": "Blocked damage is reflected to your attacker."
+  },
+  {
+    "name": "Regen",
+    "effect": "Regen heals HP at the end of your turn. Each turn, Regen is reduced by 1."
+  },
+  {
+    "name": "Reptile Trinket",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Retain Hand",
+    "effect": "Retain your Hand for the next 2 turns."
+  },
+  {
+    "name": "Ringing",
+    "effect": "You can only play 1 card this turn."
+  },
+  {
+    "name": "Ritual",
+    "effect": "Gain Strength at the end of your turn."
+  },
+  {
+    "name": "Rolling Boulder",
+    "effect": "At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5."
+  },
+  {
+    "name": "Royalties",
+    "effect": "At the end of combat, gain 25 Gold."
+  },
+  {
+    "name": "Rupture",
+    "effect": "Whenever you lose HP on your turn, gain 1 Strength."
+  },
+  {
+    "name": "Sandpit",
+    "effect": "A power used by The Insatiable."
+  },
+  {
+    "name": "Seeking Edge",
+    "effect": "Sovereign Blade now hits ALL enemies."
+  },
+  {
+    "name": "Self-Forming Clay",
+    "effect": "Gain 3 Block next turn."
+  },
+  {
+    "name": "Sentry Mode",
+    "effect": "At the start of your turn, add 1 Sweeping Gaze into your Hand."
+  },
+  {
+    "name": "Serpent Form",
+    "effect": "Whenever you play a card, deal 4 damage to a random enemy."
+  },
+  {
+    "name": "Setup Strike",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Shackling Potion",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Shadow Step",
+    "effect": "Next turn, Attacks deal double damage."
+  },
+  {
+    "name": "Shadowmeld",
+    "effect": "Double your Block gain this turn."
+  },
+  {
+    "name": "Shriek",
+    "effect": "The first time this creature's HP reaches 50% or below, it becomes Stunned."
+  },
+  {
+    "name": "Shrink",
+    "effect": "This creature's Attacks deal 30% less damage for the next 3 turns."
+  },
+  {
+    "name": "Shroud",
+    "effect": "Whenever you apply Doom, gain 3 Block."
+  },
+  {
+    "name": "Sic 'Em",
+    "effect": "Whenever Osty hits this enemy this turn, Summon 3."
+  },
+  {
+    "name": "Signal Boost",
+    "effect": "Your next Power is played an extra time."
+  },
+  {
+    "name": "Skittish",
+    "effect": "The first time this creature is hit each turn, it gains 1 Block."
+  },
+  {
+    "name": "Sleight of Flesh",
+    "effect": "Whenever you apply a debuff to an enemy, they take 13 damage."
+  },
+  {
+    "name": "Slippery",
+    "effect": "The next time this creature loses HP, it only loses 1 HP instead."
+  },
+  {
+    "name": "Sloth",
+    "effect": "You cannot play more than 3 cards each turn."
+  },
+  {
+    "name": "Slow",
+    "effect": "Whenever you play a card, this enemy receives 10% more damage from Attacks this turn."
+  },
+  {
+    "name": "Slumber",
+    "effect": "Awakens upon taking turns or losing HP 3 times."
+  },
+  {
+    "name": "Smoggy",
+    "effect": "You can only play 1 Skill per turn."
+  },
+  {
+    "name": "Smokestack",
+    "effect": "Whenever you create a Status, deal damage to ALL enemies."
+  },
+  {
+    "name": "Sneaky",
+    "effect": "Whenever another player attacks an enemy, gain Block."
+  },
+  {
+    "name": "Soar",
+    "effect": "Receives 50% less attack damage until it lands."
+  },
+  {
+    "name": "Spectrum Shift",
+    "effect": "At the start of your turn, add 1 random Colorless card into your Hand."
+  },
+  {
+    "name": "Speed Potion",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Speedster",
+    "effect": "Whenever you draw a card during your turn, deal 1 damage to ALL enemies."
+  },
+  {
+    "name": "Spinner",
+    "effect": "At the start of your turn, Channel 1 Glass."
+  },
+  {
+    "name": "Spirit of Ash",
+    "effect": "Whenever you play an Ethereal card, gain 4 Block."
+  },
+  {
+    "name": "Stampede",
+    "effect": "At the end of your turn, 1 random Attack in your Hand is played against a random enemy."
+  },
+  {
+    "name": "Star Next Turn",
+    "effect": "Gain 1 Star next turn."
+  },
+  {
+    "name": "Steam Eruption",
+    "effect": "When killed, deals damage at the end of your next turn."
+  },
+  {
+    "name": "Stock",
+    "effect": "When killed, a new Axebot is summoned in its place."
+  },
+  {
+    "name": "Storm",
+    "effect": "Whenever you play a Power, Channel 1 Lightning."
+  },
+  {
+    "name": "Strangle",
+    "effect": "Whenever you play a card this turn, this enemy loses 2 HP."
+  },
+  {
+    "name": "Stratagem",
+    "effect": "Whenever you shuffle your Draw Pile, choose 1 card from it to put into your Hand."
+  },
+  {
+    "name": "Strength",
+    "effect": "Strength adds additional damage to Attacks."
+  },
+  {
+    "name": "Subroutine",
+    "effect": "Whenever you play a Power, gain 1 Energy."
+  },
+  {
+    "name": "Suck",
+    "effect": "Whenever this creature deals unblocked attack damage, it gains 1 Strength."
+  },
+  {
+    "name": "Summon Next Turn",
+    "effect": "At the start of your next turn, Summon 2."
+  },
+  {
+    "name": "Surprise",
+    "effect": "Something is off about this creature..."
+  },
+  {
+    "name": "Surrounded",
+    "effect": "Receive 50% more damage if attacked from behind. Use targeting cards or potions to change your orientation."
+  },
+  {
+    "name": "Swipe",
+    "effect": "Upon killing this enemy, the stolen card is returned."
+  },
+  {
+    "name": "Sword Sage",
+    "effect": "Increase the cost of Sovereign Blade by 1. Sovereign Blade now hits 1 additional time."
+  },
+  {
+    "name": "Synchronize",
+    "effect": "No description in source data."
+  },
+  {
+    "name": "Tag Team",
+    "effect": "The next Attack another player plays on the enemy is played an extra time."
+  },
+  {
+    "name": "Tangled",
+    "effect": "Attacks cost 1 additional Energy this turn."
+  },
+  {
+    "name": "Tank",
+    "effect": "Take double damage from enemies. Allies take half damage from enemies."
+  },
+  {
+    "name": "Temporary Dexterity",
+    "effect": "Gain Dexterity until the end of this turn."
+  },
+  {
+    "name": "Tender",
+    "effect": "Whenever you play a card, lose 1 Strength and 1 Dexterity this turn."
+  },
+  {
+    "name": "Territorial",
+    "effect": "At the end of its turn, gains 1 Strength."
+  },
+  {
+    "name": "The Bomb",
+    "effect": "At the end of 3 turns, deal 40 damage to ALL enemies."
+  },
+  {
+    "name": "The Gambit",
+    "effect": "If you take unblocked attack damage this combat, die."
+  },
+  {
+    "name": "The Hunt",
+    "effect": "Gain 1 additional card reward at the end of combat."
+  },
+  {
+    "name": "The Sealed Throne",
+    "effect": "Whenever you play a card, gain Star."
+  },
+  {
+    "name": "Thievery",
+    "effect": "Steals Gold when Attacking."
+  },
+  {
+    "name": "Thorns",
+    "effect": "When hit by an attack, deal damage back."
+  },
+  {
+    "name": "Thunder",
+    "effect": "Whenever you Evoke Lightning, deal 8 damage to each enemy hit."
+  },
+  {
+    "name": "Time Limit",
+    "effect": "You have 3 more turns to defeat the Battleworn Dummy."
+  },
+  {
+    "name": "Tools of the Trade",
+    "effect": "At the start of your turn, draw 1 card and discard 1 card."
+  },
+  {
+    "name": "Toric Toughness",
+    "effect": "Gain 5 Block at the start of the next 2 turns."
+  },
+  {
+    "name": "Tracking",
+    "effect": "Weak enemies take 2 times more damage from Attacks."
+  },
+  {
+    "name": "Trash to Treasure",
+    "effect": "Whenever you create a Status, Channel 1 random Orb."
+  },
+  {
+    "name": "Tyranny",
+    "effect": "At the start of your turn, draw a card and Exhaust a card from your Hand."
+  },
+  {
+    "name": "Unmovable",
+    "effect": "The first time you gain Block from a card each turn, double the amount gained."
+  },
+  {
+    "name": "Veilpiercer",
+    "effect": "The next Ethereal card you play costs 0."
+  },
+  {
+    "name": "Vicious",
+    "effect": "Whenever you apply Vulnerable, draw 1 card."
+  },
+  {
+    "name": "Vigor",
+    "effect": "Your next Attack deals additional damage."
+  },
+  {
+    "name": "Vital Spark",
+    "effect": "The first time this creature takes Attack damage each turn, the attacker gains Energy."
+  },
+  {
+    "name": "Void Form",
+    "effect": "The first 2 cards you play each turn are free to play."
+  },
+  {
+    "name": "Vulnerable",
+    "effect": "Vulnerable creatures take 50% more damage from Attacks."
+  },
+  {
+    "name": "Waste Away",
+    "effect": "Gain 1 less Energy per turn."
+  },
+  {
+    "name": "Weak",
+    "effect": "Weakened creatures deal 25% less damage with Attacks."
+  },
+  {
+    "name": "Well-Laid Plans",
+    "effect": "At the end of your turn, Retain up to 1 card."
+  },
+  {
+    "name": "Wraith Form",
+    "effect": "At the start of your turn, lose 1 Dexterity."
+  }
+]

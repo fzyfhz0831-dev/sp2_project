@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-06-04T03:25:29.295983+00:00",
+  "character": "The Silent",
+  "floor": 33,
+  "boss": "The Collector",
+  "main_loss_reason": "deck_problem",
+  "scores": {
+    "deck_quality": {
+      "score": 63,
+      "status": "warning",
+      "explanation": "Deck is acceptable but has room to improve — consider removing more basic cards and prioritising upgrades at rest sites.",
+      "evidence": [
+        "10/20 cards are basic starters (50%) — these dilute every draw",
+        "Only 5/20 cards upgraded (25%) by floor 33 — missed upgrade opportunities"
+      ]
+    },
+    "defense": {
+      "score": 88,
+      "status": "good",
+      "explanation": "Defense is solid with 7 block cards — enough to handle burst turns reliably.",
+      "evidence": [
+        "Block card count is adequate: 7/20 (35%)",
+        "Only 0/7 block cards upgraded (0%) — upgraded block is much more efficient"
+      ]
+    },
+    "scaling": {
+      "score": 75,
+      "status": "good",
+      "explanation": "Scaling is well-established with 2 unique The Silent scaling cards — the deck can handle long fights.",
+      "evidence": [
+        "Only 2 scaling card(s) in Act 3 — end-game fights require strong scaling"
+      ]
+    },
+    "boss_readiness": {
+      "score": 92,
+      "status": "good",
+      "explanation": "Well-prepared for The Collector. HP was healthy going into the fight, and the deck had tools to handle the encounter.",
+      "evidence": [
+        "Entered The Collector with only 37/72 HP (51%) — wanted ≥ 60%",
+        "Boss insight: The Collector summons torch-head minions that apply Mega Debuff. If you can't clear them quickly the debuff stacking leads to unblockable burst damage. AoE or fast single-target damage helps."
+      ]
+    },
+    "pathing": {
+      "score": 90,
+      "status": "good",
+      "explanation": "Pathing was sensible — good elite/rest balance across acts.",
+      "evidence": [
+        "Elite pathing was reasonable across acts",
+        "6 rest sites left HP below 75% — pathing may be too greedy"
+      ]
+    },
+    "relic_synergy": {
+      "score": 80,
+      "status": "good",
+      "explanation": "Relic suite is strong — 9 relics with good energy and synergy support.",
+      "evidence": [
+        "Relic count is on par: 9 relics by floor 33",
+        "No energy relic or energy-generating relic by Act 3 — 4 energy/turn may be insufficient",
+        "Scaling cards are backed by scaling relics — good synergy"
+      ]
+    }
+  },
+  "problems": [
+    {
+      "area": "deck_quality",
+      "score": 63,
+      "status": "warning",
+      "summary": "Deck is acceptable but has room to improve — consider removing more basic cards and prioritising upgrades at rest sites."
+    }
+  ],
+  "evidence": [
+    "10/20 cards are basic starters (50%) — these dilute every draw",
+    "Only 5/20 cards upgraded (25%) by floor 33 — missed upgrade opportunities",
+    "Block card count is adequate: 7/20 (35%)",
+    "Only 0/7 block cards upgraded (0%) — upgraded block is much more efficient",
+    "Only 2 scaling card(s) in Act 3 — end-game fights require strong scaling",
+    "Entered The Collector with only 37/72 HP (51%) — wanted ≥ 60%",
+    "Boss insight: The Collector summons torch-head minions that apply Mega Debuff. If you can't clear them quickly the debuff stacking leads to unblockable burst damage. AoE or fast single-target damage helps.",
+    "Elite pathing was reasonable across acts",
+    "6 rest sites left HP below 75% — pathing may be too greedy",
+    "Relic count is on par: 9 relics by floor 33",
+    "No energy relic or energy-generating relic by Act 3 — 4 energy/turn may be insufficient",
+    "Scaling cards are backed by scaling relics — good synergy",
+    "Deck still contains 7 basic Strike/Defend cards by floor 33 — these dilute draws",
+    "Sharp HP losses after elites on floors 7, 10, 20, 28 — pathing may be too aggressive",
+    "14/20 cards are unupgraded (70%) by floor 33 — missed upgrade opportunities",
+    "No energy relic or energy-generating relic found",
+    "Meta-context: ? current players, 0 Reddit posts, 0 Steam news items"
+  ],
+  "meta_context_used": true
+}

@@ -1,0 +1,30 @@
+# Example systemd service for running the SP2 Run Doctor Docker container.
+# Copy this file to /etc/systemd/system/sp2-run-doctor.service on a Linux VM.
+
+[Unit]
+Description=Run Slay the Spire 2 Run Doctor pipeline in Docker
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+
+# Change this path to the project folder on your VM.
+WorkingDirectory=/opt/sp2_project
+
+# Make sure persistent host folders exist before Docker starts.
+ExecStartPre=/usr/bin/mkdir -p /opt/sp2_project/logs /opt/sp2_project/data /opt/sp2_project/archive
+
+# Run the automation container once.
+# --rm removes the stopped container, while mounted volumes keep logs/data/archive safe.
+ExecStart=/usr/bin/docker run --rm \
+  --env-file /opt/sp2_project/.env \
+  -v /opt/sp2_project/data:/app/data \
+  -v /opt/sp2_project/logs:/app/logs \
+  -v /opt/sp2_project/archive:/app/archive \
+  sp2-run-doctor
+
+# Append systemd service output to a host-side log file.
+StandardOutput=append:/opt/sp2_project/logs/docker_daily.log
+StandardError=append:/opt/sp2_project/logs/docker_daily.log

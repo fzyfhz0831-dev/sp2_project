@@ -1,0 +1,15 @@
+{
+  "main_loss_reason": "deck_problem",
+  "secondary_reasons": [
+    "pathing_problem",
+    "card_pick_problem",
+    "energy_problem"
+  ],
+  "confidence": 0.74,
+  "evidence": [
+    "Deck still contains 7 basic Strike/Defend cards by floor 33 — these dilute draws",
+    "Sharp HP losses after elites on floors 7, 10, 20, 28 — pathing may be too aggressive",
+    "14/20 cards are unupgraded (70%) by floor 33 — missed upgrade opportunities",
+    "No energy relic or energy-generating relic found"
+  ]
+}

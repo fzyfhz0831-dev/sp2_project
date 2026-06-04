@@ -1,0 +1,355 @@
+{
+  "run_id": "mock-009-relic-synergy",
+  "character": "Regent",
+  "ascension": 3,
+  "floor_reached": 29,
+  "killed_by": "The Champ",
+  "max_hp": 75,
+  "final_hp": 0,
+  "gold": 89,
+  "cards": [
+    "Star Chant",
+    "Star Shower",
+    "Cosmic Shield",
+    "Luminous Burst",
+    "Star Barrage",
+    "Oracle",
+    "Falling Star",
+    "Star Align",
+    "Stellar Core",
+    "Celestial Arrow",
+    "Solar Flare",
+    "Zenith",
+    "Twilight Shield",
+    "Empyrean"
+  ],
+  "relics": [
+    "Holy Water",
+    "Golden Idol",
+    "Smiling Mask",
+    "Data Disk",
+    "Snecko Eye",
+    "Meal Ticket"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 75,
+      "hp_after": 69,
+      "picked_card": "Star Chant",
+      "skipped_cards": [
+        "Divine Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 69,
+      "hp_after": 62,
+      "picked_card": "Cosmic Shield",
+      "skipped_cards": [
+        "Guiding Light"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 3,
+      "type": "event",
+      "hp_before": 68,
+      "hp_after": 55,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Golden Idol event – paid HP."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 55,
+      "hp_after": 47,
+      "picked_card": "Star Shower",
+      "skipped_cards": [
+        "Nova"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 53,
+      "hp_after": 45,
+      "picked_card": "Luminous Burst",
+      "skipped_cards": [
+        "Radiant Shield"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 6,
+      "type": "rest",
+      "hp_before": 45,
+      "hp_after": 73,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 7,
+      "type": "elite",
+      "hp_before": 73,
+      "hp_after": 44,
+      "picked_card": "Oracle",
+      "skipped_cards": [
+        "Beacon of Hope",
+        "Star Align"
+      ],
+      "relic_gained": "Data Disk",
+      "notes": "Data Disk is +1 Focus – useless for Regent. Dead relic."
+    },
+    {
+      "floor": 8,
+      "type": "combat",
+      "hp_before": 50,
+      "hp_after": 42,
+      "picked_card": "Star Barrage",
+      "skipped_cards": [
+        "Heavenly Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 9,
+      "type": "shop",
+      "hp_before": 42,
+      "hp_after": 42,
+      "picked_card": "Star Align",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Star Align is key scaling. Deck is coming together."
+    },
+    {
+      "floor": 10,
+      "type": "rest",
+      "hp_before": 42,
+      "hp_after": 72,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgraded Oracle."
+    },
+    {
+      "floor": 11,
+      "type": "combat",
+      "hp_before": 72,
+      "hp_after": 63,
+      "picked_card": "Falling Star",
+      "skipped_cards": [
+        "Void Step"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 12,
+      "type": "combat",
+      "hp_before": 69,
+      "hp_after": 60,
+      "picked_card": "Stellar Core",
+      "skipped_cards": [
+        "Shooting Star",
+        "Constellation"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 13,
+      "type": "event",
+      "hp_before": 60,
+      "hp_after": 60,
+      "picked_card": "Celestial Arrow",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 14,
+      "type": "combat",
+      "hp_before": 60,
+      "hp_after": 52,
+      "picked_card": "Solar Flare",
+      "skipped_cards": [
+        "Eclipse"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "rest",
+      "hp_before": 52,
+      "hp_after": 75,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgraded Star Barrage."
+    },
+    {
+      "floor": 16,
+      "type": "boss",
+      "hp_before": 75,
+      "hp_after": 38,
+      "picked_card": "Snecko Eye",
+      "skipped_cards": [
+        "Holy Water",
+        "Empty Cage"
+      ],
+      "relic_gained": "Snecko Eye",
+      "notes": "Picked Snecko Eye over Holy Water. Reasoning: '+2 draw per turn is broken.' BIG MISTAKE."
+    },
+    {
+      "floor": 17,
+      "type": "combat",
+      "hp_before": 38,
+      "hp_after": 30,
+      "picked_card": "Twilight Shield",
+      "skipped_cards": [
+        "Astral Pulse"
+      ],
+      "relic_gained": "",
+      "notes": "Snecko randomizes costs. Star Chant costs 3 – can't bank Stars."
+    },
+    {
+      "floor": 18,
+      "type": "event",
+      "hp_before": 36,
+      "hp_after": 36,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgrade shrine – upgraded Stellar Core. But Snecko makes cost irrelevant."
+    },
+    {
+      "floor": 19,
+      "type": "combat",
+      "hp_before": 42,
+      "hp_after": 33,
+      "picked_card": "Zenith",
+      "skipped_cards": [
+        "Supernova"
+      ],
+      "relic_gained": "",
+      "notes": "Zenith costs 3 most turns. Star-banking synergy is broken."
+    },
+    {
+      "floor": 20,
+      "type": "rest",
+      "hp_before": 33,
+      "hp_after": 66,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Had to rest. Can't sustain with Snecko."
+    },
+    {
+      "floor": 21,
+      "type": "combat",
+      "hp_before": 66,
+      "hp_after": 57,
+      "picked_card": "Empyrean",
+      "skipped_cards": [
+        "Pillar of Creation"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 22,
+      "type": "shop",
+      "hp_before": 57,
+      "hp_after": 57,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought card remove. Removed Defend. But deck is fundamentally broken now."
+    },
+    {
+      "floor": 23,
+      "type": "combat",
+      "hp_before": 63,
+      "hp_after": 53,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 24,
+      "type": "combat",
+      "hp_before": 59,
+      "hp_after": 49,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 25,
+      "type": "combat",
+      "hp_before": 55,
+      "hp_after": 44,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 26,
+      "type": "event",
+      "hp_before": 44,
+      "hp_after": 44,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Mind Bloom – took gold."
+    },
+    {
+      "floor": 27,
+      "type": "rest",
+      "hp_before": 44,
+      "hp_after": 73,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 28,
+      "type": "combat",
+      "hp_before": 73,
+      "hp_after": 63,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 29,
+      "type": "boss",
+      "hp_before": 63,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "The Champ. Phase 2 Execute. Snecko Eye turned Oracle (normally 1-cost) into 3-cost. Couldn't play it. Star engine collapsed. Dies with 6 Stars banked and no way to spend them."
+    }
+  ]
+}

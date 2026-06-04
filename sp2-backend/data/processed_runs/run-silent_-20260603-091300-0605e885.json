@@ -1,0 +1,27 @@
+{
+  "run_id": "run-silent_-20260603-091300-0605e885",
+  "character": "Silent_",
+  "ascension": 0,
+  "floor_reached": 31,
+  "killed_by": "t",
+  "max_hp": 80,
+  "final_hp": 0,
+  "gold": 0,
+  "cards": [],
+  "relics": [],
+  "path": [
+    {
+      "floor": 31,
+      "type": "combat",
+      "hp_before": 0,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Stub entry — original file did not contain path data.  Killed by: t."
+    }
+  ],
+  "source": "upload",
+  "original_filename": "Silent_floor31_SnakePlant.png",
+  "image_size_bytes": 71
+}

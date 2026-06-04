@@ -1,0 +1,5 @@
+INFO:     127.0.0.1:60871 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49358 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50302 - "POST /api/analyze-image HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50304 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49227 - "POST /api/analyze HTTP/1.1" 400 Bad Request

@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-02T09:51:18.988602+00:00",
+  "reddit_posts": [],
+  "steam_data": [
+    {
+      "appid": "730",
+      "name": "Counter-Strike 2",
+      "player_count": 744701
+    },
+    {
+      "appid": "570",
+      "name": "Dota 2",
+      "player_count": 360352
+    },
+    {
+      "appid": "646570",
+      "name": "Slay the Spire",
+      "player_count": 0
+    }
+  ]
+}

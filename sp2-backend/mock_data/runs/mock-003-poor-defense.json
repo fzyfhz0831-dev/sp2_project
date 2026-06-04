@@ -1,0 +1,261 @@
+{
+  "run_id": "mock-003-poor-defense",
+  "character": "Defect",
+  "ascension": 7,
+  "floor_reached": 20,
+  "killed_by": "Chosen",
+  "max_hp": 75,
+  "final_hp": 0,
+  "gold": 203,
+  "cards": [
+    "Zap",
+    "Dualcast",
+    "Ball Lightning",
+    "Cold Snap",
+    "Barrage",
+    "Streamline",
+    "Sunder",
+    "Melter",
+    "Compile Driver",
+    "Hyperbeam",
+    "Beam Cell",
+    "Rip and Tear",
+    "Go for the Eyes",
+    "Scrape",
+    "Rebound"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Data Disk",
+    "Lantern",
+    "Vajra"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 75,
+      "hp_after": 70,
+      "picked_card": "Ball Lightning",
+      "skipped_cards": [
+        "Leap"
+      ],
+      "relic_gained": "",
+      "notes": "Skipped Leap – wanted damage."
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 64,
+      "picked_card": "Streamline",
+      "skipped_cards": [
+        "Steam Barrier"
+      ],
+      "relic_gained": "",
+      "notes": "Skipped Steam Barrier again."
+    },
+    {
+      "floor": 3,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 62,
+      "picked_card": "Cold Snap",
+      "skipped_cards": [
+        "Charge Battery"
+      ],
+      "relic_gained": "",
+      "notes": "Only Frost source – not enough."
+    },
+    {
+      "floor": 4,
+      "type": "shop",
+      "hp_before": 62,
+      "hp_after": 62,
+      "picked_card": "Melter",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought another attack."
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 62,
+      "hp_after": 56,
+      "picked_card": "Sunder",
+      "skipped_cards": [
+        "Glacier",
+        "Coolheaded"
+      ],
+      "relic_gained": "",
+      "notes": "Chose Sunder over Glacier – all-in on damage."
+    },
+    {
+      "floor": 6,
+      "type": "event",
+      "hp_before": 56,
+      "hp_after": 39,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Scrap Ooze – took damage for a relic (Data Disk)."
+    },
+    {
+      "floor": 7,
+      "type": "rest",
+      "hp_before": 39,
+      "hp_after": 67,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 8,
+      "type": "elite",
+      "hp_before": 67,
+      "hp_after": 31,
+      "picked_card": "Hyperbeam",
+      "skipped_cards": [
+        "Self Repair",
+        "Buffer"
+      ],
+      "relic_gained": "Lantern",
+      "notes": "Sentries. Hyperbeam cleared, but took heavy damage. Skipped Self Repair!"
+    },
+    {
+      "floor": 9,
+      "type": "combat",
+      "hp_before": 37,
+      "hp_after": 31,
+      "picked_card": "Beam Cell",
+      "skipped_cards": [
+        "Stack"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 37,
+      "hp_after": 29,
+      "picked_card": "Rip and Tear",
+      "skipped_cards": [
+        "Equilibrium"
+      ],
+      "relic_gained": "",
+      "notes": "Skipped Equilibrium – no block engine developing."
+    },
+    {
+      "floor": 11,
+      "type": "rest",
+      "hp_before": 29,
+      "hp_after": 62,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Desperate heal."
+    },
+    {
+      "floor": 12,
+      "type": "combat",
+      "hp_before": 62,
+      "hp_after": 51,
+      "picked_card": "Go for the Eyes",
+      "skipped_cards": [
+        "Force Field",
+        "Reinforced Body"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 57,
+      "hp_after": 48,
+      "picked_card": "Scrape",
+      "skipped_cards": [
+        "Genetic Algorithm"
+      ],
+      "relic_gained": "",
+      "notes": "Skipped Genetic Algorithm – ignoring block scaling."
+    },
+    {
+      "floor": 14,
+      "type": "event",
+      "hp_before": 48,
+      "hp_after": 48,
+      "picked_card": "Barrage",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "combat",
+      "hp_before": 48,
+      "hp_after": 40,
+      "picked_card": "Rebound",
+      "skipped_cards": [
+        "Coolheaded"
+      ],
+      "relic_gained": "",
+      "notes": "Still skipping block."
+    },
+    {
+      "floor": 16,
+      "type": "shop",
+      "hp_before": 40,
+      "hp_after": 40,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Vajra – more damage. Ignored block potion."
+    },
+    {
+      "floor": 17,
+      "type": "elite",
+      "hp_before": 40,
+      "hp_after": 18,
+      "picked_card": "Compile Driver",
+      "skipped_cards": [
+        "Glacier",
+        "Defragment"
+      ],
+      "relic_gained": "Vajra",
+      "notes": "Gremlin Leader. Entered with 40 HP, no Frost focus. Barely survived."
+    },
+    {
+      "floor": 18,
+      "type": "rest",
+      "hp_before": 18,
+      "hp_after": 46,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Healed at the wrong camp – needed an upgrade."
+    },
+    {
+      "floor": 19,
+      "type": "combat",
+      "hp_before": 46,
+      "hp_after": 28,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Snake Plant again. 8×3 with no block engine."
+    },
+    {
+      "floor": 20,
+      "type": "combat",
+      "hp_before": 28,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Chosen. Hexed, all skills cost 2. Drew 4 attacks, no orbs for block. Dies."
+    }
+  ]
+}

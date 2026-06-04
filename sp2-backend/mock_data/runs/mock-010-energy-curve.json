@@ -1,0 +1,263 @@
+{
+  "run_id": "mock-010-energy-curve",
+  "character": "Necrobinder",
+  "ascension": 2,
+  "floor_reached": 21,
+  "killed_by": "Taskmaster",
+  "max_hp": 70,
+  "final_hp": 0,
+  "gold": 134,
+  "cards": [
+    "Bone Armor",
+    "Lich Form",
+    "Cadaver",
+    "Bone Storm",
+    "Dark Ritual",
+    "Death Grip",
+    "Carrion Feast",
+    "Gravedigger",
+    "Soul Burn",
+    "Doom Clock",
+    "Dread Presence"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Charon's Ashes",
+    "Calling Bell",
+    "Du-Vu Doll"
+  ],
+  "path": [
+    {
+      "floor": 1,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 64,
+      "picked_card": "Bone Armor",
+      "skipped_cards": [
+        "Haunting Strike"
+      ],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 2,
+      "type": "combat",
+      "hp_before": 70,
+      "hp_after": 62,
+      "picked_card": "Cadaver",
+      "skipped_cards": [
+        "Shadow Bolt"
+      ],
+      "relic_gained": "",
+      "notes": "Cadaver costs 2 – first heavy card."
+    },
+    {
+      "floor": 3,
+      "type": "event",
+      "hp_before": 62,
+      "hp_after": 62,
+      "picked_card": "Lich Form",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Event gave Lich Form – 3 cost rare power. Powerful but expensive."
+    },
+    {
+      "floor": 4,
+      "type": "combat",
+      "hp_before": 62,
+      "hp_after": 54,
+      "picked_card": "Bone Storm",
+      "skipped_cards": [
+        "Spectral Blade",
+        "Necrosis"
+      ],
+      "relic_gained": "",
+      "notes": "Bone Storm costs 2. Curve getting heavy."
+    },
+    {
+      "floor": 5,
+      "type": "combat",
+      "hp_before": 60,
+      "hp_after": 51,
+      "picked_card": "Dark Ritual",
+      "skipped_cards": [
+        "Chill of the Grave"
+      ],
+      "relic_gained": "",
+      "notes": "Dark Ritual costs 2. Skipped a 1-cost block card."
+    },
+    {
+      "floor": 6,
+      "type": "rest",
+      "hp_before": 51,
+      "hp_after": 70,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Upgraded Lich Form – still costs 3."
+    },
+    {
+      "floor": 7,
+      "type": "elite",
+      "hp_before": 70,
+      "hp_after": 29,
+      "picked_card": "Death Grip",
+      "skipped_cards": [
+        "Nether Shield",
+        "Reanimate"
+      ],
+      "relic_gained": "Charon's Ashes",
+      "notes": "Lich Form stuck in hand 3 turns. Only had 3 energy. Took massive damage."
+    },
+    {
+      "floor": 8,
+      "type": "shop",
+      "hp_before": 35,
+      "hp_after": 35,
+      "picked_card": "Carrion Feast",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Carrion Feast – another 2-cost card."
+    },
+    {
+      "floor": 9,
+      "type": "rest",
+      "hp_before": 35,
+      "hp_after": 64,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Had to rest. Dying."
+    },
+    {
+      "floor": 10,
+      "type": "combat",
+      "hp_before": 64,
+      "hp_after": 54,
+      "picked_card": "Gravedigger",
+      "skipped_cards": [
+        "Phantom Strike",
+        "Life Drain"
+      ],
+      "relic_gained": "",
+      "notes": "Gravedigger costs 2. Still no energy solution."
+    },
+    {
+      "floor": 11,
+      "type": "combat",
+      "hp_before": 60,
+      "hp_after": 49,
+      "picked_card": "Soul Burn",
+      "skipped_cards": [
+        "Wither"
+      ],
+      "relic_gained": "",
+      "notes": "Soul Burn costs 2."
+    },
+    {
+      "floor": 12,
+      "type": "event",
+      "hp_before": 55,
+      "hp_after": 40,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Scrap Ooze – took damage for Calling Bell relic."
+    },
+    {
+      "floor": 13,
+      "type": "combat",
+      "hp_before": 46,
+      "hp_after": 36,
+      "picked_card": "Doom Clock",
+      "skipped_cards": [
+        "Banshee's Cry",
+        "Wraith Strike"
+      ],
+      "relic_gained": "",
+      "notes": "Doom Clock costs 2. Took it over two 1-cost cards."
+    },
+    {
+      "floor": 14,
+      "type": "rest",
+      "hp_before": 36,
+      "hp_after": 66,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 15,
+      "type": "combat",
+      "hp_before": 66,
+      "hp_after": 55,
+      "picked_card": "Dread Presence",
+      "skipped_cards": [
+        "Grave Rot"
+      ],
+      "relic_gained": "",
+      "notes": "Dread Presence costs 2."
+    },
+    {
+      "floor": 16,
+      "type": "boss",
+      "hp_before": 55,
+      "hp_after": 21,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "Du-Vu Doll",
+      "notes": "Slime Boss. Lich Form finally played on turn 4. Survived with 21 HP."
+    },
+    {
+      "floor": 17,
+      "type": "combat",
+      "hp_before": 27,
+      "hp_after": 18,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Act 2 hallway. Drew Lich Form, Cadaver, Bone Storm on turn 1. Can only play 1 card."
+    },
+    {
+      "floor": 18,
+      "type": "combat",
+      "hp_before": 24,
+      "hp_after": 14,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": ""
+    },
+    {
+      "floor": 19,
+      "type": "shop",
+      "hp_before": 14,
+      "hp_after": 14,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Bought Energy Potion – too little, too late."
+    },
+    {
+      "floor": 20,
+      "type": "rest",
+      "hp_before": 14,
+      "hp_after": 46,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Desperate heal. Can't fix curve this late."
+    },
+    {
+      "floor": 21,
+      "type": "elite",
+      "hp_before": 46,
+      "hp_after": 0,
+      "picked_card": "",
+      "skipped_cards": [],
+      "relic_gained": "",
+      "notes": "Taskmaster. Turn 1: draw Lich Form (3), Bone Storm (2), Gravedigger (2). Can play 1 card. Turn 2: draw Doom Clock (2), Cadaver (2), Defend (1). Dies with an average cost of 2.3 per card. No energy generation."
+    }
+  ]
+}

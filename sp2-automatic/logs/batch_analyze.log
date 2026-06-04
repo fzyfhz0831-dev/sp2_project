@@ -1,0 +1,13 @@
+2026-06-04 11:23:38 [INFO] Batch analyze started against http://127.0.0.1:8000
+2026-06-04 11:23:38 [INFO] Discovered 3 run JSON files
+2026-06-04 11:23:38 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\normalized_run.json as run_id=9
+2026-06-04 11:23:38 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\player_run.example.json as run_id=10
+2026-06-04 11:23:38 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\player_run.json as run_id=11
+2026-06-04 11:34:58 [INFO] Batch analyze started against http://127.0.0.1:8000
+2026-06-04 11:34:58 [INFO] Discovered 1 run JSON files
+2026-06-04 11:34:58 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\normalized_run.json as run_id=12
+2026-06-04 11:59:19 [INFO] Batch analyze started against http://127.0.0.1:8000
+2026-06-04 11:59:19 [INFO] Discovered 3 run JSON files
+2026-06-04 11:59:19 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\normalized_run.json as run_id=14
+2026-06-04 11:59:19 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\player_run.example.json as run_id=15
+2026-06-04 11:59:19 [INFO] Uploaded C:\Users\24364\sp2_project\sp2-automatic\data\player_run.json as run_id=16
