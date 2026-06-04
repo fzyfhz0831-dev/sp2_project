@@ -17,7 +17,7 @@ const FALLBACK_RESULT = {
 const LOCAL_INSIGHTS_URL = '/data/run_insights.json'
 const INSIGHTS_API_MODE = import.meta.env.VITE_INSIGHTS_API_MODE
 const INSIGHTS_API_URL = import.meta.env.VITE_INSIGHTS_API_URL
-export const ANALYZE_API_URL = 'http://127.0.0.1:8000/api/analyze'
+export const ANALYZE_API_URL = 'https://sp2-project.onrender.com/api/analyze'
 
 let insightsCache = null
 
