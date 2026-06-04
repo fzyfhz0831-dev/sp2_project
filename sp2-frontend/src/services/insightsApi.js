@@ -151,6 +151,8 @@ async function uploadAnalysisFile(file, url) {
   const formData = new FormData()
   formData.append('file', file)
 
+  console.log('Uploading to API:', url)
+
   let response
 
   try {
