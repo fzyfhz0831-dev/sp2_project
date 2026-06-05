@@ -147,9 +147,13 @@ async function validateJsonUpload(file) {
   }
 }
 
-async function uploadAnalysisFile(file, url) {
+async function uploadAnalysisFile(file, url, { character, deathLocation, mainProblem } = {}) {
   const formData = new FormData()
   formData.append('file', file)
+
+  if (character) formData.append('character', character)
+  if (deathLocation) formData.append('deathLocation', deathLocation)
+  if (mainProblem) formData.append('mainProblem', mainProblem)
 
   console.log('Uploading to API:', url)
 
@@ -176,7 +180,7 @@ async function uploadAnalysisFile(file, url) {
   }
 }
 
-export async function analyzeRunFile(file) {
+export async function analyzeRunFile(file, options = {}) {
   await validateJsonUpload(file)
-  return uploadAnalysisFile(file, ANALYZE_API_URL)
+  return uploadAnalysisFile(file, ANALYZE_API_URL, options)
 }

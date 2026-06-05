@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-06-05T00:00:00Z",
+  "source": "rule_analyzer knowledge tables + app/knowledge/*.json + sts2.wiki",
+  "characters": {
+    "ironclad": {
+      "label": "Ironclad",
+      "hp": 80,
+      "starting_relic": "Burning Blood",
+      "archetypes": ["Strength Scaling", "Exhaust Engine", "Block / Body Slam"],
+      "key_cards": ["Bash", "Demon Form", "Barricade", "Corruption", "Dark Embrace", "Feel No Pain", "Spot Weakness", "Limit Break"],
+      "wiki_url": "https://sts2.wiki/characters/"
+    },
+    "silent": {
+      "label": "The Silent",
+      "hp": 70,
+      "starting_relic": "Ring of the Snake",
+      "archetypes": ["Poison Stacking", "Shiv Spam", "Discard Engine"],
+      "key_cards": ["Neutralize", "Survivor", "Noxious Fumes", "Catalyst", "Blade Dance", "After Image", "Wraith Form"],
+      "wiki_url": "https://sts2.wiki/characters/"
+    },
+    "defect": {
+      "label": "The Defect",
+      "hp": 75,
+      "starting_relic": "Cracked Core",
+      "archetypes": ["Frost Focus", "Lightning Storm"],
+      "key_cards": ["Zap", "Dualcast", "Defragment", "Glacier", "Echo Form", "Biased Cognition", "Creative AI"],
+      "wiki_url": "https://sts2.wiki/characters/"
+    },
+    "watcher": {
+      "label": "The Watcher",
+      "hp": 72,
+      "starting_relic": "Pure Water",
+      "archetypes": ["Stance Dance / Infinite", "Divinity Burst"],
+      "key_cards": ["Eruption", "Vigilance", "Rushdown", "Mental Fortress", "Blasphemy", "Talk to the Hand"],
+      "wiki_url": "https://sts2.wiki/characters/"
+    }
+  },
+  "death_locations": {
+    "act_1_elite": {
+      "label": "Act 1 Elite",
+      "act": 1,
+      "type": "elite",
+      "enemies": ["Gremlin Nob", "Lagavulin", "Sentry Trio"],
+      "common_causes": [
+        "Taking elites without enough front-loaded damage",
+        "Playing skills against Gremlin Nob",
+        "Not using Lagavulin's sleep turns for scaling setup",
+        "No AoE against Sentry Trio"
+      ]
+    },
+    "act_1_boss": {
+      "label": "Act 1 Boss",
+      "act": 1,
+      "type": "boss",
+      "enemies": ["Slime Boss", "The Guardian", "Hexaghost"],
+      "common_causes": [
+        "Insufficient front-loaded damage for Slime Boss split",
+        "Attacking into Guardian's thorns with multi-hit cards",
+        "Overhealing before Hexaghost (higher HP = more Inferno damage)"
+      ]
+    },
+    "act_2_elite": {
+      "label": "Act 2 Elite",
+      "act": 2,
+      "type": "elite",
+      "enemies": ["Book of Stabbing", "Gremlin Leader", "Slavers"],
+      "common_causes": [
+        "No Disarm / Weak against Book of Stabbing's multi-hit scaling",
+        "Killing all minions against Gremlin Leader (triggers Strength buff)",
+        "Insufficient AoE and front-loaded block"
+      ]
+    },
+    "act_2_boss": {
+      "label": "Act 2 Boss",
+      "act": 2,
+      "type": "boss",
+      "enemies": ["Bronze Automaton", "The Collector", "The Champ"],
+      "common_causes": [
+        "Deck too thin against Bronze Automaton (card steal)",
+        "Letting torch-head minions stack Mega Debuff against Collector",
+        "Using debuffs before The Champ's half-HP threshold (they get cleansed)"
+      ]
+    },
+    "act_3_elite": {
+      "label": "Act 3 Elite",
+      "act": 3,
+      "type": "elite",
+      "enemies": ["Nemesis", "Giant Head", "Reptomancer"],
+      "common_causes": [
+        "Wasting damage on Intangible turns against Nemesis",
+        "Insufficient scaling against Giant Head (ramps up)",
+        "Not killing daggers fast enough against Reptomancer"
+      ]
+    },
+    "act_3_boss": {
+      "label": "Act 3 Boss",
+      "act": 3,
+      "type": "boss",
+      "enemies": ["Time Eater", "Awakened One", "Donu and Deca"],
+      "common_causes": [
+        "Card spam decks against Time Eater (12-card turn limit)",
+        "Power spam in phase 1 against Awakened One (gives boss Strength)",
+        "Not focus-firing Donu first against Donu and Deca"
+      ]
+    },
+    "heart": {
+      "label": "The Heart",
+      "act": 4,
+      "type": "final_boss",
+      "enemies": ["Corrupt Heart"],
+      "common_causes": [
+        "Card spam triggering Beat of Death too many times per turn",
+        "Can't output 800+ damage through Invincible cap",
+        "Insufficient block engine for multi-hit attack on turns 2-3",
+        "No Intangible or max HP buffer"
+      ]
+    },
+    "hallway": {
+      "label": "Hallway Fight",
+      "act": 0,
+      "type": "combat",
+      "enemies": [],
+      "common_causes": [
+        "Deck too weak for the floor reached",
+        "Bad draw order with no card draw to fix it",
+        "Too many basic Strikes/Defends diluting the deck"
+      ]
+    }
+  },
+  "main_problems": {
+    "low_block": {
+      "label": "Low Block",
+      "description": "Deck does not produce enough block to survive enemy attacks.",
+      "threshold": "Block cards below 22% of total deck",
+      "fix": "Add 2-3 block cards. Prioritize upgrading key block cards at campfires."
+    },
+    "low_damage": {
+      "label": "Low Damage",
+      "description": "Deck cannot kill enemies before they scale out of control.",
+      "threshold": "No scaling damage cards by Act 2",
+      "fix": "Pick damage-scaling cards (Strength, Poison, Focus, Divinity) and front-loaded damage for early game."
+    },
+    "poor_scaling": {
+      "label": "Poor Scaling",
+      "description": "Deck lacks cards that grow in power over the course of a fight.",
+      "threshold": "Fewer than 2 scaling cards by Act 2, or fewer than 3 by Act 3",
+      "fix": "Add scaling cards. Demon Form / Noxious Fumes / Defragment / Mental Fortress — one per character."
+    },
+    "bad_draw": {
+      "label": "Bad Card Draw",
+      "description": "Deck is inconsistent because key cards appear too rarely.",
+      "threshold": "Fewer than 2 unique draw sources in Act 2+",
+      "fix": "Add card draw: Battle Trance, Acrobatics, Coolheaded, Cut Through Fate."
+    },
+    "high_cost_deck": {
+      "label": "High-Cost Deck",
+      "description": "Too many 2+ cost cards without an energy relic to support them.",
+      "threshold": "Expensive cards above 30% of total deck with no energy relic",
+      "fix": "Pick an energy relic at the next boss, or remove some 2-cost cards."
+    },
+    "risky_pathing": {
+      "label": "Risky Pathing",
+      "description": "Path choices took too many elites or skipped needed campfires.",
+      "threshold": "More than 3 elites per act, or consecutive elites without resting",
+      "fix": "Take 1-2 elites max per act. Use campfires for upgrades instead of healing."
+    },
+    "deck_bloat": {
+      "label": "Deck Bloat",
+      "description": "Deck is too large; key cards appear too infrequently.",
+      "threshold": "Deck size above 35 cards",
+      "fix": "Skip card rewards more often. Remove basic Strikes/Defends at shops."
+    },
+    "relic_mismatch": {
+      "label": "Relic Mismatch",
+      "description": "Relics don't support the deck's game plan.",
+      "threshold": "Scaling cards present but no scaling-support relics",
+      "fix": "Take elites for relic rewards. Visit shops for synergistic relics."
+    }
+  },
+  "knowledge_map": [
+    {
+      "character": "ironclad",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_block",
+      "relatedKnowledge": [
+        "Ironclad starts with Bash and Defend — upgrade Bash early for Vulnerable burst.",
+        "Shrug It Off and Flame Barrier are premium Act 1 block pickups.",
+        "Gremlin Nob punishes skills — block cards are skills. Bring attacks instead.",
+        "Feel No Pain converts exhaust to block — strong against Sentry Trio's Dazed."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/", "https://sts2.wiki/relics/"]
+    },
+    {
+      "character": "ironclad",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Ironclad needs front-loaded damage for Act 1 elites: Carnage, Hemokinesis, Anger.",
+        "Bash applies Vulnerable (50% more damage) — use it on turn 1 of elite fights.",
+        "Against Lagavulin: use 3 sleep turns to play Demon Form or Spot Weakness.",
+        "Akabeko relic doubles first attack each combat — great for elite bursting."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/", "https://sts2.wiki/relics/"]
+    },
+    {
+      "character": "ironclad",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Demon Form is Ironclad's strongest universal scaler — play it early in boss fights.",
+        "Limit Break doubles current Strength. Timing is key — play it after Strength sources.",
+        "Spot Weakness gives +4(6) Strength if used when enemy intends to attack.",
+        "The Champ cleanses debuffs at half HP — hold debuffs and burst in one cycle."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/", "https://sts2.wiki/relics/"]
+    },
+    {
+      "character": "ironclad",
+      "deathLocation": "act_3_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Time Eater caps 12 cards/turn — prioritize card QUALITY over quantity.",
+        "1 Demon Form is worth more than 12 small attacks against Time Eater.",
+        "Awakened One gains +1 Strength per power played in phase 1 — delay powers to phase 2.",
+        "Donu and Deca: kill Donu first. Deca alone with block is manageable."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "The Silent struggles with Act 1 elites due to low front-loaded damage.",
+        "Blade Dance and Dagger Throw provide early damage output.",
+        "Poison is slow for elites — mix in direct damage until deck stabilizes.",
+        "Gremlin Nob punishes Silent very hard (skill-heavy starter deck). Bring attacks and potions."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "act_1_boss",
+      "mainProblem": "low_block",
+      "relatedKnowledge": [
+        "Survivor and Neutralize are strong starter defends — upgrade Neutralize for 2-turn Weak.",
+        "Dodge and Roll + Blur provide layered block for boss fights.",
+        "Slime Boss: save burst damage for the split turn. Small slimes must die fast.",
+        "Hexaghost: DON'T overheal before the fight — Inferno damage scales with your current HP."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Noxious Fumes + Catalyst = exponential poison scaling for boss fights.",
+        "Footwork provides permanent Dexterity — the Silent's best scaling defense.",
+        "Well-Laid Plans lets you hold key cards for the right turn — essential for boss fights.",
+        "The Collector: kill torch-head minions fast. AoE poison (Crippling Cloud) hits everything."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "heart",
+      "mainProblem": "bad_draw",
+      "relatedKnowledge": [
+        "The Heart's Beat of Death punishes every card play — high-impact > card spam.",
+        "After Image generates 1 block per card played, largely negating Beat of Death.",
+        "Wraith Form's Intangible negates the massive multi-hit attack on turns 2-3.",
+        "Acrobatics + Tactician engine cycles your deck to find key cards every turn."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Defect starts with Zap and Dualcast — upgrade Zap early for 0-cost orb generation.",
+        "Ball Lightning and Cold Snap are efficient Act 1 picks that channel orbs.",
+        "Sunder carries Act 1 elite fights with high front-loaded damage.",
+        "Gremlin Nob: DON'T play Zap/Coolheaded (skills). Rely on Dualcast and Sunder."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Defragment is the Defect's best scaling card — stack 2-3 copies if possible.",
+        "Glacier provides massive block + 2 Frost orbs — essential for boss survival.",
+        "Biased Cognition + Core Surge (artifact) negates the Focus loss — permanent +4(5) Focus.",
+        "Echo Form doubles your first card each turn — the Defect's ultimate scaling power."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "act_3_boss",
+      "mainProblem": "high_cost_deck",
+      "relatedKnowledge": [
+        "Defect has expensive power cards (Echo Form 3, Creative AI 3, Electrodynamics 2).",
+        "Without energy relic, 3-cost cards leave no energy for block.",
+        "Awakened One punishes Defect's power-heavy nature hard — delay powers to phase 2.",
+        "Mummified Hand turns powers into energy generators — each power makes next card free."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "heart",
+      "mainProblem": "low_block",
+      "relatedKnowledge": [
+        "Frost orbs + Focus = passive block every turn — the Heart's Beat of Death becomes negligible.",
+        "6 Frost orbs × 5 Focus = 42 passive block per turn. The goal to aim for.",
+        "Capacitor increases orb slots — essential for reaching 6+ orbs.",
+        "Genetic Algorithm can scale to 40+ block for a single energy — use it early in the run."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/", "https://sts2.wiki/relics/"]
+    },
+    {
+      "character": "watcher",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Watcher's Wrath stance doubles damage — stay in Wrath as long as it's safe.",
+        "Eruption+ is the most important upgrade — it costs 0 instead of 2 energy to enter Wrath.",
+        "Empty Fist + exit Wrath = 28 damage for 1 energy. Premium Act 1 burst.",
+        "Against Gremlin Nob: Watcher can burst it down in Wrath before Nob enrages."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "watcher",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Mental Fortress scales block in Wrath — 4(6) block per stance change.",
+        "Talk to the Hand applies 2(3) block per hit — neutralizes multi-enemy fights.",
+        "Devotion enters Divinity (3x damage) every few turns — the Watcher's strongest scaling.",
+        "The Champ: burst from 50% to 0 in one Divinity turn. Scale silently before half HP."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    },
+    {
+      "character": "watcher",
+      "deathLocation": "act_3_boss",
+      "mainProblem": "risky_pathing",
+      "relatedKnowledge": [
+        "Watcher's high burst damage encourages greedy pathing — but Wrath doubles damage taken too.",
+        "Time Eater caps Watcher's stance-dance combos at 12 cards — plan your end-turn carefully.",
+        "Every Wrath turn against Awakened One is dangerous — the boss gains Strength from powers.",
+        "Blasphemy (enter Divinity, die next turn) is win-or-die — only use on guaranteed kill turns."
+      ],
+      "sourceUrls": ["https://sts2.wiki/cards/"]
+    }
+  ],
+  "boss_tips": {
+    "Slime Boss": "Save burst damage for the split turn. Small slimes must be cleared before they attack.",
+    "The Guardian": "Scale during defensive phases. Do NOT attack into thorns with multi-hit cards.",
+    "Hexaghost": "Counter-intuitive: DON'T heal before this fight. Lower HP = weaker Inferno.",
+    "Bronze Automaton": "Draft extra cards. Losing your best card to steal hurts badly.",
+    "The Collector": "Kill torch-heads FAST. Mega Debuff stacking is a death sentence.",
+    "The Champ": "Don't use debuffs before half HP. Scale silently, then burst.",
+    "Time Eater": "COUNT CARDS. Don't start a combo at card 9. High-impact > spam.",
+    "Awakened One": "Hold powers for phase 2. Each power in phase 1 = +1 Strength for boss.",
+    "Donu and Deca": "Focus Donu first. Corpse Explosion (Silent) = instant win.",
+    "Corrupt Heart": "Need 800+ damage + Beat of Death defense. Intangible for big attacks."
+  }
+}

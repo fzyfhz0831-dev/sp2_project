@@ -1,0 +1,130 @@
+{
+  "characters": [
+    { "value": "ironclad", "label": "The Ironclad" },
+    { "value": "silent", "label": "The Silent" },
+    { "value": "defect", "label": "The Defect" },
+    { "value": "watcher", "label": "The Watcher" }
+  ],
+  "deathLocations": [
+    { "value": "act_1_elite", "label": "Act 1 Elite" },
+    { "value": "act_1_boss", "label": "Act 1 Boss" },
+    { "value": "act_2_elite", "label": "Act 2 Elite" },
+    { "value": "act_2_boss", "label": "Act 2 Boss" },
+    { "value": "act_3_elite", "label": "Act 3 Elite" },
+    { "value": "act_3_boss", "label": "Act 3 Boss" },
+    { "value": "heart", "label": "The Heart" },
+    { "value": "hallway", "label": "Hallway Fight" }
+  ],
+  "mainProblems": [
+    { "value": "low_block", "label": "Low Block" },
+    { "value": "low_damage", "label": "Low Damage" },
+    { "value": "poor_scaling", "label": "Poor Scaling" },
+    { "value": "bad_draw", "label": "Bad Card Draw" },
+    { "value": "high_cost_deck", "label": "High-Cost Deck" },
+    { "value": "risky_pathing", "label": "Risky Pathing" },
+    { "value": "deck_bloat", "label": "Deck Bloat" },
+    { "value": "relic_mismatch", "label": "Relic Mismatch" }
+  ],
+  "knowledgeMap": [
+    {
+      "character": "ironclad",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_block",
+      "relatedKnowledge": [
+        "Ironclad starts with Bash and Defend — upgrade Bash early for Vulnerable burst.",
+        "Shrug It Off and Flame Barrier are premium Act 1 block pickups.",
+        "Gremlin Nob punishes skills — block cards are skills. Bring attacks instead."
+      ]
+    },
+    {
+      "character": "ironclad",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Ironclad needs front-loaded damage for Act 1 elites: Carnage, Hemokinesis, Anger.",
+        "Bash applies Vulnerable (50% more damage) — use it on turn 1 of elite fights.",
+        "Against Lagavulin: use 3 sleep turns to play Demon Form or Spot Weakness."
+      ]
+    },
+    {
+      "character": "ironclad",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Demon Form is Ironclad's strongest universal scaler — play it early in boss fights.",
+        "Limit Break doubles current Strength. Timing is key.",
+        "The Champ cleanses debuffs at half HP — burst in one cycle."
+      ]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "The Silent struggles with Act 1 elites due to low front-loaded damage.",
+        "Blade Dance and Dagger Throw provide early damage output.",
+        "Gremlin Nob punishes Silent very hard — bring attacks and potions."
+      ]
+    },
+    {
+      "character": "silent",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Noxious Fumes + Catalyst = exponential poison scaling.",
+        "Footwork provides permanent Dexterity — Silent's best scaling defense.",
+        "Well-Laid Plans lets you hold key cards for the right turn."
+      ]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Ball Lightning and Cold Snap are efficient Act 1 orb-generating picks.",
+        "Sunder carries Act 1 elite fights with high front-loaded damage.",
+        "Gremlin Nob: DON'T play skills. Rely on Dualcast and Sunder."
+      ]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Defragment is the Defect's best scaling card — stack 2-3 if possible.",
+        "Glacier provides massive block + 2 Frost orbs for boss survival.",
+        "Biased Cognition + artifact = permanent +4(5) Focus."
+      ]
+    },
+    {
+      "character": "defect",
+      "deathLocation": "heart",
+      "mainProblem": "low_block",
+      "relatedKnowledge": [
+        "Frost orbs + Focus = passive block every turn — Beat of Death becomes negligible.",
+        "6 Frost orbs × 5 Focus = 42 passive block per turn.",
+        "Capacitor increases orb slots — essential for reaching 6+ orbs."
+      ]
+    },
+    {
+      "character": "watcher",
+      "deathLocation": "act_1_elite",
+      "mainProblem": "low_damage",
+      "relatedKnowledge": [
+        "Watcher's Wrath doubles damage — stay in Wrath as long as it's safe.",
+        "Eruption+ is the most important upgrade (0 cost Wrath).",
+        "Empty Fist + exit Wrath = 28 damage for 1 energy."
+      ]
+    },
+    {
+      "character": "watcher",
+      "deathLocation": "act_2_boss",
+      "mainProblem": "poor_scaling",
+      "relatedKnowledge": [
+        "Mental Fortress scales block in Wrath — 4(6) block per stance change.",
+        "Talk to the Hand applies block per hit — neutralizes multi-enemy fights.",
+        "Devotion enters Divinity for 3x damage — Watcher's strongest scaling."
+      ]
+    }
+  ]
+}

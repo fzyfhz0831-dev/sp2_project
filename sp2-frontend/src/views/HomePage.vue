@@ -1,5 +1,5 @@
 ﻿<script setup>
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import insightArt from '../assets/insight-stack.png'
 import { analyzeRunFile } from '../services/insightsApi'
@@ -13,26 +13,40 @@ const ANALYSIS_SECTIONS = [
   'Short summary',
 ]
 
-const characters = [
+// Hardcoded defaults — used while run_options.json loads and as fallback.
+const DEFAULT_CHARACTERS = [
   { value: 'ironclad', label: 'The Ironclad' },
   { value: 'silent', label: 'The Silent' },
   { value: 'defect', label: 'The Defect' },
   { value: 'watcher', label: 'The Watcher' },
 ]
 
-const locations = [
-  { value: 'act1', label: 'Act 1 Boss' },
-  { value: 'act2', label: 'Act 2 Elites' },
-  { value: 'act3', label: 'Act 3 Boss' },
+const DEFAULT_LOCATIONS = [
+  { value: 'act_1_elite', label: 'Act 1 Elite' },
+  { value: 'act_1_boss', label: 'Act 1 Boss' },
+  { value: 'act_2_elite', label: 'Act 2 Elite' },
+  { value: 'act_2_boss', label: 'Act 2 Boss' },
+  { value: 'act_3_elite', label: 'Act 3 Elite' },
+  { value: 'act_3_boss', label: 'Act 3 Boss' },
   { value: 'heart', label: 'The Heart' },
+  { value: 'hallway', label: 'Hallway Fight' },
 ]
 
-const problems = [
-  { value: 'damage', label: 'Lack of Damage' },
-  { value: 'block', label: 'Lack of Block' },
-  { value: 'scaling', label: 'Poor Scaling' },
-  { value: 'draw', label: 'Bad Card Draw' },
+const DEFAULT_PROBLEMS = [
+  { value: 'low_block', label: 'Low Block' },
+  { value: 'low_damage', label: 'Low Damage' },
+  { value: 'poor_scaling', label: 'Poor Scaling' },
+  { value: 'bad_draw', label: 'Bad Card Draw' },
+  { value: 'high_cost_deck', label: 'High-Cost Deck' },
+  { value: 'risky_pathing', label: 'Risky Pathing' },
+  { value: 'deck_bloat', label: 'Deck Bloat' },
+  { value: 'relic_mismatch', label: 'Relic Mismatch' },
 ]
+
+const characters = ref([...DEFAULT_CHARACTERS])
+const locations = ref([...DEFAULT_LOCATIONS])
+const problems = ref([...DEFAULT_PROBLEMS])
+const optionsLoadError = ref('')
 
 const selectedCharacter = ref('')
 const selectedLocation = ref('')
@@ -42,6 +56,26 @@ const result = ref(null)
 const isAnalyzing = ref(false)
 const uploadStatus = ref('Choose a run JSON file to analyze.')
 const errorMessage = ref('')
+
+onMounted(async () => {
+  try {
+    const resp = await fetch('/data/run_options.json')
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
+    const data = await resp.json()
+    if (Array.isArray(data.characters) && data.characters.length) {
+      characters.value = data.characters
+    }
+    if (Array.isArray(data.deathLocations) && data.deathLocations.length) {
+      locations.value = data.deathLocations
+    }
+    if (Array.isArray(data.mainProblems) && data.mainProblems.length) {
+      problems.value = data.mainProblems
+    }
+  } catch (err) {
+    // Use defaults on any error — the app still works.
+    optionsLoadError.value = err instanceof Error ? err.message : 'Unknown error'
+  }
+})
 
 const selectedRun = computed(() => ({
   character: selectedCharacter.value,
@@ -169,7 +203,11 @@ async function analyzeRun() {
   uploadStatus.value = 'Analyzing...'
 
   try {
-    const response = await analyzeRunFile(file)
+    const response = await analyzeRunFile(file, {
+      character: selectedCharacter.value || undefined,
+      deathLocation: selectedLocation.value || undefined,
+      mainProblem: selectedProblem.value || undefined,
+    })
     result.value = formatBackendResult(response)
     uploadStatus.value = `Analysis complete for ${result.value.filename}.`
   } catch (error) {

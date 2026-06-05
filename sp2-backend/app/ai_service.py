@@ -57,13 +57,29 @@ def _has_real_api_key(api_key: str | None) -> bool:
     return clean_key.startswith("sk-")
 
 
-def _build_prompt(parsed_data: dict[str, Any], findings: dict[str, Any] | None = None) -> str:
+def _build_prompt(
+    parsed_data: dict[str, Any],
+    findings: dict[str, Any] | None = None,
+    wiki_context: list[str] | None = None,
+) -> str:
     """Build a prompt that uses rule-based findings for the AI to explain naturally.
 
     When *findings* is provided, the AI is asked to summarize and explain the
     pre-computed issues in natural language rather than generating generic advice.
+
+    When *wiki_context* is provided, it is injected as additional expert
+    knowledge the AI should reference in its explanation.
     """
     run_json = json.dumps(parsed_data, ensure_ascii=False, indent=2)
+
+    # Build wiki context block if available.
+    wiki_block = ""
+    if wiki_context:
+        wiki_block = (
+            "\n\nExpert Wiki Knowledge (reference these facts in your analysis):\n"
+            + "\n".join(f"- {entry}" for entry in wiki_context)
+            + "\n"
+        )
 
     if findings and (findings.get("problems") or findings.get("warnings") or findings.get("suggestions")):
         # Structured findings available — AI explains them.
@@ -78,7 +94,8 @@ def _build_prompt(parsed_data: dict[str, Any], findings: dict[str, Any] | None =
             "- Do NOT give generic advice — only explain the specific issues below.\n"
             "- If strengths are listed, acknowledge them positively.\n"
             "- If suggestions are listed, explain WHY each one helps.\n"
-            "- Write in friendly, encouraging tone (the player just lost a run).\n\n"
+            "- Write in friendly, encouraging tone (the player just lost a run).\n"
+            f"{wiki_block}\n"
             "Return your response with these exact sections:\n"
             "1. Reason for success/failure\n"
             "2. 3 key mistakes (derived from the problems/warnings below)\n"
@@ -205,7 +222,7 @@ def _extract_response_text(response: Any) -> str:
 
 
 def _call_openai_http(prompt: str, model: str, api_key: str) -> str:
-    """Call the Responses API with Python's standard library."""
+    """Call the OpenAI Responses API with Python's standard library."""
     payload = json.dumps({"model": model, "input": prompt}).encode("utf-8")
     request = urllib.request.Request(
         RESPONSES_URL,
@@ -238,8 +255,93 @@ def _call_openai_http(prompt: str, model: str, api_key: str) -> str:
     return text
 
 
-def _call_openai(prompt: str, model: str, api_key: str) -> str:
-    """Call OpenAI once; kept separate so callers can reuse analyze_run."""
+def _call_chat_completions_http(prompt: str, model: str, api_key: str, base_url: str) -> str:
+    """Call a Chat Completions-compatible API with Python's standard library.
+
+    Used when the ``openai`` package is not installed and the provider
+    exposes a ``/chat/completions`` endpoint (DeepSeek, OpenAI, etc.).
+    """
+    url = f"{base_url.rstrip('/')}/chat/completions"
+    payload = json.dumps(
+        {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+    ).encode("utf-8")
+
+    request = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=60) as http_response:
+            body = http_response.read().decode("utf-8")
+    except urllib.error.HTTPError as error:
+        detail = error.read().decode("utf-8", errors="replace")
+        raise AIServiceError(f"AI API HTTP {error.code}: {detail}") from error
+    except urllib.error.URLError as error:
+        raise AIServiceError(f"AI API request failed: {error.reason}") from error
+
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError as error:
+        raise AIServiceError("AI API returned invalid JSON.") from error
+
+    # Chat Completions response format: {"choices": [{"message": {"content": "..."}}]}
+    try:
+        text = data["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError) as error:
+        raise AIServiceError("AI API response missing expected content.") from error
+
+    if not text or not str(text).strip():
+        raise AIServiceError("AI API returned an empty analysis.")
+
+    return str(text).strip()
+
+
+def _call_chat_completions(prompt: str, model: str, api_key: str, base_url: str) -> str:
+    """Call a Chat Completions-compatible API via the OpenAI SDK.
+
+    Supports any provider with a ``/chat/completions`` endpoint
+    (DeepSeek, OpenAI, Groq, Fireworks, etc.).
+    """
+    try:
+        from openai import OpenAI
+    except ImportError:
+        return _call_chat_completions_http(prompt, model, api_key, base_url)
+
+    try:
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = response.choices[0].message.content
+    except Exception as error:
+        raise AIServiceError(str(error)) from error
+
+    if not text or not str(text).strip():
+        raise AIServiceError("AI API returned an empty analysis.")
+
+    return str(text).strip()
+
+
+def _call_openai(prompt: str, model: str, api_key: str, base_url: str | None = None) -> str:
+    """Call the AI provider.
+
+    When *base_url* is provided, uses the Chat Completions API
+    (compatible with DeepSeek and other providers).  Otherwise uses
+    the OpenAI Responses API.
+    """
+    if base_url:
+        return _call_chat_completions(prompt, model, api_key, base_url)
+
     try:
         from openai import OpenAI
     except ImportError:
@@ -261,18 +363,37 @@ def _call_openai(prompt: str, model: str, api_key: str) -> str:
     return text
 
 
-def analyze_run(parsed_data: dict[str, Any], findings: dict[str, Any] | None = None) -> str:
-    """Analyze one parsed run using OpenAI, or a mock result without a key.
+def analyze_run(
+    parsed_data: dict[str, Any],
+    findings: dict[str, Any] | None = None,
+    wiki_context: list[str] | None = None,
+) -> str:
+    """Analyze one parsed run using AI, or a mock result without a key.
 
     When *findings* (from :func:`rule_analyzer.analyze_run_rules`) is provided,
     the AI is instructed to explain those specific findings rather than invent
     generic advice.
+
+    When *wiki_context* is provided, expert wiki knowledge entries are injected
+    into the prompt so the AI can reference them in its analysis.
+
+    Environment variables
+    ---------------------
+    ``OPENAI_API_KEY``
+        Required.  Must start with ``sk-``.
+    ``OPENAI_MODEL``
+        Optional — ``gpt-4.1-mini`` when unset.
+    ``OPENAI_BASE_URL``
+        Optional.  When set (e.g. ``https://api.deepseek.com``) the
+        provider's Chat Completions API is used instead of OpenAI's
+        Responses API, enabling DeepSeek and other compatible providers.
     """
     api_key = _load_env_value("OPENAI_API_KEY")
     model = _load_env_value("OPENAI_MODEL") or DEFAULT_MODEL
+    base_url = _load_env_value("OPENAI_BASE_URL")
 
     if not _has_real_api_key(api_key):
         return _mock_analysis(parsed_data, findings)
 
-    prompt = _build_prompt(parsed_data, findings)
-    return _call_openai(prompt, model, api_key)
+    prompt = _build_prompt(parsed_data, findings, wiki_context=wiki_context)
+    return _call_openai(prompt, model, api_key, base_url)
