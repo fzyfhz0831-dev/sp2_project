@@ -19,8 +19,14 @@ from app.run_parser import RunParserError, parse_run_data
 app = FastAPI(title="SP2 Backend")
 
 app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
+    CORSMiddleware,		
+    allow_origins=[
+    "https://ab7c830b.sp2-project.pages.dev/",
+    "https://sp2-project-1.onrender.com",
+    "https://sp2-project.onrender.com",
+    "http://localhost:5173",
+    "http://localhost:4173",
+],"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
