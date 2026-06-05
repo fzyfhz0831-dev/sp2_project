@@ -26,8 +26,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <footer class="site-footer">
       <span>SpireInsight</span>
-      <span class="footer-dot">.</span>
-      <span>Run diagnostics for better climbs</span>
+      <span class="footer-dot">·</span>
+      <span>AI-powered Slay the Spire diagnostics</span>
+      <br />
+      <span>© 2026 KaiSa Feng</span>
     </footer>
   </div>
 </template>
