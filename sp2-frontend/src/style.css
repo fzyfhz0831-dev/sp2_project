@@ -408,21 +408,72 @@ p {
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.07);
 }
 
-.file-control {
-  width: 100%;
-  min-width: 0;
-  padding: 12px 13px;
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius-card);
-  outline: none;
-  background: var(--surface-solid);
-  color: var(--text-soft);
-  font-size: 14px;
+.file-control-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }
 
-.file-control:focus {
-  border-color: rgba(0, 0, 0, 0.38);
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.07);
+.file-picker-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 48px;
+  flex: 0 0 auto;
+  padding: 0 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-card);
+  background: var(--surface-solid);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    border 160ms var(--ease),
+    background 160ms var(--ease),
+    color 160ms var(--ease),
+    box-shadow 160ms var(--ease);
+}
+
+.file-picker-button:hover {
+  border-color: rgba(0, 0, 0, 0.34);
+  background: var(--text);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.file-picker-button:active {
+  transform: scale(0.98);
+}
+
+.file-picker-icon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.file-picker-label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  padding: 0 4px;
+  color: var(--text-muted);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .form-message {
@@ -766,11 +817,6 @@ p {
   gap: 10px;
 }
 
-.file-input-row .file-control {
-  flex: 1;
-  min-width: 0;
-}
-
 .guide-button {
   display: inline-flex;
   align-items: center;
@@ -1040,6 +1086,15 @@ p {
   .file-input-row {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .file-picker-button {
+    justify-content: center;
+    min-height: 42px;
+  }
+
+  .file-picker-label {
+    padding: 4px 0;
   }
 
   .guide-button {

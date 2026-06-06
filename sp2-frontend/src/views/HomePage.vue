@@ -52,6 +52,7 @@ const selectedCharacter = ref('')
 const selectedLocation = ref('')
 const selectedProblem = ref('')
 const selectedJsonFile = ref(null)
+const fileInputRef = ref(null)
 const result = ref(null)
 const isAnalyzing = ref(false)
 const uploadStatus = ref('Choose a run JSON file to analyze.')
@@ -94,6 +95,10 @@ const runLabel = computed(() => [
 
 function findOptionLabel(options, value) {
   return options.find((item) => item.value === value)?.label
+}
+
+function triggerFileInput() {
+  fileInputRef.value?.click()
 }
 
 function onFileChange(event) {
@@ -261,11 +266,19 @@ function openJsonGuide() {
             <span>Run JSON</span>
             <div class="file-input-row">
               <input
-                class="file-control"
+                ref="fileInputRef"
+                class="file-control-hidden"
                 type="file"
                 accept=".json,application/json"
                 @change="onFileChange"
               />
+              <button type="button" class="file-picker-button" @click="triggerFileInput">
+                <span class="file-picker-icon" aria-hidden="true">+</span>
+                <span>Choose File</span>
+              </button>
+              <span class="file-picker-label">
+                {{ selectedJsonFile ? selectedJsonFile.name : 'No file selected' }}
+              </span>
               <button type="button" class="guide-button" @click="openJsonGuide">
                 <span class="guide-icon" aria-hidden="true">?</span>
                 <span>JSON Guide</span>
