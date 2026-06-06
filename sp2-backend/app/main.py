@@ -1,6 +1,7 @@
 ﻿from __future__ import annotations
 
 import json
+import logging
 import shutil
 from pathlib import Path
 from typing import Any
@@ -13,6 +14,8 @@ from app.config import APP_DIR, UPLOAD_DIR
 from app.db_service import DatabaseError, get_run, init_db, list_runs, save_run
 from app.rule_analyzer import analyze_run_rules
 from app.run_parser import RunParserError, parse_run_data
+
+logger = logging.getLogger("sp2.api")
 
 
 # ---------------------------------------------------------------------------
@@ -74,24 +77,79 @@ def _analyze_and_save_run(
     death_location: str = "",
     main_problem: str = "",
 ) -> dict[str, Any]:
+    logger.info("Analyzing run: file=%r character=%r floor=%r",
+                filename,
+                uploaded_data.get("character") or "unknown",
+                uploaded_data.get("floor_reached") or uploaded_data.get("floor") or "unknown")
+
+    # ── Parse run data ──────────────────────────────────────────────────
     try:
         parsed_run = parse_run_data(uploaded_data)
     except RunParserError as error:
+        logger.warning("Run parse error: %s", error)
         raise HTTPException(status_code=400, detail=str(error)) from error
 
-    # Rule-based analysis — runs before AI to get structured findings.
-    findings = analyze_run_rules(parsed_run)
+    logger.info("Parsed run: character=%r floor=%r",
+                parsed_run.get("character"),
+                parsed_run.get("floor_reached"))
 
-    # Look up wiki knowledge if the frontend provided selections.
+    # ── Rule-based analysis ─────────────────────────────────────────────
+    findings: dict[str, Any] = {
+        "problems": [],
+        "strengths": [],
+        "warnings": [],
+        "suggestions": [],
+        "run_context": {
+            "character": parsed_run.get("character", "Unknown"),
+            "floor": parsed_run.get("floor_reached", 0),
+            "boss": "Unknown",
+            "deck_size": 0,
+            "relic_count": 0,
+            "victory": None,
+        },
+        "analysis_quality": "fallback",
+    }
+    rule_analyzer_failed = False
+    try:
+        findings = analyze_run_rules(parsed_run)
+        logger.info("Rule analysis: %d problems, %d strengths, %d warnings, %d suggestions",
+                    len(findings.get("problems", [])),
+                    len(findings.get("strengths", [])),
+                    len(findings.get("warnings", [])),
+                    len(findings.get("suggestions", [])))
+    except Exception as exc:
+        rule_analyzer_failed = True
+        logger.warning("Rule analyzer failed (continuing without): %s", exc)
+
+    # ── Wiki knowledge lookup ───────────────────────────────────────────
     wiki_context: list[str] = []
     if character and death_location and main_problem:
-        wiki_context = _lookup_wiki_knowledge(character, death_location, main_problem)
+        try:
+            wiki_context = _lookup_wiki_knowledge(character, death_location, main_problem)
+            logger.info("Wiki knowledge: %d entries matched", len(wiki_context))
+        except Exception as exc:
+            logger.warning("Wiki knowledge lookup failed (continuing without): %s", exc)
 
+    # ── AI analysis ─────────────────────────────────────────────────────
+    analysis: str = ""
+    ai_failed = False
     try:
         analysis = analyze_run(parsed_run, findings, wiki_context=wiki_context)
-    except RuntimeError as error:
-        raise HTTPException(status_code=502, detail=f"AI API error: {error}") from error
+        logger.info("AI analysis success: %d chars", len(analysis))
+    except Exception as exc:
+        ai_failed = True
+        logger.warning("AI analysis failed, falling back to rule analyzer: %s", exc)
+        # Build a rule-based fallback summary when AI is unavailable.
+        from app.ai_service import _mock_analysis
+        try:
+            analysis = _mock_analysis(parsed_run, findings)
+            logger.info("Fallback analysis generated: %d chars", len(analysis))
+        except Exception as fallback_exc:
+            logger.error("Even fallback analysis failed: %s", fallback_exc)
+            analysis = f"Analysis unavailable. Rule-based findings: {json.dumps(findings, indent=2)}"
 
+    # ── Persist to database ─────────────────────────────────────────────
+    run_id: int | None = None
     try:
         run_id = save_run(
             filename=filename,
@@ -100,8 +158,13 @@ def _analyze_and_save_run(
             analysis=analysis,
             summary_text=parsed_run.get("summary_text"),
         )
+        logger.info("Run saved: id=%s", run_id)
     except DatabaseError as error:
+        logger.error("Database error: %s", error)
         raise HTTPException(status_code=500, detail=f"Database error: {error}") from error
+    except Exception as exc:
+        logger.error("Unexpected database error (continuing without save): %s", exc)
+        # Don't fail the entire request if DB save fails unexpectedly.
 
     return {
         "success": True,
@@ -114,6 +177,7 @@ def _analyze_and_save_run(
         "deathLocation": death_location or None,
         "mainProblem": main_problem or None,
         "wikiContext": wiki_context or None,
+        "fallback_used": ai_failed or rule_analyzer_failed,
     }
 
 
@@ -156,9 +220,18 @@ async def analyze(
     deathLocation: str = Form(""),
     mainProblem: str = Form(""),
 ) -> dict[str, Any]:
-    if not file.filename or not file.filename.lower().endswith(".json"):
+    logger.info("POST /api/analyze: file=%r character=%r deathLocation=%r mainProblem=%r",
+                file.filename, character, deathLocation, mainProblem)
+
+    # ── Validate file type ──────────────────────────────────────────────
+    if not file.filename:
+        logger.warning("No filename provided")
+        raise HTTPException(status_code=400, detail="No file provided.")
+    if not file.filename.lower().endswith(".json"):
+        logger.warning("Invalid file type: %r", file.filename)
         raise HTTPException(status_code=400, detail="Invalid file type. Please upload a JSON file.")
 
+    # ── Save uploaded file ──────────────────────────────────────────────
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
     safe_name = Path(file.filename).name
     saved_path = UPLOAD_DIR / safe_name
@@ -166,24 +239,40 @@ async def analyze(
     try:
         with saved_path.open("wb") as output_file:
             shutil.copyfileobj(file.file, output_file)
+        logger.info("File saved: %r (%d bytes)", safe_name, saved_path.stat().st_size)
     except OSError as error:
+        logger.error("Could not save uploaded file: %s", error)
         raise HTTPException(status_code=500, detail="Could not save uploaded file.") from error
     finally:
         await file.close()
 
+    # ── Parse uploaded JSON ─────────────────────────────────────────────
     try:
         raw_text = saved_path.read_text(encoding="utf-8-sig")
         uploaded_data = json.loads(raw_text)
     except json.JSONDecodeError as error:
+        logger.warning("Invalid JSON: %s", error)
         raise HTTPException(status_code=400, detail="Invalid JSON file.") from error
     except OSError as error:
+        logger.error("Could not read uploaded file: %s", error)
         raise HTTPException(status_code=500, detail="Could not read uploaded file.") from error
 
-    return _analyze_and_save_run(
-        safe_name,
-        uploaded_data,
-        character=character,
-        death_location=deathLocation,
-        main_problem=mainProblem,
-    )
+    # ── Analyze (top-level safety net) ──────────────────────────────────
+    try:
+        return _analyze_and_save_run(
+            safe_name,
+            uploaded_data,
+            character=character,
+            death_location=deathLocation,
+            main_problem=mainProblem,
+        )
+    except HTTPException:
+        # Re-raise FastAPI HTTP exceptions so they keep their status codes.
+        raise
+    except Exception as exc:
+        logger.exception("Unhandled error in /api/analyze: %s", exc)
+        raise HTTPException(
+            status_code=500,
+            detail="Internal server error during analysis. The service is recovering — please try again.",
+        ) from exc
 

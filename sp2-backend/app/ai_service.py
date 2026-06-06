@@ -70,20 +70,30 @@ def _build_prompt(
     When *wiki_context* is provided, it is injected as additional expert
     knowledge the AI should reference in its explanation.
     """
-    run_json = json.dumps(parsed_data, ensure_ascii=False, indent=2)
+    # Safely serialize parsed data — fall back to a simple repr on failure.
+    try:
+        run_json = json.dumps(parsed_data, ensure_ascii=False, indent=2)
+    except (TypeError, ValueError):
+        run_json = repr(parsed_data)
 
     # Build wiki context block if available.
     wiki_block = ""
     if wiki_context:
-        wiki_block = (
-            "\n\nExpert Wiki Knowledge (reference these facts in your analysis):\n"
-            + "\n".join(f"- {entry}" for entry in wiki_context)
-            + "\n"
-        )
+        try:
+            wiki_block = (
+                "\n\nExpert Wiki Knowledge (reference these facts in your analysis):\n"
+                + "\n".join(f"- {entry}" for entry in wiki_context)
+                + "\n"
+            )
+        except Exception:
+            wiki_block = ""
 
     if findings and (findings.get("problems") or findings.get("warnings") or findings.get("suggestions")):
         # Structured findings available — AI explains them.
-        findings_json = json.dumps(findings, ensure_ascii=False, indent=2)
+        try:
+            findings_json = json.dumps(findings, ensure_ascii=False, indent=2)
+        except (TypeError, ValueError):
+            findings_json = repr(findings)
         return (
             "You are a Slay the Spire coach explaining a run analysis to a player. "
             "A rule-based analysis engine has already identified specific problems, "
@@ -377,6 +387,9 @@ def analyze_run(
     When *wiki_context* is provided, expert wiki knowledge entries are injected
     into the prompt so the AI can reference them in its analysis.
 
+    Any unrecoverable error falls back to :func:`_mock_analysis` rather than
+    raising — the endpoint must never 502 because the AI is unavailable.
+
     Environment variables
     ---------------------
     ``OPENAI_API_KEY``
@@ -388,12 +401,31 @@ def analyze_run(
         provider's Chat Completions API is used instead of OpenAI's
         Responses API, enabling DeepSeek and other compatible providers.
     """
-    api_key = _load_env_value("OPENAI_API_KEY")
-    model = _load_env_value("OPENAI_MODEL") or DEFAULT_MODEL
-    base_url = _load_env_value("OPENAI_BASE_URL")
+    try:
+        api_key = _load_env_value("OPENAI_API_KEY")
+        model = _load_env_value("OPENAI_MODEL") or DEFAULT_MODEL
+        base_url = _load_env_value("OPENAI_BASE_URL")
 
-    if not _has_real_api_key(api_key):
-        return _mock_analysis(parsed_data, findings)
+        if not _has_real_api_key(api_key):
+            return _mock_analysis(parsed_data, findings)
 
-    prompt = _build_prompt(parsed_data, findings, wiki_context=wiki_context)
-    return _call_openai(prompt, model, api_key, base_url)
+        prompt = _build_prompt(parsed_data, findings, wiki_context=wiki_context)
+        return _call_openai(prompt, model, api_key, base_url)
+    except Exception:
+        # Any failure in the AI pipeline must not crash the endpoint.
+        # Fall back to rule-based mock analysis so the frontend still
+        # receives a valid response.
+        import logging
+        _log = logging.getLogger("sp2.ai_service")
+        _log.exception("AI analyze_run failed — falling back to mock analysis")
+        try:
+            return _mock_analysis(parsed_data, findings)
+        except Exception:
+            return (
+                "Analysis unavailable.\n\n"
+                "Reason for success/failure:\n"
+                "The AI analysis service is currently unavailable. "
+                "Please try uploading your run again in a moment.\n\n"
+                "Short summary:\n"
+                "Service temporarily unavailable — retry later."
+            )
