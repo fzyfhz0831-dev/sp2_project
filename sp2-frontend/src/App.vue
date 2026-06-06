@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <nav class="nav-links" aria-label="Primary navigation">
           <RouterLink to="/" class="nav-link">Tool</RouterLink>
-          <RouterLink to="/json-guide" class="nav-link">JSON 指南</RouterLink>
+          <RouterLink to="/json-guide" class="nav-link">JSON Guide</RouterLink>
         </nav>
 
         <RouterLink class="nav-action" to="/#analysis">Analyze Run</RouterLink>

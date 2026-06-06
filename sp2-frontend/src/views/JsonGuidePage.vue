@@ -43,7 +43,7 @@ const steps = [
 <template>
   <section class="json-guide-page">
     <div class="page-heading">
-      <p class="eyebrow">JSON 指南 · How to Find Run JSON</p>
+      <p class="eyebrow">JSON Guide · How to Find Run JSON</p>
       <h1>Locate your run data file</h1>
       <p>
         Follow these four steps to find your newest run JSON, then upload it to

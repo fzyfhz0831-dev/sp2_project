@@ -268,7 +268,7 @@ function openJsonGuide() {
               />
               <button type="button" class="guide-button" @click="openJsonGuide">
                 <span class="guide-icon" aria-hidden="true">?</span>
-                <span>JSON 指南</span>
+                <span>JSON Guide</span>
               </button>
             </div>
           </label>
